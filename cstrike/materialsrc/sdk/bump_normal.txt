@@ -1,3 +1,0 @@
-"normal" 1
-"bumpscale" ".025"
-

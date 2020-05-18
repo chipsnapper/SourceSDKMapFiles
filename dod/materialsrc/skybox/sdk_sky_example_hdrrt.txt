@@ -1,2 +1,0 @@
-"pfm" "1"
-"pfmscale" "1"

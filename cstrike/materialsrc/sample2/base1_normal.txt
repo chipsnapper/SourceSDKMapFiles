@@ -1,3 +1,0 @@
-"bumpscale" ".015"
-"normal" "1"
-"nocompress" "1"
