@@ -1,0 +1,224 @@
+
+
+$Weightlist HipsUpperbodyReplace "valvebiped.Bip01_Pelvis" 1.0 "ValveBiped.Bip01_L_Thigh" 0.0 "ValveBiped.Bip01_R_Thigh" 0.0
+$Weightlist UpperbodyReplace "valvebiped.Bip01_Spine" 1.0
+$Weightlist HipsLowerbodyReplace "valvebiped.Bip01_Pelvis" 1.0 "ValveBiped.Bip01_Spine" 0.0
+$Weightlist AllBones "valvebiped.Bip01_Pelvis" 1.0
+
+$Weightlist UpperbodyBlend {
+	"valvebiped.Bip01_Pelvis" 0.1 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.2 
+	"ValveBiped.Bip01_Spine1" 0.4 
+	"ValveBiped.Bip01_Spine2" 0.6 
+	"ValveBiped.Bip01_Spine4" 1.0
+	}
+
+$Weightlist SlowerUpperbodyBlend {
+	"valvebiped.Bip01_Pelvis" 0.0 
+	"ValveBiped.Bip01_L_Thigh" 0.0 
+	"ValveBiped.Bip01_R_Thigh" 0.0 
+	"ValveBiped.Bip01_Spine" 0.1 
+	"ValveBiped.Bip01_Spine1" 0.3 
+	"ValveBiped.Bip01_Spine2" 0.4 
+	"ValveBiped.Bip01_Spine4" 0.66 
+	"ValveBiped.Bip01_R_Clavicle" 1.0 
+	"ValveBiped.Bip01_L_Clavicle" 1.0 
+	"ValveBiped.Bip01_Neck1" 1.0
+	}
+
+
+//
+// make a 2D 3x3 aim overlay by extracting out individual frames and finding their 
+// difference from a neutral frame.
+//
+$definemacro makeaimlayer layername filename \\
+$animation a_$layername$_neutral $filename$ frame 4 4 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_down_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_left $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_center $filename$ frame 7 7 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_right $filename$ frame 8 8 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$sequence $layername$ { \\
+	// a_$layername$_straight_up a_$layername$_straight_up a_$layername$_straight_up \\
+	a_$layername$_up_right a_$layername$_up_center a_$layername$_up_left \\
+	a_$layername$_mid_right a_$layername$_mid_center a_$layername$_mid_left \\
+	a_$layername$_down_right a_$layername$_down_center a_$layername$_down_left \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 calcblend aim_yaw "anim_attachment_RH" ZR calcblend aim_pitch "anim_attachment_RH" YR \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+
+//
+// make a 2D 2x3 aim overlay by extracting out individual frames and finding their 
+// difference from a neutral frame.
+//
+$definemacro makeaimlayerB layername filename \\
+$animation a_$layername$_neutral $filename$ frame 1 1 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_left $filename$ frame 0 0 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_center $filename$ frame 1 1 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_mid_right $filename$ frame 2 2 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_left $filename$ frame 3 3 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_center $filename$ frame 4 4 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_up_right $filename$ frame 5 5 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$animation a_$layername$_straight_up $filename$ frame 6 6 subtract a_$layername$_neutral 0 weightlist HipsUpperbodyReplace \\
+$sequence $layername$ { \\
+	a_$layername$_straight_up a_$layername$_straight_up a_$layername$_straight_up \\
+	a_$layername$_up_right a_$layername$_up_center a_$layername$_up_left \\
+	a_$layername$_mid_right a_$layername$_mid_center a_$layername$_mid_left \\
+	blendref a_$layername$_neutral \\
+	blendcenter a_$layername$_mid_center \\
+	blendwidth 3 calcblend aim_yaw "anim_attachment_RH" ZR calcblend aim_pitch "anim_attachment_RH" YR \\
+	delta \\
+	iklock rfoot 1 0 iklock lfoot 1 0 \\
+	hidden \\
+	} \\
+$continue $layername$
+
+
+//
+// make an idle animation from a single frame, add in aiming
+//
+$definemacro makeidle idlename filename frame aimlayer \\
+$sequence $idlename$ $filename$ alignto reference frame $frame$ $frame$ numframes 30 loop addlayer $aimlayer$ \\
+$continue $idlename$
+
+
+//
+// make a running animation from a world space composite of an upper body animation
+// and a run animation, then blend them on top of a multiway walk and aiming
+//
+$definemacro makematchrun runname filename frame aimlayer \\
+$animation a_$runname$_base $filename$ frame $frame$ $frame$ \\
+$sequence $runname$_mod "..\humans_sdk\male_animations\RunN" { \\
+	LX LY rotateto 0 \\
+	alignto reference \\
+	weightlist UpperbodyBlend \\
+	worldspaceblend a_$runname$_base \\
+	weightlist HipsUpperbodyReplace \\
+	hidden \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	} \\
+$sequence $runname$ { \\
+	a_runS a_runSE a_runE a_runNE a_runN a_runNW a_runW a_runSW a_runS \\
+	blendwidth 9 blend move_yaw -180 180 \\
+	addlayer $runname$_mod \\
+	addlayer $aimlayer$ \\
+	} \\
+$continue $runname$
+
+//
+// make a running animation from an upper body animation blended on top of a 
+// multiway run and aiming
+//
+$definemacro makerun runname filename frame aimlayer \\
+$sequence $runname$_mod $filename$ { \\
+	LX LY rotateto 0 \\
+	startloop $frame$ \\
+	alignto reference \\
+	weightlist HipsUpperbodyReplace \\
+	hidden \\
+	loop \\
+	} \\
+$sequence $runname$ { \\
+	a_runS a_runSE a_runE a_runNE a_runN a_runNW a_runW a_runSW a_runS \\
+	blendwidth 9 blend move_yaw -180 180 \\
+	addlayer $runname$_mod \\
+	addlayer $aimlayer$ \\
+	loop \\
+	} \\
+$continue $runname$
+
+
+//
+// make an idle animation from a single frame, add in aiming
+//
+$definemacro makecidle cidlename filename frame aimlayer \\
+$sequence $cidlename$ $filename$ alignto reference frame $frame$ $frame$ numframes 30 loop addlayer $aimlayer$ \\
+$continue $cidlename$
+
+//
+// make an idle animation from a composite of a standing animation and a crouch animation, add in aiming
+//
+$definemacro makecidleB cidlename filename frame filenameB frameB aimlayer \\
+$animation a_$cidlename$_base $filename$ frame $frame$ $frame$ \\
+$sequence $cidlename$ $filenameB$ { \\
+	frame $frameB$ $frameB$ \\
+	alignto reference \\
+	weightlist UpperbodyBlend \\
+	worldspaceblend a_$cidlename$_base \\
+	weightlist AllBones \\
+	loop \\ 
+	} \\
+$continue $cidlename$
+
+//
+// make a crouched walking animation from a world spacecomposite of an upper body animation
+// and a crouch walkN animation, then blend them on top of a multiway walk and aiming
+//
+$definemacro makecwalk crouch_walkname filename frame aimlayer \\
+$animation a_$crouch_walkname$_base $filename$ frame $frame$ $frame$ \\
+$sequence $crouch_walkname$_mod "..\humans_sdk\male_animations\crouch_walkN" { \\
+	LX LY rotateto 0 \\
+	alignto reference \\
+	weightlist UpperbodyBlend \\
+	worldspaceblend a_$crouch_walkname$_base \\
+	weightlist HipsUpperbodyReplace \\
+	hidden \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	} \\
+$sequence $crouch_walkname$ { \\
+	a_crouch_walkS a_crouch_walkSE a_crouch_walkE a_crouch_walkNE a_crouch_walkN a_crouch_walkNW a_crouch_walkW a_crouch_walkSW a_crouch_walkS \\
+	blendwidth 9 blend move_yaw -180 180 \\
+	addlayer $crouch_walkname$_mod \\
+	addlayer $aimlayer$ \\
+	loop \\
+	} \\
+$continue $crouch_walkname$
+
+//
+// make a simple delta animation to add on to an upper body
+//
+$definemacro makerange rangename filename startframe \\
+$animation a_$rangename$ $filename$ subtract a_$rangename$ $startframe$ weightlist HipsUpperbodyReplace \\
+$sequence $rangename$ a_$rangename$ { \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	delta \\
+	} \\
+$continue $rangename$
+
+//
+// make a jump animation from a composite of an upper body pose and the CS jump
+//
+$definemacro makejump jumpname filename frame \\
+$animation a_$jumpname$ $filename$ frame $frame$ $frame$ weightlist SlowerUpperbodyBlend \\
+$sequence $jumpname$ "CS_Jump" { \\
+	weightlist SlowerUpperbodyBlend \\
+	worldspaceblend a_$jumpname$ \\
+	weightlist AllBones \\
+	} \\
+$continue $jumpname$
+
+//
+// make a upper body replacement animation
+//
+$definemacro makereload reloadname filename \\
+$sequence $reloadname$ $filename$ { \\
+	weightlist UpperbodyBlend \\
+	iklock lfoot 1 0 iklock rfoot 1 0 \\
+	} \\
+$continue $reloadname$
+
+
+
+

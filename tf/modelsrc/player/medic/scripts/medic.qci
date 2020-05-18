@@ -1,0 +1,245 @@
+// defining the upaxis is needed for maya exports
+$upaxis Y
+
+$eyeposition 0 78.915 0
+
+$attachment "eyes"     "bip_head"  0         78.958721  3.83643  absolute
+$attachment "righteye" "bip_head" -0.984379  78.958721  3.83643  absolute
+$attachment "lefteye"  "bip_head"  0.984379  78.958721  3.83643  absolute
+
+//this attachment for partyhat in birthday mode
+$attachment "partyhat" "bip_head" -0.10 -6.71 -1.26 rotate 88 90 180
+
+$model "medic" $dmxFile$ {
+
+	eyeball righteye "bip_head" -1.04  78.958721  3.83643  "eyeball_r" 1.2   3  "pupil_r" 0.5
+	eyeball lefteye  "bip_head"  1.04  78.958721  3.83643  "eyeball_l" 1.2  -3  "pupil_l" 0.5
+
+    // remove this once you have actual eyelids that the eyeballs can drive, or they'll by default be 
+    // overwriting your first flex
+	localvar %dummy_eyelid_flex 
+
+	flexcontroller eyes range -45 45 eyes_updown
+	flexcontroller eyes range -45 45 eyes_rightleft
+}
+
+$sequence ref $dmxFile$
+
+$surfaceprop "flesh"
+
+$bonemerge "weapon_bone"
+$bonemerge "weapon_bone_1"
+$bonemerge "joint_hose01"
+$bonemerge "joint_hose02"
+$bonemerge "joint_hose03"
+$bonemerge "joint_hose04"
+$bonemerge "joint_hose05"
+$bonemerge "joint_lever"
+$bonemerge "bip_head"
+
+$include "medic_definebones.qci"
+
+// include the file that sets up the ikchains
+$include "../../TF_animation_rules/ruleshierarchy.qci"
+$ikchain medicHose "joint_hose05"
+
+// include the animations.mdl
+$includemodel "player/medic_animations.mdl"
+
+// include the ragdoll
+$include "medic_ragdoll.qci"
+
+// include the hitboxes
+$include "medic_hitbox.qci"
+
+$lod 11 
+{
+	replacemodel $dmxFile$ $01_lod$
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+} 
+
+$lod 22 
+{
+	nofacial
+	replacemodel $dmxFile$ $02_lod$
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	bonetreecollapse "prp_coat_front_0_L"
+	bonetreecollapse "prp_coat_back_0_L"
+	bonetreecollapse "prp_coat_back_0_M"
+	bonetreecollapse "prp_coat_back_0_R"
+	bonetreecollapse "prp_coat_front_0_R"
+}
+
+$lod 33 
+{
+	nofacial
+	replacemodel $dmxFile$ $03_lod$
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	bonetreecollapse "prp_coat_front_0_L"
+	bonetreecollapse "prp_coat_back_0_L"
+	bonetreecollapse "prp_coat_back_0_M"
+	bonetreecollapse "prp_coat_back_0_R"
+	bonetreecollapse "prp_coat_front_0_R"
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_M" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis"
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+$lod 44 
+{
+	nofacial
+	replacemodel $dmxFile$ $04_lod$
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	bonetreecollapse "prp_coat_front_0_L"
+	bonetreecollapse "prp_coat_back_0_L"
+	bonetreecollapse "prp_coat_back_0_M"
+	bonetreecollapse "prp_coat_back_0_R"
+	bonetreecollapse "prp_coat_front_0_R"
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_M" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis"
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+$lod 55 
+{
+	nofacial
+	replacemodel $dmxFile$ $05_lod$
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	bonetreecollapse "prp_coat_front_0_L"
+	bonetreecollapse "prp_coat_back_0_L"
+	bonetreecollapse "prp_coat_back_0_M"
+	bonetreecollapse "prp_coat_back_0_R"
+	bonetreecollapse "prp_coat_front_0_R"
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_M" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis"
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+$shadowlod
+{
+	nofacial
+	replacemodel $dmxFile$ $03_lod$
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_knee_L"
+	bonetreecollapse "bip_knee_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	bonetreecollapse "prp_coat_front_0_L"
+	bonetreecollapse "prp_coat_back_0_L"
+	bonetreecollapse "prp_coat_back_0_M"
+	bonetreecollapse "prp_coat_back_0_R"
+	bonetreecollapse "prp_coat_front_0_R"
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_M" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis"
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+// Gibs.
+$collisiontext {
+	"break"
+	{
+		"model" "player\gibs\medicgib007"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib001"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib005"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib006"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\random_organ"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib002"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib003"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib004"
+		"health" "0"
+		"fadetime" "10"
+	}
+
+
+	"break"
+	{
+		"model" "player\gibs\medicgib008"
+		"health" "0"
+		"fadetime" "10"
+	}
+}

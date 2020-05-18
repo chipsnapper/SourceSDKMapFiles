@@ -1,0 +1,5986 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4032"
+	"mapversion" "17"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "17"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "7410"
+		side
+		{
+			"id" "655"
+			"plane" "(-1568 4352 608) (-1536 4352 608) (-1536 -4704 608)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "656"
+			"plane" "(-1568 -4704 7.62939e-006) (-1536 -4704 7.62939e-006) (-1536 4352 7.62939e-006)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "657"
+			"plane" "(-1568 4352 608) (-1568 -4704 608) (-1568 -4704 7.62939e-006)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "658"
+			"plane" "(-1536 4352 7.62939e-006) (-1536 -4704 7.62939e-006) (-1536 -4704 608)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "659"
+			"plane" "(-1536 4352 608) (-1568 4352 608) (-1568 4352 7.62939e-006)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "660"
+			"plane" "(-1536 -4704 7.62939e-006) (-1568 -4704 7.62939e-006) (-1568 -4704 608)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 159 196"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "7419"
+		side
+		{
+			"id" "672"
+			"plane" "(1759.5 4352 608) (1792 4352 608) (1792 -4704 608)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "671"
+			"plane" "(1759.5 -4704 0) (1792 -4704 0) (1792 4352 0)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "670"
+			"plane" "(1759.5 4352 608) (1759.5 -4704 608) (1759.5 -4704 0)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "669"
+			"plane" "(1792 4352 0) (1792 -4704 0) (1792 -4704 608)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 1 0 -64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "668"
+			"plane" "(1792 4352 608) (1759.5 4352 608) (1759.5 4352 0)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "667"
+			"plane" "(1792 -4704 0) (1759.5 -4704 0) (1759.5 -4704 608)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 159 196"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "7405"
+		side
+		{
+			"id" "690"
+			"plane" "(-1536 4352 1) (1760 4352 1) (1760 -4704 1)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "689"
+			"plane" "(-1536 -4704 -32) (1760 -4704 -32) (1760 4352 -32)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "688"
+			"plane" "(-1536 4352 1) (-1536 -4704 1) (-1536 -4704 -32)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "687"
+			"plane" "(1760 4352 -32) (1760 -4704 -32) (1760 -4704 1)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "686"
+			"plane" "(1760 4352 1) (-1536 4352 1) (-1536 4352 -32)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "685"
+			"plane" "(1760 -4704 -32) (-1536 -4704 -32) (-1536 -4704 1)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 156 241"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "7434"
+		side
+		{
+			"id" "702"
+			"plane" "(1792 4256 592) (-1536 4256 592) (-1536 4416 592)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 64] 0.25"
+			"vaxis" "[0 1 0 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "701"
+			"plane" "(1792 4416 -16) (-1536 4416 -16) (-1536 4256 -16)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 64] 0.25"
+			"vaxis" "[0 1 0 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "700"
+			"plane" "(1792 4256 592) (1792 4416 592) (1792 4416 -16)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 -1 0 -128] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "699"
+			"plane" "(-1536 4256 -16) (-1536 4416 -16) (-1536 4416 592)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 -1 0 -128] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "698"
+			"plane" "(-1536 4256 592) (1792 4256 592) (1792 4256 -16)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 64] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "697"
+			"plane" "(-1536 4416 -16) (1792 4416 -16) (1792 4416 592)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 64] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 159 196"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "7452"
+		side
+		{
+			"id" "714"
+			"plane" "(1760 -4736 592) (-1536 -4736 592) (-1536 -4576 592)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "713"
+			"plane" "(1760 -4576 -16) (-1536 -4576 -16) (-1536 -4736 -16)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "712"
+			"plane" "(1760 -4736 592) (1760 -4576 592) (1760 -4576 -16)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 -1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "711"
+			"plane" "(-1536 -4736 -16) (-1536 -4576 -16) (-1536 -4576 592)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[0 -1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "710"
+			"plane" "(-1536 -4736 592) (1760 -4736 592) (1760 -4736 -16)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "709"
+			"plane" "(-1536 -4576 -16) (1760 -4576 -16) (1760 -4576 592)"
+			"material" "WOOD/WOODWALL045B"
+			"uaxis" "[-1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 159 196"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/cap_point_base.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_cap_center"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/cap_point_base.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_cap_blue_1"
+	"origin" "0 3072 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/cap_point_base.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_cap_blue_2"
+	"origin" "0 1536 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/cap_point_base.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_cap_red_1"
+	"origin" "0 -3072 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/cap_point_base.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_cap_red_2"
+	"origin" "0 -1536 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "team_control_point"
+	"angles" "0 270 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "5"
+	"point_printname" "#Well_cap_red_rocket"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"targetname" "cap_red_1"
+	"team_bodygroup_0" "3"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "0"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/effects/cappoint_hologram.mdl"
+	"team_model_2" "models/effects/cappoint_hologram.mdl"
+	"team_model_3" "models/effects/cappoint_hologram.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "0 -3072 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "team_control_point"
+	"angles" "0 180 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "4"
+	"point_printname" "#Well_cap_red_two"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"targetname" "cap_red_2"
+	"team_bodygroup_0" "3"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "0"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/effects/cappoint_hologram.mdl"
+	"team_model_2" "models/effects/cappoint_hologram.mdl"
+	"team_model_3" "models/effects/cappoint_hologram.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "0 -1536 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26"
+	"classname" "team_control_point"
+	"angles" "0 0 0"
+	"point_default_owner" "0"
+	"point_group" "0"
+	"point_index" "3"
+	"point_printname" "#Well_cap_center"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"targetname" "cap_center"
+	"team_bodygroup_0" "3"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "0"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/effects/cappoint_hologram.mdl"
+	"team_model_2" "models/effects/cappoint_hologram.mdl"
+	"team_model_3" "models/effects/cappoint_hologram.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "0 0 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "team_control_point"
+	"angles" "0 90 0"
+	"point_default_owner" "3"
+	"point_group" "0"
+	"point_index" "1"
+	"point_printname" "#Well_cap_blue_rocket"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"targetname" "cap_blue_1"
+	"team_bodygroup_0" "3"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "0"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/effects/cappoint_hologram.mdl"
+	"team_model_2" "models/effects/cappoint_hologram.mdl"
+	"team_model_3" "models/effects/cappoint_hologram.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "0 3072 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "30"
+	"classname" "team_control_point"
+	"angles" "0 0 0"
+	"point_default_owner" "3"
+	"point_group" "0"
+	"point_index" "2"
+	"point_printname" "#Well_cap_blue_two"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"targetname" "cap_blue_2"
+	"team_bodygroup_0" "3"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "0"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/effects/cappoint_hologram.mdl"
+	"team_model_2" "models/effects/cappoint_hologram.mdl"
+	"team_model_3" "models/effects/cappoint_hologram.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "0 1536 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "trigger_capture_area"
+	"area_cap_point" "cap_red_1"
+	"area_time_to_cap" "1"
+	"StartDisabled" "0"
+	"team_cancap_2" "1"
+	"team_cancap_3" "1"
+	"team_numcap_2" "1"
+	"team_numcap_3" "1"
+	solid
+	{
+		"id" "36"
+		side
+		{
+			"id" "198"
+			"plane" "(-192 -3264 160) (-192 -2880 160) (192 -2880 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(192 -3264 0) (192 -2880 0) (-192 -2880 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.5"
+			"vaxis" "[0 -1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(192 -2880 0) (192 -3264 0) (192 -3264 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(-192 -2880 0) (192 -2880 0) (192 -2880 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "194"
+			"plane" "(-192 -3264 0) (-192 -2880 0) (-192 -2880 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "193"
+			"plane" "(192 -3264 0) (-192 -3264 0) (-192 -3264 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "trigger_capture_area"
+	"area_cap_point" "cap_blue_1"
+	"area_time_to_cap" "1"
+	"StartDisabled" "0"
+	"team_cancap_2" "1"
+	"team_cancap_3" "1"
+	"team_numcap_2" "1"
+	"team_numcap_3" "1"
+	connections
+	{
+		"OnCapTeam2" "prop_cap_blue_1,Skin,2,0,-1"
+		"OnCapTeam1" "prop_cap_blue_1,Skin,1,0,-1"
+	}
+	solid
+	{
+		"id" "56"
+		side
+		{
+			"id" "312"
+			"plane" "(192 2880 160) (-192 2880 160) (-192 3264 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.5"
+			"vaxis" "[0 1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "311"
+			"plane" "(-192 3264 0) (-192 2880 0) (192 2880 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.5"
+			"vaxis" "[0 1 0 0] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "310"
+			"plane" "(-192 2880 0) (-192 3264 0) (-192 3264 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "309"
+			"plane" "(192 2880 0) (-192 2880 0) (-192 2880 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "308"
+			"plane" "(192 3264 0) (192 2880 0) (192 2880 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "307"
+			"plane" "(-192 3264 0) (192 3264 0) (192 3264 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.5"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "60"
+	"classname" "trigger_capture_area"
+	"area_cap_point" "cap_center"
+	"area_time_to_cap" "4"
+	"StartDisabled" "0"
+	"team_cancap_2" "1"
+	"team_cancap_3" "1"
+	"team_numcap_2" "3"
+	"team_numcap_3" "3"
+	"team_spawn_2" "-3"
+	"team_spawn_3" "-3"
+	connections
+	{
+		"OnEndCap" "relay_bonus_time_add,Trigger,,0,-1"
+		"OnCapTeam1" "prop_cap_center,Skin,1,0,-1"
+		"OnCapTeam2" "prop_cap_center,Skin,2,0,-1"
+	}
+	solid
+	{
+		"id" "61"
+		side
+		{
+			"id" "336"
+			"plane" "(-192 -192 160) (-192 192 160) (192 192 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "335"
+			"plane" "(-192 192 0) (-192 -192 0) (192 -192 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "334"
+			"plane" "(-192 -192 0) (-192 192 0) (-192 192 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44.2795] 0.447917"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "333"
+			"plane" "(192 192 0) (192 -192 0) (192 -192 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44.2795] 0.447917"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "332"
+			"plane" "(-192 192 0) (192 192 0) (192 192 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44.2795] 0.447917"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "331"
+			"plane" "(192 -192 0) (-192 -192 0) (-192 -192 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44.2795] 0.447917"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "62"
+	"classname" "trigger_capture_area"
+	"area_cap_point" "cap_red_2"
+	"area_time_to_cap" "3"
+	"StartDisabled" "0"
+	"team_cancap_2" "1"
+	"team_cancap_3" "1"
+	"team_numcap_2" "2"
+	"team_numcap_3" "2"
+	"team_spawn_3" "-3"
+	connections
+	{
+		"OnEndCap" "relay_bonus_time_add,Trigger,,0,-1"
+		"OnCapTeam2" "prop_cap_red_2,Skin,2,0,-1"
+		"OnCapTeam1" "prop_cap_red_2,Skin,1,0,-1"
+	}
+	solid
+	{
+		"id" "63"
+		side
+		{
+			"id" "342"
+			"plane" "(-192 -1728 160) (-192 -1344 160) (192 -1344 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "341"
+			"plane" "(-192 -1344 0) (-192 -1728 0) (192 -1728 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "340"
+			"plane" "(-192 -1728 0) (-192 -1344 0) (-192 -1344 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "339"
+			"plane" "(192 -1344 0) (192 -1728 0) (192 -1728 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "338"
+			"plane" "(-192 -1344 0) (192 -1344 0) (192 -1344 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "337"
+			"plane" "(192 -1728 0) (-192 -1728 0) (-192 -1728 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "64"
+	"classname" "trigger_capture_area"
+	"area_cap_point" "cap_blue_2"
+	"area_time_to_cap" "3"
+	"StartDisabled" "0"
+	"team_cancap_2" "1"
+	"team_cancap_3" "1"
+	"team_numcap_2" "2"
+	"team_numcap_3" "2"
+	"team_spawn_2" "-3"
+	connections
+	{
+		"OnEndCap" "relay_bonus_time_add,Trigger,,0,-1"
+		"OnCapTeam2" "prop_cap_blue_2,Skin,2,0,-1"
+		"OnCapTeam1" "prop_cap_blue_2,Skin,1,0,-1"
+	}
+	solid
+	{
+		"id" "65"
+		side
+		{
+			"id" "348"
+			"plane" "(-192 1344 160) (-192 1728 160) (192 1728 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "347"
+			"plane" "(-192 1728 1.30776e-006) (-192 1344 1.30776e-006) (192 1344 1.30776e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "346"
+			"plane" "(-192 1344 1.30776e-006) (-192 1728 1.30776e-006) (-192 1728 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "345"
+			"plane" "(192 1728 1.30776e-006) (192 1344 1.30776e-006) (192 1344 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "344"
+			"plane" "(-192 1728 1.30776e-006) (192 1728 1.30776e-006) (192 1728 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "343"
+			"plane" "(192 1344 1.30776e-006) (-192 1344 1.30776e-006) (-192 1344 160)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "248"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-480 3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "260"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-416 736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "262"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-288 736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "274"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-352 736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "276"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-480 736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "282"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "416 -2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "284"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "288 -2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "286"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "352 -2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "288"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "480 -2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "324"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "352 -3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "326"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "480 -3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "328"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "480 -736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "336"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "288 -736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "340"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "352 -736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "342"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "416 -736 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "348"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "416 -3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "350"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "288 -3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "384"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-288 2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "394"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "0 0 240"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "Blue Wins the Game!"
+	"spawnflags" "1"
+	"targetname" "text_blu_game_win"
+	"x" "-1"
+	"y" "-1"
+	"origin" "288 16 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "396"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 0 6"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "Red Wins the Game!"
+	"spawnflags" "1"
+	"targetname" "text_red_game_win"
+	"x" "-1"
+	"y" "-1"
+	"origin" "288 -16 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "398"
+	"classname" "math_counter"
+	"max" "3"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "counter_red_win"
+	connections
+	{
+		"OnHitMax" "text_red_game_win,Display,,0,-1"
+		"OnHitMax" "end_game,EndGame,,6,-1"
+	}
+	"origin" "304 -16 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "400"
+	"classname" "math_counter"
+	"max" "3"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "counter_blu_win"
+	connections
+	{
+		"OnHitMax" "end_game,EndGame,,6,-1"
+		"OnHitMax" "text_blu_game_win,Display,,0,-1"
+	}
+	"origin" "304 16 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "402"
+	"classname" "game_end"
+	"targetname" "end_game"
+	"origin" "304 0 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "404"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "relay_bonus_time_add"
+	connections
+	{
+		"OnTrigger" "game_timer,AddTime,300,0,-1"
+	}
+	"origin" "352 0 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This relays adds timer to the global game timer. Used when a team caps a point."
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "406"
+	"classname" "team_control_point_master"
+	"StartDisabled" "0"
+	"targetname" "master_control_point"
+	"team_base_icon_2" "sprites/obj_icons/icon_base_red"
+	"team_base_icon_3" "sprites/obj_icons/icon_base_blu"
+	connections
+	{
+		"OnWonByTeam1" "counter_red_win,Add,1,0,-1"
+		"OnWonByTeam2" "counter_blu_win,Add,1,0,-1"
+	}
+	"origin" "384 0 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "408"
+	"classname" "team_round_timer"
+	"auto_countdown" "1"
+	"max_length" "360"
+	"setup_length" "45"
+	"show_in_hud" "1"
+	"start_paused" "0"
+	"StartDisabled" "0"
+	"targetname" "game_timer"
+	"timer_length" "360"
+	connections
+	{
+		"OnFinished" "end_round_suddendeath,RoundWin,,0,-1"
+	}
+	"origin" "336 0 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "410"
+	"classname" "game_round_win"
+	"force_map_reset" "1"
+	"targetname" "end_round_suddendeath"
+	"TeamNum" "0"
+	"origin" "320 0 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3803"
+	"classname" "filter_activator_tfteam"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_team_red"
+	"TeamNum" "2"
+	"origin" "256 -32 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4500 -768]"
+	}
+}
+entity
+{
+	"id" "3805"
+	"classname" "filter_activator_tfteam"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_team_blue"
+	"TeamNum" "3"
+	"origin" "256 32 512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4500 -768]"
+	}
+}
+entity
+{
+	"id" "4765"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_dynamic.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_red_spawngate_3"
+	"origin" "384 -512 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "4769"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_gameplay/sign_gameplay01.mdl"
+	"skin" "5"
+	"solid" "6"
+	"origin" "384 -480 144"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "4773"
+	"classname" "trigger_multiple"
+	"filtername" "filter_team_red"
+	"origin" "384 -512.01 60"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_red_spawngate_3"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "door_red_spawngate_3,Open,,0,-1"
+		"OnEndTouchAll" "door_red_spawngate_3,Close,,0,-1"
+	}
+	solid
+	{
+		"id" "4774"
+		side
+		{
+			"id" "372"
+			"plane" "(480 -416 120) (480 -608 120) (288 -608 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "371"
+			"plane" "(480 -608 0) (480 -416 0) (288 -416 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "370"
+			"plane" "(480 -416 0) (480 -608 0) (480 -608 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "369"
+			"plane" "(288 -608 0) (288 -416 0) (288 -416 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "368"
+			"plane" "(480 -608 0) (288 -608 0) (288 -608 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "367"
+			"plane" "(288 -416 0) (480 -416 0) (480 -416 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "4776"
+	"classname" "func_respawnroomvisualizer"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"origin" "384.01 -484 56"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawnroomname" "respawnroom_red3"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "4777"
+		side
+		{
+			"id" "378"
+			"plane" "(440 -480 112) (440 -488 112) (328 -488 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 16] 0.4"
+			"vaxis" "[0 1 0 12] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "377"
+			"plane" "(440 -480 0) (440 -488 0) (440 -488 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -4] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "376"
+			"plane" "(440 -488 0) (440 -480 0) (328 -480 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 16] 0.4"
+			"vaxis" "[0 1 0 12] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "375"
+			"plane" "(328 -488 0) (328 -480 0) (328 -480 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -4] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "374"
+			"plane" "(328 -488 112) (440 -488 112) (440 -488 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 8] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "373"
+			"plane" "(328 -480 0) (440 -480 0) (440 -480 112)"
+			"material" "OVERLAYS/NO_ENTRY"
+			"uaxis" "[-1 0 0 128] 0.5"
+			"vaxis" "[0 0 -1 240] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 1500]"
+	}
+}
+entity
+{
+	"id" "4779"
+	"classname" "func_door"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "2"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "-90 0 0"
+	"origin" "384 -484.01 63.75"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"spawnflags" "32"
+	"spawnpos" "0"
+	"speed" "300"
+	"targetname" "door_red_spawngate_3"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	connections
+	{
+		"OnOpen" "prop_red_spawngate_3,SetAnimation,open,0,-1"
+		"OnClose" "prop_red_spawngate_3,SetAnimation,close,0,-1"
+	}
+	solid
+	{
+		"id" "4780"
+		side
+		{
+			"id" "384"
+			"plane" "(288 -488 0) (480 -488 0) (480 -480 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 336] 0.25"
+			"vaxis" "[0 1 0 400] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "383"
+			"plane" "(480 -480 120) (480 -480 0) (480 -488 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 -1 0 -143.994] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "382"
+			"plane" "(480 -488 120) (480 -488 0) (288 -488 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 176] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "381"
+			"plane" "(288 -480 120) (288 -480 0) (480 -480 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 336] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "380"
+			"plane" "(288 -488 120) (288 -488 0) (288 -480 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 -1 0 -143.994] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "379"
+			"plane" "(288 -480 120) (480 -480 120) (480 -488 120)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 176] 0.25"
+			"vaxis" "[0 1 0 368.006] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This func_door is not rendered, but it uses a metal texture for bullet effects."
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "5325"
+	"classname" "func_respawnroom"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_red3"
+	"TeamNum" "2"
+	solid
+	{
+		"id" "5326"
+		side
+		{
+			"id" "396"
+			"plane" "(256 -640 192) (256 -512 192) (512 -512 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "395"
+			"plane" "(256 -512 -2.61149e-006) (256 -640 -2.61149e-006) (512 -640 -2.61149e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "394"
+			"plane" "(256 -640 -2.61149e-006) (256 -512 -2.61149e-006) (256 -512 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "393"
+			"plane" "(512 -512 -2.61149e-006) (512 -640 -2.61149e-006) (512 -640 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "392"
+			"plane" "(256 -512 -2.61149e-006) (512 -512 -2.61149e-006) (512 -512 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "391"
+			"plane" "(512 -640 -2.61149e-006) (256 -640 -2.61149e-006) (256 -640 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "5331"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_dynamic.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_red_spawngate_2"
+	"origin" "384 -2048 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "5335"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_gameplay/sign_gameplay01.mdl"
+	"skin" "5"
+	"solid" "6"
+	"origin" "384 -2016 144"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "5339"
+	"classname" "trigger_multiple"
+	"filtername" "filter_team_red"
+	"origin" "384 -2048.01 60"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_red_spawngate_2"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "door_red_spawngate_2,Open,,0,-1"
+		"OnEndTouchAll" "door_red_spawngate_2,Close,,0,-1"
+	}
+	solid
+	{
+		"id" "5340"
+		side
+		{
+			"id" "426"
+			"plane" "(480 -1952 120) (480 -2144 120) (288 -2144 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "425"
+			"plane" "(480 -2144 0) (480 -1952 0) (288 -1952 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "424"
+			"plane" "(480 -1952 0) (480 -2144 0) (480 -2144 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "423"
+			"plane" "(288 -2144 0) (288 -1952 0) (288 -1952 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "422"
+			"plane" "(480 -2144 0) (288 -2144 0) (288 -2144 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "421"
+			"plane" "(288 -1952 0) (480 -1952 0) (480 -1952 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "5342"
+	"classname" "func_respawnroomvisualizer"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"origin" "384.01 -2020 56"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawnroomname" "respawnroom_red2"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "5343"
+		side
+		{
+			"id" "432"
+			"plane" "(440 -2016 112) (440 -2024 112) (328 -2024 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -48] 0.4"
+			"vaxis" "[0 1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "431"
+			"plane" "(440 -2016 0) (440 -2024 0) (440 -2024 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "430"
+			"plane" "(440 -2024 0) (440 -2016 0) (328 -2016 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -48] 0.4"
+			"vaxis" "[0 1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "429"
+			"plane" "(328 -2024 0) (328 -2016 0) (328 -2016 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "428"
+			"plane" "(328 -2024 112) (440 -2024 112) (440 -2024 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -56] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "427"
+			"plane" "(328 -2016 0) (440 -2016 0) (440 -2016 112)"
+			"material" "OVERLAYS/NO_ENTRY"
+			"uaxis" "[-1 0 0 -128] 0.5"
+			"vaxis" "[0 0 -1 240] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 1500]"
+	}
+}
+entity
+{
+	"id" "5345"
+	"classname" "func_door"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "2"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "-90 0 0"
+	"origin" "384 -2020.01 63.75"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"spawnflags" "32"
+	"spawnpos" "0"
+	"speed" "300"
+	"targetname" "door_red_spawngate_2"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	connections
+	{
+		"OnOpen" "prop_red_spawngate_2,SetAnimation,open,0,-1"
+		"OnClose" "prop_red_spawngate_2,SetAnimation,close,0,-1"
+	}
+	solid
+	{
+		"id" "5346"
+		side
+		{
+			"id" "438"
+			"plane" "(288 -2024 0) (480 -2024 0) (480 -2016 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 1 0 -624] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "437"
+			"plane" "(480 -2016 120) (480 -2016 0) (480 -2024 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 -1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "436"
+			"plane" "(480 -2024 120) (480 -2024 0) (288 -2024 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -336] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "435"
+			"plane" "(288 -2016 120) (288 -2016 0) (480 -2016 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "434"
+			"plane" "(288 -2024 120) (288 -2024 0) (288 -2016 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 -1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "433"
+			"plane" "(288 -2016 120) (480 -2016 120) (480 -2024 120)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -336] 0.25"
+			"vaxis" "[0 1 0 -655.994] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This func_door is not rendered, but it uses a metal texture for bullet effects."
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "5348"
+	"classname" "func_respawnroom"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_red2"
+	"TeamNum" "2"
+	solid
+	{
+		"id" "5349"
+		side
+		{
+			"id" "444"
+			"plane" "(256 -2176 192) (256 -2048 192) (512 -2048 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "443"
+			"plane" "(256 -2048 -2.61149e-006) (256 -2176 -2.61149e-006) (512 -2176 -2.61149e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "442"
+			"plane" "(256 -2176 -2.61149e-006) (256 -2048 -2.61149e-006) (256 -2048 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "441"
+			"plane" "(512 -2048 -2.61149e-006) (512 -2176 -2.61149e-006) (512 -2176 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "440"
+			"plane" "(256 -2048 -2.61149e-006) (512 -2048 -2.61149e-006) (512 -2048 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "439"
+			"plane" "(512 -2176 -2.61149e-006) (256 -2176 -2.61149e-006) (256 -2176 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "5673"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_dynamic.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_red_spawngate_1"
+	"origin" "384 -3584 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "5677"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_gameplay/sign_gameplay01.mdl"
+	"skin" "5"
+	"solid" "6"
+	"origin" "384 -3552 144"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "5681"
+	"classname" "trigger_multiple"
+	"filtername" "filter_team_red"
+	"origin" "384 -3584.01 60"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_red_spawngate_1"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "door_red_spawngate_1,Open,,0,-1"
+		"OnEndTouchAll" "door_red_spawngate_1,Close,,0,-1"
+	}
+	solid
+	{
+		"id" "5682"
+		side
+		{
+			"id" "474"
+			"plane" "(480 -3488 120) (480 -3680 120) (288 -3680 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "473"
+			"plane" "(480 -3680 0) (480 -3488 0) (288 -3488 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "472"
+			"plane" "(480 -3488 0) (480 -3680 0) (480 -3680 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "471"
+			"plane" "(288 -3680 0) (288 -3488 0) (288 -3488 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "470"
+			"plane" "(480 -3680 0) (288 -3680 0) (288 -3680 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "469"
+			"plane" "(288 -3488 0) (480 -3488 0) (480 -3488 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "5684"
+	"classname" "func_respawnroomvisualizer"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"origin" "384.01 -3556 56"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawnroomname" "respawnroom_red1"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "5685"
+		side
+		{
+			"id" "480"
+			"plane" "(440 -3552 112) (440 -3560 112) (328 -3560 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -48] 0.4"
+			"vaxis" "[0 1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "479"
+			"plane" "(440 -3552 0) (440 -3560 0) (440 -3560 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "478"
+			"plane" "(440 -3560 0) (440 -3552 0) (328 -3552 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -48] 0.4"
+			"vaxis" "[0 1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "477"
+			"plane" "(328 -3560 0) (328 -3552 0) (328 -3552 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "476"
+			"plane" "(328 -3560 112) (440 -3560 112) (440 -3560 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -56] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "475"
+			"plane" "(328 -3552 0) (440 -3552 0) (440 -3552 112)"
+			"material" "OVERLAYS/NO_ENTRY"
+			"uaxis" "[-1 0 0 -128] 0.5"
+			"vaxis" "[0 0 -1 240] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 1500]"
+	}
+}
+entity
+{
+	"id" "5687"
+	"classname" "func_door"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "2"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "-90 0 0"
+	"origin" "384 -3556.01 63.75"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"spawnflags" "32"
+	"spawnpos" "0"
+	"speed" "300"
+	"targetname" "door_red_spawngate_1"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	connections
+	{
+		"OnOpen" "prop_red_spawngate_1,SetAnimation,open,0,-1"
+		"OnClose" "prop_red_spawngate_1,SetAnimation,close,0,-1"
+	}
+	solid
+	{
+		"id" "5688"
+		side
+		{
+			"id" "486"
+			"plane" "(288 -3560 0) (480 -3560 0) (480 -3552 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 1 0 -624] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "485"
+			"plane" "(480 -3552 120) (480 -3552 0) (480 -3560 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 -1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "484"
+			"plane" "(480 -3560 120) (480 -3560 0) (288 -3560 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -336] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "483"
+			"plane" "(288 -3552 120) (288 -3552 0) (480 -3552 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -176] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "482"
+			"plane" "(288 -3560 120) (288 -3560 0) (288 -3552 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 -1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "481"
+			"plane" "(288 -3552 120) (480 -3552 120) (480 -3560 120)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[-1 0 0 -336] 0.25"
+			"vaxis" "[0 1 0 -655.994] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This func_door is not rendered, but it uses a metal texture for bullet effects."
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "5690"
+	"classname" "func_respawnroom"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_red1"
+	"TeamNum" "2"
+	solid
+	{
+		"id" "5691"
+		side
+		{
+			"id" "492"
+			"plane" "(256 -3712 192) (256 -3584 192) (512 -3584 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "491"
+			"plane" "(256 -3584 -2.7032e-006) (256 -3712 -2.7032e-006) (512 -3712 -2.7032e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "490"
+			"plane" "(256 -3712 -2.7032e-006) (256 -3584 -2.7032e-006) (256 -3584 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "489"
+			"plane" "(512 -3584 -2.7032e-006) (512 -3712 -2.7032e-006) (512 -3712 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "488"
+			"plane" "(256 -3584 -2.7032e-006) (512 -3584 -2.7032e-006) (512 -3584 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "487"
+			"plane" "(512 -3712 -2.7032e-006) (256 -3712 -2.7032e-006) (256 -3712 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "6112"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "480 -3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6114"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "416 -3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6116"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "352 -3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6118"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "288 -3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6128"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "480 -4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6130"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "416 -4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6132"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "352 -4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6134"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "288 -4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6152"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "480 -4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6154"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "416 -4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6156"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "352 -4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6158"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_red_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_1"
+	"TeamNum" "2"
+	"origin" "288 -4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6268"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "416 -2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6270"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "288 -2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6272"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "352 -2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6274"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "480 -2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6292"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "416 -2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6294"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "288 -2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6296"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "352 -2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6298"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "480 -2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6316"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "416 -2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6318"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "288 -2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6320"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "352 -2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6322"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_2"
+	"TeamNum" "2"
+	"origin" "480 -2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "6362"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "480 -832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6364"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "288 -832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6366"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "352 -832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6368"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "416 -832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6386"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "480 -928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6388"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "288 -928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6390"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "352 -928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6392"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "416 -928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6410"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "480 -1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6412"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "288 -1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6414"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "352 -1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6416"
+	"classname" "info_player_teamspawn"
+	"angles" "0 90 0"
+	"controlpoint" "cap_blue_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_red_3"
+	"TeamNum" "2"
+	"origin" "416 -1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6434"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_dynamic.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_blue_spawngate_3"
+	"origin" "-384 512 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "6438"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_gameplay/sign_gameplay01.mdl"
+	"skin" "4"
+	"solid" "6"
+	"origin" "-384 480 144"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "6442"
+	"classname" "trigger_multiple"
+	"filtername" "filter_team_blue"
+	"origin" "-384 512.01 60"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_blue_spawngate_3"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "door_blue_spawngate_3,Open,,0,-1"
+		"OnEndTouchAll" "door_blue_spawngate_3,Close,,0,-1"
+	}
+	solid
+	{
+		"id" "6443"
+		side
+		{
+			"id" "522"
+			"plane" "(-480 416 120) (-480 608 120) (-288 608 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "521"
+			"plane" "(-480 608 0) (-480 416 0) (-288 416 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "520"
+			"plane" "(-480 416 0) (-480 608 0) (-480 608 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "519"
+			"plane" "(-288 608 0) (-288 416 0) (-288 416 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "518"
+			"plane" "(-480 608 0) (-288 608 0) (-288 608 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "517"
+			"plane" "(-288 416 0) (-480 416 0) (-480 416 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "6445"
+	"classname" "func_respawnroomvisualizer"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"origin" "-384.01 484 56"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawnroomname" "respawnroom_blue3"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "6446"
+		side
+		{
+			"id" "528"
+			"plane" "(-440 480 112) (-440 488 112) (-328 488 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.4"
+			"vaxis" "[0 -1 0 12] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "527"
+			"plane" "(-440 480 0) (-440 488 0) (-440 488 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -4] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "526"
+			"plane" "(-440 488 0) (-440 480 0) (-328 480 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.4"
+			"vaxis" "[0 -1 0 12] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "525"
+			"plane" "(-328 488 0) (-328 480 0) (-328 480 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -4] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "524"
+			"plane" "(-328 488 112) (-440 488 112) (-440 488 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "523"
+			"plane" "(-328 480 0) (-440 480 0) (-440 480 112)"
+			"material" "OVERLAYS/NO_ENTRY"
+			"uaxis" "[1 0 0 128] 0.5"
+			"vaxis" "[0 0 -1 240] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 1500]"
+	}
+}
+entity
+{
+	"id" "6448"
+	"classname" "func_door"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "2"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "-90 0 0"
+	"origin" "-384 484.01 63.75"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"spawnflags" "32"
+	"spawnpos" "0"
+	"speed" "300"
+	"targetname" "door_blue_spawngate_3"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	connections
+	{
+		"OnOpen" "prop_blue_spawngate_3,SetAnimation,open,0,-1"
+		"OnClose" "prop_blue_spawngate_3,SetAnimation,close,0,-1"
+	}
+	solid
+	{
+		"id" "6449"
+		side
+		{
+			"id" "534"
+			"plane" "(-288 488 0) (-480 488 0) (-480 480 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 336] 0.25"
+			"vaxis" "[0 -1 0 400] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "533"
+			"plane" "(-480 480 120) (-480 480 0) (-480 488 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 -143.994] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "532"
+			"plane" "(-480 488 120) (-480 488 0) (-288 488 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 176] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "531"
+			"plane" "(-288 480 120) (-288 480 0) (-480 480 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 336] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "530"
+			"plane" "(-288 488 120) (-288 488 0) (-288 480 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 -143.994] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "529"
+			"plane" "(-288 480 120) (-480 480 120) (-480 488 120)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 176] 0.25"
+			"vaxis" "[0 -1 0 368.006] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This func_door is not rendered, but it uses a metal texture for bullet effects."
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "6451"
+	"classname" "func_respawnroom"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_blue3"
+	"TeamNum" "3"
+	solid
+	{
+		"id" "6452"
+		side
+		{
+			"id" "540"
+			"plane" "(-256 640 192) (-256 512 192) (-512 512 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "539"
+			"plane" "(-256 512 -2.61149e-006) (-256 640 -2.61149e-006) (-512 640 -2.61149e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "538"
+			"plane" "(-256 640 -2.61149e-006) (-256 512 -2.61149e-006) (-256 512 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "537"
+			"plane" "(-512 512 -2.61149e-006) (-512 640 -2.61149e-006) (-512 640 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "536"
+			"plane" "(-256 512 -2.61149e-006) (-512 512 -2.61149e-006) (-512 512 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "535"
+			"plane" "(-512 640 -2.61149e-006) (-256 640 -2.61149e-006) (-256 640 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "6685"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-480 832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6687"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-416 832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6689"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-352 832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6691"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-288 832 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6709"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-480 928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6711"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-416 928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6713"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-352 928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6715"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-288 928 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6733"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-480 1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6735"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-416 1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6737"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-352 1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6739"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_red_2"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_3"
+	"TeamNum" "3"
+	"origin" "-288 1024 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
+	"id" "6802"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_dynamic.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_blue_spawngate_2"
+	"origin" "-384 2048 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "6806"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_gameplay/sign_gameplay01.mdl"
+	"skin" "4"
+	"solid" "6"
+	"origin" "-384 2016 144"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "6810"
+	"classname" "trigger_multiple"
+	"filtername" "filter_team_blue"
+	"origin" "-384 2048.01 60"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_blue_spawngate_2"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "door_blue_spawngate_2,Open,,0,-1"
+		"OnEndTouchAll" "door_blue_spawngate_2,Close,,0,-1"
+	}
+	solid
+	{
+		"id" "6811"
+		side
+		{
+			"id" "570"
+			"plane" "(-480 1952 120) (-480 2144 120) (-288 2144 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "569"
+			"plane" "(-480 2144 0) (-480 1952 0) (-288 1952 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "568"
+			"plane" "(-480 1952 0) (-480 2144 0) (-480 2144 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "567"
+			"plane" "(-288 2144 0) (-288 1952 0) (-288 1952 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "566"
+			"plane" "(-480 2144 0) (-288 2144 0) (-288 2144 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "565"
+			"plane" "(-288 1952 0) (-480 1952 0) (-480 1952 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "6813"
+	"classname" "func_respawnroomvisualizer"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"origin" "-384.01 2020 56"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawnroomname" "respawnroom_blue2"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "6814"
+		side
+		{
+			"id" "576"
+			"plane" "(-440 2016 112) (-440 2024 112) (-328 2024 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.4"
+			"vaxis" "[0 -1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "575"
+			"plane" "(-440 2016 0) (-440 2024 0) (-440 2024 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "574"
+			"plane" "(-440 2024 0) (-440 2016 0) (-328 2016 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.4"
+			"vaxis" "[0 -1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "573"
+			"plane" "(-328 2024 0) (-328 2016 0) (-328 2016 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "572"
+			"plane" "(-328 2024 112) (-440 2024 112) (-440 2024 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "571"
+			"plane" "(-328 2016 0) (-440 2016 0) (-440 2016 112)"
+			"material" "OVERLAYS/NO_ENTRY"
+			"uaxis" "[1 0 0 128] 0.5"
+			"vaxis" "[0 0 -1 240] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 1500]"
+	}
+}
+entity
+{
+	"id" "6816"
+	"classname" "func_door"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "2"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "-90 0 0"
+	"origin" "-384 2020.01 63.75"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"spawnflags" "32"
+	"spawnpos" "0"
+	"speed" "300"
+	"targetname" "door_blue_spawngate_2"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	connections
+	{
+		"OnOpen" "prop_blue_spawngate_2,SetAnimation,open,0,-1"
+		"OnClose" "prop_blue_spawngate_2,SetAnimation,close,0,-1"
+	}
+	solid
+	{
+		"id" "6817"
+		side
+		{
+			"id" "582"
+			"plane" "(-288 2024 0) (-480 2024 0) (-480 2016 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 336] 0.25"
+			"vaxis" "[0 -1 0 -624] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "581"
+			"plane" "(-480 2016 120) (-480 2016 0) (-480 2024 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "580"
+			"plane" "(-480 2024 120) (-480 2024 0) (-288 2024 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 176] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "579"
+			"plane" "(-288 2016 120) (-288 2016 0) (-480 2016 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 336] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "578"
+			"plane" "(-288 2024 120) (-288 2024 0) (-288 2016 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "577"
+			"plane" "(-288 2016 120) (-480 2016 120) (-480 2024 120)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 176] 0.25"
+			"vaxis" "[0 -1 0 -655.994] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This func_door is not rendered, but it uses a metal texture for bullet effects."
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "6819"
+	"classname" "func_respawnroom"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_blue2"
+	"TeamNum" "3"
+	solid
+	{
+		"id" "6820"
+		side
+		{
+			"id" "588"
+			"plane" "(-256 2176 192) (-256 2048 192) (-512 2048 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "587"
+			"plane" "(-256 2048 -2.61149e-006) (-256 2176 -2.61149e-006) (-512 2176 -2.61149e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "586"
+			"plane" "(-256 2176 -2.61149e-006) (-256 2048 -2.61149e-006) (-256 2048 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "585"
+			"plane" "(-512 2048 -2.61149e-006) (-512 2176 -2.61149e-006) (-512 2176 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "584"
+			"plane" "(-256 2048 -2.61149e-006) (-512 2048 -2.61149e-006) (-512 2048 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "583"
+			"plane" "(-512 2176 -2.61149e-006) (-256 2176 -2.61149e-006) (-256 2176 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "6878"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_gameplay/door_slide_large_dynamic.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_blue_spawngate_1"
+	"origin" "-384 3584 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 10000]"
+	}
+}
+entity
+{
+	"id" "6882"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_gameplay/sign_gameplay01.mdl"
+	"skin" "4"
+	"solid" "6"
+	"origin" "-384 3552 144"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "6886"
+	"classname" "trigger_multiple"
+	"filtername" "filter_team_blue"
+	"origin" "-384 3584.01 60"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_blue_spawngate_1"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouchAll" "door_blue_spawngate_1,Open,,0,-1"
+		"OnEndTouchAll" "door_blue_spawngate_1,Close,,0,-1"
+	}
+	solid
+	{
+		"id" "6887"
+		side
+		{
+			"id" "618"
+			"plane" "(-480 3488 120) (-480 3680 120) (-288 3680 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "617"
+			"plane" "(-480 3680 0) (-480 3488 0) (-288 3488 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "616"
+			"plane" "(-480 3488 0) (-480 3680 0) (-480 3680 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "615"
+			"plane" "(-288 3680 0) (-288 3488 0) (-288 3488 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "614"
+			"plane" "(-480 3680 0) (-288 3680 0) (-288 3680 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "613"
+			"plane" "(-288 3488 0) (-480 3488 0) (-480 3488 120)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13000]"
+	}
+}
+entity
+{
+	"id" "6889"
+	"classname" "func_respawnroomvisualizer"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"origin" "-384.01 3556 56"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawnroomname" "respawnroom_blue1"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "6890"
+		side
+		{
+			"id" "624"
+			"plane" "(-440 3552 112) (-440 3560 112) (-328 3560 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.4"
+			"vaxis" "[0 -1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "623"
+			"plane" "(-440 3552 0) (-440 3560 0) (-440 3560 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "622"
+			"plane" "(-440 3560 0) (-440 3552 0) (-328 3552 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.4"
+			"vaxis" "[0 -1 0 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "621"
+			"plane" "(-328 3560 0) (-328 3552 0) (-328 3552 112)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 60] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "620"
+			"plane" "(-328 3560 112) (-440 3560 112) (-440 3560 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.4"
+			"vaxis" "[0 0 -1 -52] 0.4"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "619"
+			"plane" "(-328 3552 0) (-440 3552 0) (-440 3552 112)"
+			"material" "OVERLAYS/NO_ENTRY"
+			"uaxis" "[1 0 0 128] 0.5"
+			"vaxis" "[0 0 -1 240] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 1500]"
+	}
+}
+entity
+{
+	"id" "6892"
+	"classname" "func_door"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"dmg" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "2"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "-90 0 0"
+	"origin" "-384 3556.01 63.75"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"spawnflags" "32"
+	"spawnpos" "0"
+	"speed" "300"
+	"targetname" "door_blue_spawngate_1"
+	"unlocked_sentence" "0"
+	"wait" "4"
+	connections
+	{
+		"OnOpen" "prop_blue_spawngate_1,SetAnimation,open,0,-1"
+		"OnClose" "prop_blue_spawngate_1,SetAnimation,close,0,-1"
+	}
+	solid
+	{
+		"id" "6893"
+		side
+		{
+			"id" "630"
+			"plane" "(-288 3560 0) (-480 3560 0) (-480 3552 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 336] 0.25"
+			"vaxis" "[0 -1 0 -624] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "629"
+			"plane" "(-480 3552 120) (-480 3552 0) (-480 3560 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "628"
+			"plane" "(-480 3560 120) (-480 3560 0) (-288 3560 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 176] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "627"
+			"plane" "(-288 3552 120) (-288 3552 0) (-480 3552 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 336] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "626"
+			"plane" "(-288 3560 120) (-288 3560 0) (-288 3552 0)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[0 1 0 368.006] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "625"
+			"plane" "(-288 3552 120) (-480 3552 120) (-480 3560 120)"
+			"material" "METAL/IBEAM001B"
+			"uaxis" "[1 0 0 176] 0.25"
+			"vaxis" "[0 -1 0 -655.994] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This func_door is not rendered, but it uses a metal texture for bullet effects."
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "6895"
+	"classname" "func_respawnroom"
+	"StartDisabled" "0"
+	"targetname" "respawnroom_blue1"
+	"TeamNum" "3"
+	solid
+	{
+		"id" "6896"
+		side
+		{
+			"id" "636"
+			"plane" "(-256 3712 192) (-256 3584 192) (-512 3584 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "635"
+			"plane" "(-256 3584 -2.61149e-006) (-256 3712 -2.61149e-006) (-512 3712 -2.61149e-006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "634"
+			"plane" "(-256 3712 -2.61149e-006) (-256 3584 -2.61149e-006) (-256 3584 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "633"
+			"plane" "(-512 3584 -2.61149e-006) (-512 3712 -2.61149e-006) (-512 3712 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "632"
+			"plane" "(-256 3584 -2.61149e-006) (-512 3584 -2.61149e-006) (-512 3584 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "631"
+			"plane" "(-512 3712 -2.61149e-006) (-256 3712 -2.61149e-006) (-256 3712 192)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -10.7278] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 11500]"
+	}
+}
+entity
+{
+	"id" "7022"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-352 2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7024"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-416 2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7026"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-480 2272 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7028"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-480 2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7030"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-416 2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7032"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-352 2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7034"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-288 2368 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7052"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-480 2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7054"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-416 2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7056"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-352 2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7058"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-288 2464 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7076"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-480 2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7078"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-416 2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7080"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-352 2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7082"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_center"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_2"
+	"TeamNum" "3"
+	"origin" "-288 2560 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "7163"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-416 3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7165"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-352 3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7167"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-288 3808 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7169"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-288 3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7171"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-480 3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7173"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-416 3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7175"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-352 3904 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7193"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-288 4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7195"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-480 4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7197"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-416 4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7199"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-352 4000 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7217"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-288 4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7219"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-480 4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7221"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-416 4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "7223"
+	"classname" "info_player_teamspawn"
+	"angles" "0 270 0"
+	"controlpoint" "cap_blue_1"
+	"StartDisabled" "0"
+	"targetname" "spawn_blue_1"
+	"TeamNum" "3"
+	"origin" "-352 4096 12.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

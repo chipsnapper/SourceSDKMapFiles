@@ -1,0 +1,307 @@
+// Defining the upaxis to be Y is needed for maya exports.
+$upaxis Y
+
+// Set up the eye positions and attachments.
+$eyeposition 0 83.274592 0
+$attachment "eyes"     "bip_head"  0         83.274592 1.8 absolute
+$attachment "righteye" "bip_head" -1.425952  83.274592 1.8 absolute
+$attachment "lefteye"  "bip_head"  1.425952  83.274592 1.8 absolute
+
+//this attachment for partyhat in birthday mode
+$attachment "partyhat" "bip_head" -0.60 -7.8 -1.69 rotate 95 -95 0
+
+$model heavy $dmxFile$ {
+	eyeball righteye "bip_head" -1.425952 83.274592 1.8 "eyeball_r" 1.80356  0 "pupil_r" 0.6
+	eyeball lefteye  "bip_head"  1.425952 83.274592 1.8 "eyeball_l" 1.80356  0 "pupil_l" 0.6
+  
+	localvar %dummy_eyelid_flex 
+
+	flexcontroller eyes range -45 45 eyes_updown
+	flexcontroller eyes range -45 45 eyes_rightleft
+}
+
+//hands bodygroup for boxing gloves
+$bodygroup hands
+{
+	studio "../parts/dmx/heavy_hands_bodygroup.dmx"
+	blank
+}
+
+// Make the reference sequence from the dmxFile variable.
+$sequence ref $dmxFile$
+
+// include the standard boneset
+$include "heavy_definebones.qci"
+
+// Include the animations .mdl.
+$includemodel "player/heavy_animations.mdl"
+
+// Include the helper bones.
+$proceduralbones "heavy.vrd"
+
+$surfaceprop "flesh"
+$bonemerge "bip_hand_L"
+$bonemerge "weapon_bone"
+$bonemerge "weapon_bone_1"
+$bonemerge "bip_head"
+
+
+// include the file that sets up the ikchains
+$include "../../TF_animation_rules/ruleshierarchy.qci"
+
+// Include the ragdoll and hitboxes.
+$include "heavy_ragdoll.qci"
+$include "heavy_hitbox.qci"
+
+$cdmaterials "models/player/hvyweapon/"
+$texturegroup "heavy_Skins"
+{
+	{ "hvyweapon_red"        "heavy_head_red"        "eyeball_r"     "eyeball_l" }
+	{ "hvyweapon_blue"       "heavy_head_blue"       "eyeball_r"     "eyeball_l" }
+	{ "hvyweapon_red_invun"  "heavy_head_red_invun"  "eyeball_invun" "eyeball_invun" }
+	{ "hvyweapon_blue_invun" "heavy_head_blue_invun" "eyeball_invun" "eyeball_invun" }
+
+}
+
+$lod 11
+{
+	replacemodel $dmxFile$ $01_lod$
+	replacemodel "../parts/dmx/heavy_hands_bodygroup.dmx" "../parts/dmx/hands_lod_01.dmx"
+	bonetreecollapse "bip_head"
+	replacebone "prp_pack" "bip_pelvis"
+}
+
+$lod 22
+{
+	nofacial
+	replacemodel $dmxFile$ $02_lod$
+	replacemodel "../parts/dmx/heavy_hands_bodygroup.dmx" "../parts/dmx/hands_lod_02.dmx"
+
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "prp_bullet_shoulder" "bip_collar_R"
+	replacebone "prp_bullet_backUpper" "bip_spine_2"
+	replacebone "prp_bullet_backLower" "bip_spine_1"
+	replacebone "prp_bullet_chestUpper" "bip_spine_1"
+	replacebone "prp_bullet_side" "bip_spine_0"
+	replacebone "prp_bullet_chestLower" "bip_spine_0"
+	replacebone "prp_pack" "bip_pelvis"
+}
+
+$lod 33 
+{
+	nofacial
+	replacemodel $dmxFile$ $03_lod$
+	replacemodel "../parts/dmx/heavy_hands_bodygroup.dmx" "../parts/dmx/hands_lod_03.dmx"
+
+	removemesh "models/player/hvyweapon/eyeball_r"
+	removemesh "models/player/hvyweapon/eyeball_l"
+
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_knee_L"
+	bonetreecollapse "bip_knee_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	replacebone "prp_bullet_shoulder" "bip_collar_R"
+	replacebone "prp_bullet_backUpper" "bip_spine_2"
+	replacebone "prp_bullet_backLower" "bip_spine_1"
+	replacebone "prp_bullet_chestUpper" "bip_spine_1"
+	replacebone "prp_bullet_side" "bip_spine_0"
+	replacebone "prp_bullet_chestLower" "bip_spine_0"
+	replacebone "prp_pack" "bip_pelvis"
+}
+
+$lod 44 
+{
+	nofacial
+	replacemodel $dmxFile$ $04_lod$
+	replacemodel "../parts/dmx/heavy_hands_bodygroup.dmx" "../parts/dmx/hands_lod_04.dmx"
+
+	removemesh "models/player/hvyweapon/eyeball_r"
+	removemesh "models/player/hvyweapon/eyeball_l"
+
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_knee_L"
+	bonetreecollapse "bip_knee_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	replacebone "prp_bullet_shoulder" "bip_collar_R"
+	replacebone "prp_bullet_backUpper" "bip_spine_2"
+	replacebone "prp_bullet_backLower" "bip_spine_1"
+	replacebone "prp_bullet_chestUpper" "bip_spine_1"
+	replacebone "prp_bullet_side" "bip_spine_0"
+	replacebone "prp_bullet_chestLower" "bip_spine_0"
+	replacebone "prp_pack" "bip_pelvis"
+}
+
+$lod 55 
+{
+	nofacial
+	replacemodel $dmxFile$ $05_lod$
+	replacemodel "../parts/dmx/heavy_hands_bodygroup.dmx" "../parts/dmx/hands_lod_05.dmx"
+
+	removemesh "models/player/hvyweapon/eyeball_r"
+	removemesh "models/player/hvyweapon/eyeball_l"
+
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_knee_L"
+	bonetreecollapse "bip_knee_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	replacebone "prp_bullet_shoulder" "bip_collar_R"
+	replacebone "prp_bullet_backUpper" "bip_spine_2"
+	replacebone "prp_bullet_backLower" "bip_spine_1"
+	replacebone "prp_bullet_chestUpper" "bip_spine_1"
+	replacebone "prp_bullet_side" "bip_spine_0"
+	replacebone "prp_bullet_chestLower" "bip_spine_0"
+	replacebone "prp_pack" "bip_pelvis"
+}
+
+$shadowlod
+{
+	nofacial
+	replacemodel $dmxFile$ $03_lod$
+	replacemodel "../parts/dmx/heavy_hands_bodygroup.dmx" "../parts/dmx/hands_lod_03.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_knee_L"
+	bonetreecollapse "bip_knee_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	replacebone "prp_bullet_shoulder" "bip_collar_R"
+	replacebone "prp_bullet_backUpper" "bip_spine_2"
+	replacebone "prp_bullet_backLower" "bip_spine_1"
+	replacebone "prp_bullet_chestUpper" "bip_spine_1"
+	replacebone "prp_bullet_side" "bip_spine_0"
+	replacebone "prp_bullet_chestLower" "bip_spine_0"
+	replacebone "prp_pack" "bip_pelvis"
+	removemesh "models/player/hvyweapon/eyeball_r"
+	removemesh "models/player/hvyweapon/eyeball_l"
+}
+
+
+// Gibs.
+$collisiontext {
+	"break"
+	{
+		"model" "player\gibs\heavygib007"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib002"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib005"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib006"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\random_organ"
+		"health" "0"
+		"fadetime" "10"
+	}	
+	"break"
+	{
+		"model" "player\gibs\heavygib001"
+		"health" "0"
+		"fadetime" "10"
+	}
+
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "7"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "8"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "7"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "8"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "7"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "8"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "7"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib003"
+		"health" "0"
+		"fadetime" "8"
+	}
+	"break"
+	{
+		"model" "player\gibs\heavygib004"
+		"health" "0"
+		"fadetime" "10"
+	}
+
+
+
+
+}

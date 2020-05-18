@@ -1,0 +1,178 @@
+
+$body      pyro  "../parts/dmx/pyro_reference.dmx"
+$sequence  ref   "../parts/dmx/pyro_reference.dmx"
+
+//this attachment for partyhat in birthday mode
+$attachment "partyhat" "bip_head" -0.00 -7.68 1.47 rotate 68 -90 -0
+
+$surfaceprop "flesh"
+
+$bonemerge "weapon_bone"
+$bonemerge "weapon_bone_L"
+$bonemerge "weapon_bone_1"
+$bonemerge "weapon_bone_2"
+$bonemerge "weapon_bone_3"
+$bonemerge "weapon_bone_4"
+$bonemerge "bip_head"
+
+// include the standard boneset
+$include "pyro_definebones.qci"
+
+// include the file that sets up the ikchains
+$include "../../TF_animation_rules/ruleshierarchy.qci"
+
+// include the animations.mdl
+$includemodel "player/pyro_animations.mdl"
+
+// include the ragdoll
+$include "pyro_ragdoll.qci"
+
+// include the hitboxes
+$include "pyro_hitbox.qci"
+
+$texturegroup "pyro_Skins"
+{
+	{ "pyro_red" "pilotlight" }
+	{ "pyro_blue" "pilotlight"}
+	{ "pyro_red_invun" "pilotlight"}
+	{ "pyro_blue_invun" "pilotlight"}
+
+}
+
+$lod 11
+{
+	replacemodel "../parts/dmx/pyro_reference.dmx" "../parts/dmx/pyro_lod_01.dmx"
+}
+
+
+$lod 22
+{
+	replacemodel "../parts/dmx/pyro_reference.dmx" "../parts/dmx/pyro_lod_02.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+}
+
+$lod 33
+{
+	replacemodel "../parts/dmx/pyro_reference.dmx" "../parts/dmx/pyro_lod_03.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	bonetreecollapse "prp_pouch"
+}
+
+$lod 44
+{
+	replacemodel "../parts/dmx/pyro_reference.dmx" "../parts/dmx/pyro_lod_04.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	bonetreecollapse "prp_pouch"
+	bonetreecollapse "prp_cannister1"
+	bonetreecollapse "prp_cannister2"
+	bonetreecollapse "prp_cannister3"
+}
+
+$lod 55
+{
+	replacemodel "../parts/dmx/pyro_reference.dmx" "../parts/dmx/pyro_lod_05.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	bonetreecollapse "prp_pouch"
+	bonetreecollapse "prp_cannister1"
+	bonetreecollapse "prp_cannister2"
+	bonetreecollapse "prp_cannister3"
+}
+
+$shadowlod
+{
+	replacemodel "../parts/dmx/pyro_reference.dmx" "../parts/dmx/pyro_lod_04.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	bonetreecollapse "prp_pouch"
+	bonetreecollapse "prp_cannister1"
+	bonetreecollapse "prp_cannister2"
+	bonetreecollapse "prp_cannister3"
+}
+
+
+// Gibs.
+$collisiontext {
+	"break"
+	{
+		"model" "player\gibs\pyrogib008"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib001"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib004"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib006"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\random_organ"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib002"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib005"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib003"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\pyrogib007"
+		"health" "0"
+		"fadetime" "10"
+	}
+
+
+
+}
+

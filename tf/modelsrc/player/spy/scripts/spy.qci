@@ -1,0 +1,384 @@
+// defining the upaxis is needed for maya exports
+$upaxis Y
+
+$eyeposition 0 78.221761 0
+$attachment "eyes"     "bip_head"  0         78.352463  1.565768  absolute
+$attachment "righteye" "bip_head" -1.137032  78.352463  1.565768  absolute
+$attachment "lefteye"  "bip_head"  1.137032  78.352463  1.565768  absolute
+$attachment "cig_eject" "bip_pelvis" 2.00 -29.00 -17.00 rotate -20 -100 -90
+
+//this attachment for partyhat in birthday mode
+$attachment "partyhat" "bip_head" 0.00 -6.88 -1.00 rotate 89 93 180
+
+$cdmaterials "models/player/spy/"
+$model spy $dmxFile$ {
+
+	eyeball righteye "bip_head" -1.137032  78.352463 1.565768  "eyeball_r" 1.4  4 "pupil_r" 0.6
+	eyeball lefteye  "bip_head"  1.137032  78.352463 1.565768  "eyeball_l" 1.4 -4 "pupil_l" 0.6
+
+    // remove this once you have actual eyelids that the eyeballs can drive, or they'll by default be 
+    // overwriting your first flex
+    localvar %dummy_eyelid_flex
+
+	flexcontroller eyes range -45 45 eyes_updown
+	flexcontroller eyes range -45 45 eyes_rightleft
+}
+
+$bodygroup "spyMask"
+{
+	blank
+	studio "../parts/dmx/spy_mask.dmx"
+}
+
+$sequence  ref  $dmxFile$
+
+// include the standard boneset
+$include "spy_definebones.qci"
+
+$surfaceprop "flesh"
+$jointsurfaceprop "bip_head" "no_decal"
+$bonemerge "weapon_bone"
+$bonemerge "weapon_bone_1"
+$bonemerge "weapon_bone_2"
+$bonemerge "weapon_bone_3"
+$bonemerge "weapon_bone_L"
+$bonemerge "bip_head"
+
+// include the file that sets up the ikchains
+$include "../../TF_animation_rules/ruleshierarchy.qci"
+
+// include the animations.mdl
+$includemodel "player/spy_animations.mdl"
+
+// include the ragdoll
+$include "spy_ragdoll.qci"
+
+// include the hitboxes
+$include "spy_hitbox.qci"
+
+$texturegroup "spy_Skins"
+{
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_spy" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_spy"  }
+	{ "spy_red_invun" "spy_head_red_invun" "eyeball_invun" "eyeball_invun" "/../../effects/invulnfx_red" }
+	{ "spy_blue_invun" "spy_head_blue_invun" "eyeball_invun" "eyeball_invun" "/../../effects/invulnfx_blue" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l"  "eyeball_r" "mask_scout" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_scout" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_sniper" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_sniper" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_soldier" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_soldier" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_demo" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_demo" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_medic" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_medic" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_heavy" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_heavy" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_pyro" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_pyro" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_spy" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_spy" }
+
+	{ "spy_red" "spy_head_red" "eyeball_l" "eyeball_r" "mask_engi" }
+	{ "spy_blue" "spy_head_blue" "eyeball_l" "eyeball_r" "mask_engi" }
+}
+
+$lod 10 
+{
+	replacemodel $dmxFile$ $01_lod$
+} 
+
+$lod 20
+{
+	nofacial
+	replacemodel $dmxFile$ $02_lod$
+
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+	replacebone "bip_thumb_0_L"  "bip_hand_L"
+	replacebone "bip_index_0_L"  "bip_hand_L"
+	replacebone "bip_middle_0_L" "bip_hand_L"
+	replacebone "bip_ring_0_L"   "bip_hand_L"
+	replacebone "bip_pinky_0_L"  "bip_hand_L"
+	replacebone "bip_thumb_0_R"  "bip_hand_R"
+	replacebone "bip_index_0_R"  "bip_hand_R"
+	replacebone "bip_middle_0_R" "bip_hand_R"
+	replacebone "bip_ring_0_R"   "bip_hand_R"
+	replacebone "bip_pinky_0_R"  "bip_hand_R"
+
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis" 
+	replacebone "prp_coat_back_0_L" "bip_pelvis" 
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+	replacebone "hlp_thigh_L" "bip_pelvis"
+	replacebone "hlp_thigh_R" "bip_pelvis"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_R" "bip_upperArm_R"
+	replacebone "hlp_suitArmpitBack_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmpitBack_R" "bip_upperArm_R"
+} 
+
+$lod 30
+{
+	nofacial
+	replacemodel $dmxFile$ $03_lod$
+	removemesh "models/player/spy/eyeball_l"
+	removemesh "models/player/spy/eyeball_r"
+
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+	replacebone "bip_thumb_0_L"  "bip_hand_L"
+	replacebone "bip_index_0_L"  "bip_hand_L"
+	replacebone "bip_middle_0_L" "bip_hand_L"
+	replacebone "bip_ring_0_L"   "bip_hand_L"
+	replacebone "bip_pinky_0_L"  "bip_hand_L"
+	replacebone "bip_thumb_0_R"  "bip_hand_R"
+	replacebone "bip_index_0_R"  "bip_hand_R"
+	replacebone "bip_middle_0_R" "bip_hand_R"
+	replacebone "bip_ring_0_R"   "bip_hand_R"
+	replacebone "bip_pinky_0_R"  "bip_hand_R"
+
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis" 
+	replacebone "prp_coat_back_0_L" "bip_pelvis" 
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+	replacebone "hlp_thigh_L" "bip_pelvis"
+	replacebone "hlp_thigh_R" "bip_pelvis"
+	replacebone "prp_wristInner_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_L" "bip_lowerArm_L"
+	replacebone "prp_wristInner_L" "bip_lowerArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_R" "bip_upperArm_R"
+	replacebone "hlp_suitArmpitBack_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmpitBack_R" "bip_upperArm_R"
+
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+}
+
+$lod 40
+{
+	nofacial
+	replacemodel $dmxFile$ $04_lod$
+	removemesh "models/player/spy/eyeball_l"
+	removemesh "models/player/spy/eyeball_r"
+
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+	replacebone "bip_thumb_0_L"  "bip_hand_L"
+	replacebone "bip_index_0_L"  "bip_hand_L"
+	replacebone "bip_middle_0_L" "bip_hand_L"
+	replacebone "bip_ring_0_L"   "bip_hand_L"
+	replacebone "bip_pinky_0_L"  "bip_hand_L"
+	replacebone "bip_thumb_0_R"  "bip_hand_R"
+	replacebone "bip_index_0_R"  "bip_hand_R"
+	replacebone "bip_middle_0_R" "bip_hand_R"
+	replacebone "bip_ring_0_R"   "bip_hand_R"
+	replacebone "bip_pinky_0_R"  "bip_hand_R"
+
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis" 
+	replacebone "prp_coat_back_0_L" "bip_pelvis" 
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+	replacebone "hlp_thigh_L" "bip_pelvis"
+	replacebone "hlp_thigh_R" "bip_pelvis"
+	replacebone "prp_wristInner_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_L" "bip_lowerArm_L"
+	replacebone "prp_wristInner_L" "bip_lowerArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_R" "bip_upperArm_R"
+	replacebone "hlp_suitArmpitBack_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmpitBack_R" "bip_upperArm_R"
+
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+}
+
+$lod 50
+{
+	nofacial
+	replacemodel $dmxFile$ $05_lod$
+	removemesh "models/player/spy/eyeball_l"
+	removemesh "models/player/spy/eyeball_r"
+
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+	replacebone "bip_thumb_0_L"  "bip_hand_L"
+	replacebone "bip_index_0_L"  "bip_hand_L"
+	replacebone "bip_middle_0_L" "bip_hand_L"
+	replacebone "bip_ring_0_L"   "bip_hand_L"
+	replacebone "bip_pinky_0_L"  "bip_hand_L"
+	replacebone "bip_thumb_0_R"  "bip_hand_R"
+	replacebone "bip_index_0_R"  "bip_hand_R"
+	replacebone "bip_middle_0_R" "bip_hand_R"
+	replacebone "bip_ring_0_R"   "bip_hand_R"
+	replacebone "bip_pinky_0_R"  "bip_hand_R"
+
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis" 
+	replacebone "prp_coat_back_0_L" "bip_pelvis" 
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+	replacebone "hlp_thigh_L" "bip_pelvis"
+	replacebone "hlp_thigh_R" "bip_pelvis"
+	replacebone "prp_wristInner_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_L" "bip_lowerArm_L"
+	replacebone "prp_wristInner_L" "bip_lowerArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_R" "bip_upperArm_R"
+	replacebone "hlp_suitArmpitBack_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmpitBack_R" "bip_upperArm_R"
+
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+}
+
+$shadowlod
+{
+	nofacial
+	replacemodel $dmxFile$ $04_lod$
+	removemesh "models/player/spy/eyeball_l"
+	removemesh "models/player/spy/eyeball_r"
+
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+	replacebone "bip_thumb_0_L"  "bip_hand_L"
+	replacebone "bip_index_0_L"  "bip_hand_L"
+	replacebone "bip_middle_0_L" "bip_hand_L"
+	replacebone "bip_ring_0_L"   "bip_hand_L"
+	replacebone "bip_pinky_0_L"  "bip_hand_L"
+	replacebone "bip_thumb_0_R"  "bip_hand_R"
+	replacebone "bip_index_0_R"  "bip_hand_R"
+	replacebone "bip_middle_0_R" "bip_hand_R"
+	replacebone "bip_ring_0_R"   "bip_hand_R"
+	replacebone "bip_pinky_0_R"  "bip_hand_R"
+
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis" 
+	replacebone "prp_coat_back_0_L" "bip_pelvis" 
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+	replacebone "hlp_thigh_L" "bip_pelvis"
+	replacebone "hlp_thigh_R" "bip_pelvis"
+	replacebone "prp_wristInner_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_R" "bip_lowerArm_R"
+	replacebone "prp_wristOuter_L" "bip_lowerArm_L"
+	replacebone "prp_wristInner_L" "bip_lowerArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmTop_R" "bip_upperArm_R"
+	replacebone "hlp_suitArmpitBack_L" "bip_upperArm_L"
+	replacebone "hlp_suitArmpitBack_R" "bip_upperArm_R"
+
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+}
+
+// Gibs.
+$collisiontext {
+	"break"
+	{
+		"model" "player\gibs\spygib007"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\spygib001"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\spygib003"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\spygib006"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\random_organ"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\spygib002"
+		"health" "0"
+		"fadetime" "10"
+	}
+
+	"break"
+	{
+		"model" "player\gibs\spygib004"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\spygib005"
+		"health" "0"
+		"fadetime" "10"
+	}
+}
+
+
+
