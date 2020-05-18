@@ -1,0 +1,714 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4778"
+	"mapversion" "21"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "21"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"musicpostfix" "Waterfront"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_storm_start"
+	connections
+	{
+		"OnTrigger" "sound_thunder2PlaySound0-1"
+		"OnTrigger" "sound_thunderPlaySound2.7-1"
+		"OnTrigger" "relay_lightning_strikeTrigger0.3-1"
+		"OnTrigger" "relay_tonemap_flashTrigger0.3-1"
+		"OnTrigger" "relay_tonemap_flashTrigger2.3-1"
+		"OnTrigger" "relay_lightning_strikeTrigger2.3-1"
+		"OnTrigger" "relay_storm_blendinTrigger0-1"
+		"OnTrigger" "ldq_stormtimeHowAngry3-1"
+		"OnTrigger" "!selfDisable0-1"
+		"OnTrigger" "shake_lightningStartShake0.3-1"
+		"OnTrigger" "shake_lightningStartShake2.3-1"
+		"OnTrigger" "oratorSpeakresponseconceptc4_storm_start3-1"
+	}
+	"origin" "-6.12 -19.0996 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Hospital.HelicopterWindLoop"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "10000"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sound_drip"
+	"volstart" "0"
+	"origin" "-16 -88 16.4229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "logic_director_query"
+	"distribution" "3"
+	"maxAngerRange" "10"
+	"minAngerRange" "1"
+	connections
+	{
+		"On20SecondsToMob" "relay_storm_startTrigger15-1"
+		"On20SecondsToMob" "fx_skybox_general_lightningStop0-1"
+	}
+	"origin" "-6.12 -19.0996 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_tonemap_flash"
+	connections
+	{
+		"OnTrigger" "tonemap_globalSetAutoExposureMin500.01-1"
+		"OnTrigger" "tonemap_globalSetAutoExposureMin10.03-1"
+		"OnTrigger" "tonemap_globalSetTonemapRate10000-1"
+		"OnTrigger" "tonemap_globalSetTonemapRate.251.7-1"
+		"OnTrigger" "tonemap_globalSetAutoExposureMax50.03-1"
+		"OnTrigger" "tonemap_globalSetAutoExposureMax500.01-1"
+	}
+	"origin" "-28 -20 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_storm_blendin"
+	connections
+	{
+		"OnTrigger" "fog_stormSetEndDistLerpTo7680-1"
+		"OnTrigger" "fog_stormSetStartDistLerpTo-5120-1"
+		"OnTrigger" "fog_stormSetFarZ10245-1"
+		"OnTrigger" "fog_stormStartFogTransition0.1-1"
+		"OnTrigger" "timer_storm_blendinEnable0-1"
+		"OnTrigger" "fog_stormSetmaxdensitylerpto10-1"
+		"OnTrigger" "rainalpha751-1"
+		"OnTrigger" "rainalpha1002-1"
+		"OnTrigger" "rainalpha1503-1"
+		"OnTrigger" "rainalpha2004-1"
+		"OnTrigger" "rainalpha2505-1"
+		"OnTrigger" "fog_stormSet2DSkyboxFogFactorLerpTo10-1"
+		"OnTrigger" "timer_storm_lightning_strikeEnable0-1"
+		"OnTrigger" "sound_dripPlaySound0-1"
+		"OnTrigger" "sound_dripVolume100-1"
+		"OnTrigger" "relay_localcontrast_fadeinTrigger0-1"
+		"OnTrigger" "template_wind_stormForceSpawn3-1"
+		"OnTrigger" "wind_normalKill0-1"
+		"OnTrigger" "shake_lightningStartShake3-1"
+		"OnTrigger" "relay_lightning_strikeTrigger3-1"
+		"OnTrigger" "relay_tonemap_flashTrigger3-1"
+		"OnTrigger" "sound_thunderPlaySound3-1"
+		"OnTrigger" "relay_mix_blendin*Trigger0-1"
+	}
+	"origin" "20 -20 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "19"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_storm_blendout"
+	connections
+	{
+		"OnTrigger" "fog_stormSetStartDistLerpTo00-1"
+		"OnTrigger" "fog_stormSetFarZ20000-1"
+		"OnTrigger" "fog_stormStartFogTransition0.1-1"
+		"OnTrigger" "timer_storm_blendoutEnable0-1"
+		"OnTrigger" "fog_stormSetmaxdensitylerpto10-1"
+		"OnTrigger" "fx_skybox_general_lightningStart0-1"
+		"OnTrigger" "rainalpha2001-1"
+		"OnTrigger" "rainalpha1502-1"
+		"OnTrigger" "rainalpha1003-1"
+		"OnTrigger" "rainalpha754-1"
+		"OnTrigger" "fog_stormSet2DSkyboxFogFactorLerpTo00-1"
+		"OnTrigger" "timer_storm_lightning_strikeDisable0-1"
+		"OnTrigger" "fog_stormSetEndDistLerpTo12000-1"
+		"OnTrigger" "sound_dripStopSound0-1"
+		"OnTrigger" "sound_dripVolume00-1"
+		"OnTrigger" "relay_storm_startEnable0-1"
+		"OnTrigger" "relay_localcontrast_fadeoutTrigger0-1"
+		"OnTrigger" "wind_stormKill0-1"
+		"OnTrigger" "template_wind_normalForceSpawn0-1"
+		"OnTrigger" "sound_thunderPlaySound0-1"
+		"OnTrigger" "relay_tonemap_flashTrigger0-1"
+		"OnTrigger" "relay_lightning_strikeTrigger0-1"
+		"OnTrigger" "shake_lightningStartShake0-1"
+		"OnTrigger" "relay_mix_blendout*Trigger0-1"
+	}
+	"origin" "44 -20 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "timer_storm_lightning_strike"
+	"UpperRandomBound" "4"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "relay_tonemap_flashTrigger0.3-1"
+		"OnTimer" "relay_lightning_strikeTrigger0.3-1"
+		"OnTimer" "sound_thunderPlaySound0-1"
+		"OnTimer" "shake_lightningStartShake0.3-1"
+	}
+	"origin" "-6 0 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "point_broadcastclientcommand"
+	"targetname" "skyboxfog"
+	"origin" "40 40 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_skyboxfogin"
+	connections
+	{
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor 00.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .95-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .74-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .63.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .53-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .42.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .32-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .21.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .11-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor 15.5-1"
+	}
+	"origin" "-96 -32 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "38"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_skyboxfogout"
+	connections
+	{
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .90.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .15-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .24-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .33.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .43-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .52.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .62-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .71.5-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor .81-1"
+		"OnTrigger" "skyboxfogCommandr_skyboxfogfactor 05.5-1"
+	}
+	"origin" "-80 -32 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "55"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Weather.thunder_close_all_4"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "10000"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sound_thunder"
+	"volstart" "0"
+	"origin" "-16 -56 16.4229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "58"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "ambient/wind/windgust_strong.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "10000"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sound_drip"
+	"volstart" "0"
+	"origin" "-32 -88 16.4229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "61"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_localcontrast_fadeout"
+	connections
+	{
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.60.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.265-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.2754-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.33.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.353-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.42.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.452-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.51.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.551-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.255.5-1"
+	}
+	"origin" "-80 -56 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "63"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_localcontrast_fadein"
+	connections
+	{
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.250.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.555-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.54-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.453.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.43-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.352.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.32-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.2751.5-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.261-1"
+		"OnTrigger" "fx_settings_stormSetLocalContrastStrength-.65.5-1"
+	}
+	"origin" "-96 -56 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "65"
+	"classname" "env_shake"
+	"amplitude" "2"
+	"duration" ".3"
+	"frequency" "35"
+	"radius" "500"
+	"spawnflags" "1"
+	"targetname" "shake_lightning"
+	"origin" "-32 0 16.4229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "68"
+	"classname" "logic_timer"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "timer_stormtime"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "relay_storm_blendoutTrigger0-1"
+		"OnTimer" "timer_stormtimeDisable0.01-1"
+	}
+	"origin" "-8 24 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "70"
+	"classname" "logic_director_query"
+	"distribution" "0"
+	"maxAngerRange" "45"
+	"minAngerRange" "15"
+	"targetname" "ldq_stormtime"
+	connections
+	{
+		"OutAnger" "timer_stormtimeRefireTime0-1"
+		"OutAnger" "timer_stormtimeResetTimer0.01-1"
+		"OutAnger" "timer_stormtimeEnable0.02-1"
+	}
+	"origin" "-7.89825 16 -50.477"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "116"
+	"classname" "env_wind"
+	"angles" "0 -180 0"
+	"gustdirchange" "20"
+	"gustduration" "5"
+	"maxgust" "200"
+	"maxgustdelay" "30"
+	"maxwind" "150"
+	"mingust" "100"
+	"mingustdelay" "15"
+	"minwind" "75"
+	"targetname" "wind_storm"
+	"windradius" "-1"
+	"origin" "64 -64 1.19209e-007"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "247 238 210"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "143"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_wind_storm"
+	"Template01" "wind_storm"
+	"origin" "80 -64 1.19209e-007"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "247 238 210"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "168"
+	"classname" "sound_mix_layer"
+	"Level" "1"
+	"MixLayerName" "stormLayer"
+	"targetname" "rainLayer_coop"
+	"origin" "-32 -128 16.4229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "194"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMultiNewMap" "rainAlpha1000.1-1"
+		"OnMultiNewRound" "rainAlpha1000.1-1"
+	}
+	"origin" "-23.8982 15.4293 -52.4257"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "229"
+	"classname" "logic_relay"
+	"targetname" "relay_mix_blendin_coop"
+	connections
+	{
+		"OnTrigger" "rainLayer_coopLevel04-1"
+		"OnTrigger" "rainLayer_coopLevel.23-1"
+		"OnTrigger" "rainLayer_coopLevel.42-1"
+		"OnTrigger" "rainLayer_coopLevel.61-1"
+		"OnTrigger" "rainLayer_coopLevel.80-1"
+	}
+	"origin" "-32 -152 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "235"
+	"classname" "logic_relay"
+	"targetname" "relay_mix_blendout_coop"
+	connections
+	{
+		"OnTrigger" "rainLayer_coopLevel14-1"
+		"OnTrigger" "rainLayer_coopLevel.83-1"
+		"OnTrigger" "rainLayer_coopLevel.62-1"
+		"OnTrigger" "rainLayer_coopLevel.41-1"
+		"OnTrigger" "rainLayer_coopLevel.20-1"
+	}
+	"origin" "-32 -176 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "269"
+	"classname" "logic_relay"
+	"targetname" "relay_mix_blendout_voip"
+	connections
+	{
+		"OnTrigger" "rainLayer_voipLevel04-1"
+		"OnTrigger" "rainLayer_voipLevel.23-1"
+		"OnTrigger" "rainLayer_voipLevel.42-1"
+		"OnTrigger" "rainLayer_voipLevel.61-1"
+		"OnTrigger" "rainLayer_voipLevel.80-1"
+	}
+	"origin" "0 -176 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "271"
+	"classname" "logic_relay"
+	"targetname" "relay_mix_blendin_voip"
+	connections
+	{
+		"OnTrigger" "rainLayer_voipLevel14-1"
+		"OnTrigger" "rainLayer_voipLevel.83-1"
+		"OnTrigger" "rainLayer_voipLevel.62-1"
+		"OnTrigger" "rainLayer_voipLevel.41-1"
+		"OnTrigger" "rainLayer_voipLevel.20-1"
+	}
+	"origin" "0 -152 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "337"
+	"classname" "sound_mix_layer"
+	"Level" "0"
+	"MixLayerName" "voipLayer"
+	"targetname" "rainLayer_voip"
+	"origin" "0 -128 16.4229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "377"
+	"classname" "info_gamemode"
+	"angles" "0 0 0"
+	connections
+	{
+		"OnVersus" "relay_mix_blendin_voipKill0-1"
+		"OnVersus" "relay_mix_blendout_voipKill0-1"
+		"OnVersus" "rainLayer_voipKill0-1"
+	}
+	"origin" "-16 -208 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

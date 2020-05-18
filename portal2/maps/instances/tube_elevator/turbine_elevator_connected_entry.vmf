@@ -1,0 +1,90 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5094"
+	"mapversion" "199"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "199"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "18924"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/tube_elevator/turbine_elevator_entry_ents.vmf"
+	"fixup_style" "0"
+	"targetname" "entry"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "19326"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/tube_elevator/elevator_structure.vmf"
+	"fixup_style" "2"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "3"
+	camera
+	{
+		"position" "[-57.1215 -214.404 126.529]"
+		"look" "[-7.54618 -221.724 97.1277]"
+	}
+	camera
+	{
+		"position" "[-49.0494 -180.5 174.874]"
+		"look" "[-46.5756 -148.338 171.028]"
+	}
+	camera
+	{
+		"position" "[20.3909 -210.684 106]"
+		"look" "[-36.6345 -123.19 106]"
+	}
+	camera
+	{
+		"position" "[9.25933 -173.788 41.1024]"
+		"look" "[-3.30867 -24.1741 -123.322]"
+	}
+}
+cordons
+{
+	"active" "0"
+}

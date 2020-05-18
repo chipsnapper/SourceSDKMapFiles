@@ -1,0 +1,355 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4690"
+	"mapversion" "34"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "1 object"
+		"visgroupid" "7"
+		"color" "84 117 234"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "34"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"musicpostfix" "Waterfront"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "158"
+		side
+		{
+			"id" "64"
+			"plane" "(74 46 120) (70 46 120) (70 50 120)"
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[0.707107 0.707107 0 -19.4113] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 -35.8823] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(74 50 116) (70 50 116) (70 46 116)"
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[0.707107 0.707107 0 -19.4113] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 -35.8823] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(74 46 116) (70 46 116) (70 46 120)"
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[-1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(70 50 116) (74 50 116) (74 50 120)"
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[-1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "60"
+			"plane" "(70 46 116) (70 50 116) (70 50 120)"
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(74 50 116) (74 46 116) (74 46 120)"
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 218 251"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "292"
+		side
+		{
+			"id" "76"
+			"plane" "(105 42 133) (29 42 133) (29 74 133)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0.707107 0.707107 0 -49.7981] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 -31.416] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(105 74 71) (29 74 71) (29 42 71)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0.707107 0.707107 0 -49.7981] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 -31.416] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(105 42 71) (29 42 71) (29 42 133)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 28.0049] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(29 74 71) (105 74 71) (105 74 133)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 28.0049] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "72"
+			"plane" "(29 42 71) (29 74 71) (29 74 133)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 2.62] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(105 74 71) (105 42 71) (105 42 133)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 2.62] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 218 251"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "info_survivor_position"
+	"angles" "0 45 0"
+	"Order" "1"
+	"origin" "-203.823 -13.0789 64"
+	editor
+	{
+		"color" "255 100 100"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "prop_dynamic"
+	"angles" "10 90 0"
+	"body" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "0 0 0"
+	"glowrange" "0"
+	"glowstate" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_vehicles/racecar.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "escape_car"
+	"updatechildren" "0"
+	"origin" "-16 6 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "15"
+		"classname" "info_goal_infected_chase"
+		"parentname" "escape_car"
+		"targetname" "infected_target"
+		"origin" "-12.9576 4.0769 152.154"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "7"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 500]"
+		}
+	}
+}
+entity
+{
+	"id" "243"
+	"classname" "point_prop_use_target"
+	"origin" "72.01 60 126"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "307"
+	"classname" "point_prop_use_target"
+	"origin" "56.01 60 126"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "310"
+	"classname" "point_prop_use_target"
+	"origin" "88.01 60 126"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "360"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "1"
+	"disablevertexlighting" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_vehicles/racecar_stage.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-16 8 42"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "383"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "1"
+	"disablevertexlighting" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_vehicles/racecar_stage_floor.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-16 8 42"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

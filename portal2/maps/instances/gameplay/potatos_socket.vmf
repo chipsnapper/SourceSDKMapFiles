@@ -1,0 +1,967 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5031"
+	"mapversion" "218"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "218"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "5"
+	"classname" "filter_activator_name"
+	"filtername" "@potatos_prop"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_name"
+	"origin" "-24 64 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"canbecaptured" "0"
+	"DefaultAnim" "close"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/anim_wp/psphere_plug.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"scalevalue" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "potatos_socket_prop"
+	"origin" "-1.90735e-006 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "env_spark"
+	"angles" "0 179 0"
+	"Magnitude" "1"
+	"MaxDelay" "0"
+	"parentname" "potatos_socket_prop"
+	"spawnflags" "512"
+	"targetname" "potatos_socket_spark"
+	"TrailLength" "1"
+	"origin" "10 -10 -27.61"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 255 255 30"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "1"
+	"style" "0"
+	"targetname" "light_power"
+	"origin" "0 56 -32.4382"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "97"
+	"classname" "trigger_multiple"
+	"filtername" "filter_potatos"
+	"origin" "10 -13 -28"
+	"parentname" "potatos_socket_prop"
+	"spawnflags" "4104"
+	"StartDisabled" "1"
+	"targetname" "potatos_socket_trigger"
+	"wait" "0"
+	connections
+	{
+		"OnStartTouch" "potatos_socket_insertion_relayTrigger0-1"
+	}
+	solid
+	{
+		"id" "92"
+		side
+		{
+			"id" "118"
+			"plane" "(6 -18 -24) (6 -8 -24) (14 -8 -24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(6 -8 -32) (6 -18 -32) (14 -18 -32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "116"
+			"plane" "(6 -18 -32) (6 -8 -32) (6 -8 -24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "115"
+			"plane" "(14 -8 -32) (14 -18 -32) (14 -18 -24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -61] 0.25"
+			"vaxis" "[0 0 -1 -38] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "114"
+			"plane" "(6 -8 -32) (14 -8 -32) (14 -8 -24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(14 -18 -32) (6 -18 -32) (6 -18 -24)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2119"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "potatos_socket_open_relayTrigger0-1"
+		"OnProxyRelay" "potatos_socket_eject_relayTrigger0-1"
+	}
+	"origin" "-24 64 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "567"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "potatos_socket_insertion_relay"
+	connections
+	{
+		"OnTrigger" "light_powerTurnOn0-1"
+		"OnTrigger" "@potatos_propSetParentpotatos_socket_spinner0.1-1"
+		"OnTrigger" "@potatos_propDisableMotion0-1"
+		"OnTrigger" "potatos_socket_open_relayDisable0-1"
+		"OnTrigger" "potatos_socket_propSetAnimationattach0-1"
+		"OnTrigger" "potatos_socket_sparkSparkOnce0-1"
+		"OnTrigger" "potatos_socket_triggerDisable0-1"
+		"OnTrigger" "potatos_socket_propSetAnimationNoResetlock1.5-1"
+		"OnTrigger" "potatos_socket_eject_relayEnable1.5-1"
+		"OnTrigger" "@potatos_hacking_relayTrigger1.5-1"
+		"OnTrigger" "timer_potato_particlesEnable1-1"
+		"OnTrigger" "potatos_socket_spinner_parentSetParentAttachmentsphere_attach0-1"
+		"OnTrigger" "potatos_socket_spinnerStart1-1"
+		"OnTrigger" "potatos_prop_teleportTeleport0-1"
+		"OnTrigger" "@potatos_propDisableShadow0-1"
+	}
+	"origin" "8 64 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2000"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "potatos_socket_eject_relay"
+	connections
+	{
+		"OnTrigger" "potatos_socket_pickup_buttonUnlock0.5-1"
+		"OnTrigger" "potatos_socket_propSetAnimationNoResetunlock0-1"
+		"OnTrigger" "potatos_socket_pickup_button_doorClose0-1"
+		"OnTrigger" "@potatos_eject_relayTrigger0-1"
+		"OnTrigger" "timer_potato_particlesDisable0-1"
+		"OnTrigger" "potatos_socket_spinnerStop0-1"
+	}
+	"origin" "-8 64 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1362"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "potatos_socket_open_relay"
+	connections
+	{
+		"OnTrigger" "potatos_socket_propSetAnimationNoResetopen0-1"
+		"OnTrigger" "potatos_socket_triggerEnable1.5-1"
+		"OnTrigger" "!selfDisable0-1"
+	}
+	"origin" "-8 64 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1364"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "potatos_socket_close_relay"
+	connections
+	{
+		"OnTrigger" "potatos_socket_propSetAnimationNoResetclose0-1"
+		"OnTrigger" "potatos_socket_triggerDisable0-1"
+		"OnTrigger" "!selfDisable0-1"
+		"OnTrigger" "@potatos_propKill0-1"
+		"OnTrigger" "@potatos_pickup_relayTrigger0-1"
+		"OnTrigger" "potatos_socket_playerproxyAddPotatosToPortalgun0-1"
+		"OnTrigger" "light_powerTurnOff0-1"
+		"OnTrigger" "potatos_socket_pickup_button_doorOpen0-1"
+	}
+	"origin" "-8 64 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1413"
+	"classname" "filter_multi"
+	"Filter01" "filter_name"
+	"Filter02" "filter_held"
+	"filtertype" "0"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_potatos"
+	"origin" "-24 64 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1448"
+	"classname" "filter_player_held"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_held"
+	"origin" "-24 64 -40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3051"
+	"classname" "func_rotating"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"drawinfastreflection" "0"
+	"fanfriction" "40"
+	"maxspeed" "1200"
+	"origin" "10 -19 -28"
+	"parentname" "potatos_socket_spinner_parent"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solidbsp" "0"
+	"spawnflags" "88"
+	"targetname" "potatos_socket_spinner"
+	"volume" "10"
+	solid
+	{
+		"id" "3045"
+		side
+		{
+			"id" "154"
+			"plane" "(6 -4 -24) (14 -4 -24) (14 -12 -24)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(6 -12 -32) (14 -12 -32) (14 -4 -32)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(6 -4 -24) (6 -12 -24) (6 -12 -32)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(14 -4 -32) (14 -12 -32) (14 -12 -24)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "150"
+			"plane" "(14 -4 -24) (6 -4 -24) (6 -4 -32)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "149"
+			"plane" "(14 -12 -32) (6 -12 -32) (6 -12 -24)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2432"
+	"classname" "func_door"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"drawinfastreflection" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"loopmovesound" "0"
+	"movedir" "0 90 0"
+	"origin" "0 4 -3"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "524"
+	"spawnpos" "1"
+	"speed" "120"
+	"targetname" "potatos_socket_pickup_button_door"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnPressed" "potatos_socket_close_relayTrigger0-1"
+	}
+	solid
+	{
+		"id" "2433"
+		side
+		{
+			"id" "142"
+			"plane" "(-6 -16 1.61283e-007) (-6 24 1.61283e-007) (6 24 1.61283e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "141"
+			"plane" "(-6 24 -6) (-6 -16 -6) (6 -16 -6)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "140"
+			"plane" "(-6 -16 -6) (-6 24 -6) (-6 24 1.61283e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "139"
+			"plane" "(6 24 -6) (6 -16 -6) (6 -16 1.61283e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 3] 0.25"
+			"vaxis" "[0 0 -1 -30] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "138"
+			"plane" "(-6 24 -6) (6 24 -6) (6 24 1.61283e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "137"
+			"plane" "(6 -16 -6) (-6 -16 -6) (-6 -16 1.61283e-007)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2539"
+	"classname" "logic_playerproxy"
+	"targetname" "potatos_socket_playerproxy"
+	"origin" "16 64 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "2587"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"parentname" "potatos_socket_spinner"
+	"spawnflags" "1"
+	"targetname" "info_potato_charge_p3"
+	"origin" "26 -2 -30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "2589"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"parentname" "potatos_socket_spinner"
+	"spawnflags" "1"
+	"targetname" "info_potato_charge_p1"
+	"origin" "8.1795 -12.225 -30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "2591"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"parentname" "potatos_socket_spinner"
+	"spawnflags" "1"
+	"targetname" "info_potato_charge_p2"
+	"origin" "-12.7128 -5.052 -30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "2593"
+	"classname" "info_particle_system"
+	"angles" "0 240 0"
+	"cpoint1" "info_potato_charge_p3"
+	"cpoint2" "info_potato_charge_p1"
+	"cpoint3" "info_potato_charge_p2"
+	"effect_name" "electrical_arc_01"
+	"parentname" "potatos_socket_spinner"
+	"start_active" "0"
+	"targetname" "particle_potato_charge"
+	"origin" "3.7776 -6.49 -28.972"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "3013"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "timer_potato_particles"
+	"UpperRandomBound" "1.5"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "particle_potato_chargeStart0-1"
+		"OnTimer" "particle_potato_chargeStop0.5-1"
+		"OnTimer" "snd_potato_zapPlaySound0-1"
+	}
+	"origin" "-16 -8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "2247"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "10 -10 -32"
+	"parentname" "potatos_socket_pickup_button_door"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "0"
+	"spawnflags" "3073"
+	"speed" "5"
+	"targetname" "potatos_socket_pickup_button"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnPressed" "potatos_socket_close_relayTrigger01"
+	}
+	solid
+	{
+		"id" "2248"
+		side
+		{
+			"id" "160"
+			"plane" "(-10 -16 -3.36591e-006) (-10 -4 -3.36591e-006) (30 -4 -3.36591e-006)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(-10 -4 -64) (-10 -16 -64) (30 -16 -64)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(-10 -16 -64) (-10 -4 -64) (-10 -4 -3.36591e-006)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "157"
+			"plane" "(30 -4 -64) (30 -16 -64) (30 -16 -3.36591e-006)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -61] 0.25"
+			"vaxis" "[0 0 -1 -30] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "156"
+			"plane" "(-10 -4 -64) (30 -4 -64) (30 -4 -3.36591e-006)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(30 -16 -64) (-10 -16 -64) (-10 -16 -3.36591e-006)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3300"
+	"classname" "func_brush"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "10 -17 -28"
+	"parentname" "potatos_socket_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solidbsp" "0"
+	"Solidity" "1"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "potatos_socket_spinner_parent"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "3301"
+		side
+		{
+			"id" "172"
+			"plane" "(6 -2 -24) (14 -2 -24) (14 -10 -24)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "171"
+			"plane" "(6 -10 -32) (14 -10 -32) (14 -2 -32)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "170"
+			"plane" "(6 -2 -24) (6 -10 -24) (6 -10 -32)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "169"
+			"plane" "(14 -2 -32) (14 -10 -32) (14 -10 -24)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "168"
+			"plane" "(14 -2 -24) (6 -2 -24) (6 -2 -32)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(14 -10 -32) (6 -10 -32) (6 -10 -24)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3624"
+	"classname" "point_teleport"
+	"angles" "15 270 0"
+	"spawnflags" "0"
+	"target" "@potatos_prop"
+	"targetname" "potatos_prop_teleport"
+	"origin" "10 -30 -28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

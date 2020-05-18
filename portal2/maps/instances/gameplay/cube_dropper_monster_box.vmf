@@ -1,0 +1,548 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5118"
+	"mapversion" "82"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "82"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "716"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_prop"
+	"origin" "0 -1.90735e-006 -528"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "731"
+	"classname" "func_brush"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "0 0 -572"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solidbsp" "0"
+	"Solidity" "0"
+	"spawnflags" "2"
+	"StartDisabled" "1"
+	"targetname" "cube_dropper_blocker"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "732"
+		side
+		{
+			"id" "626"
+			"plane" "(-48 -48 -568) (-48 48 -568) (48 48 -568)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "625"
+			"plane" "(-48 48 -576) (-48 -48 -576) (48 -48 -576)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "624"
+			"plane" "(-48 -48 -576) (-48 48 -576) (-48 48 -568)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "623"
+			"plane" "(48 48 -576) (48 -48 -576) (48 -48 -568)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "622"
+			"plane" "(-48 48 -576) (48 48 -576) (48 48 -568)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "621"
+			"plane" "(48 -48 -576) (-48 -48 -576) (-48 -48 -568)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "840"
+	"classname" "light"
+	"_fifty_percent_distance" "150"
+	"_light" "220 240 240 5"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "300"
+	"origin" "0 0 -608"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "738"
+	"classname" "filter_activator_class"
+	"filterclass" "prop_monster_box"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_weighted_cube"
+	"origin" "-32 -32 -608"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "736"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "cube_dropper_retrigger"
+	connections
+	{
+		"OnTrigger" "cube_dropper_loopCancelPending0-1"
+		"OnTrigger" "cube_dropper_dropTrigger0-1"
+	}
+	"origin" "0 48 -592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "740"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_gate"
+	connections
+	{
+		"OnTrigger" "cube_dropper_loopTrigger0-1"
+		"OnTrigger" "cube_dropper_gateDisable0-1"
+		"OnTrigger" "cube_dropper_boxFireUser10-1"
+	}
+	"origin" "0 16 -592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "720"
+	"classname" "trigger_multiple"
+	"filtername" "filter_weighted_cube"
+	"origin" "0 0 -518"
+	"spawnflags" "8"
+	"StartDisabled" "1"
+	"targetname" "cube_dropper_droptrigger"
+	"wait" "1"
+	connections
+	{
+		"OnEndTouchAll" "cube_dropper_propSetAnimationitem_dropper_close0-1"
+		"OnEndTouchAll" "cube_dropper_box_spawnerForceSpawn1-1"
+		"OnEndTouchAll" "cube_dropper_droptriggerDisable0-1"
+		"OnEndTouchAll" "cube_dropper_retriggerEnable2-1"
+		"OnEndTouchAll" "cube_dropper_blockerEnable0-1"
+		"OnEndTouchAll" "cube_dropper_blockerDisable2-1"
+		"OnTrigger" "cube_dropper_propSkin02-1"
+		"OnEndTouchAll" "cube_dropper_propSetDefaultAnimationitem_dropper_idle_closed0.1-1"
+	}
+	solid
+	{
+		"id" "721"
+		side
+		{
+			"id" "620"
+			"plane" "(48 -48 -440) (-48 -48 -440) (-48 48 -440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0.00390625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "619"
+			"plane" "(48 48 -596) (-48 48 -596) (-48 -48 -596)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0.00390625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "618"
+			"plane" "(-48 48 -596) (48 48 -596) (48 48 -440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.00390625] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "617"
+			"plane" "(48 -48 -596) (-48 -48 -596) (-48 -48 -440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.00390625] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "616"
+			"plane" "(48 48 -596) (48 -48 -596) (48 -48 -440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "615"
+			"plane" "(-48 -48 -596) (-48 48 -596) (-48 48 -440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "729"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_drop"
+	connections
+	{
+		"OnTrigger" "cube_dropper_propSetAnimationitem_dropper_open0.1-1"
+		"OnTrigger" "cube_dropper_droptriggerEnable0-1"
+		"OnTrigger" "cube_dropper_retriggerDisable0-1"
+		"OnTrigger" "cube_dropper_boxAddOutputOnUser1 !self:Dissolve::0:10-1"
+		"OnTrigger" "cube_dropper_gateEnable0-1"
+		"OnTrigger" "cube_dropper_propSkin10-1"
+		"OnTrigger" "cube_dropper_lights_activeTurnOn0-1"
+		"OnTrigger" "cube_dropper_lights_standbyTurnOff0-1"
+		"OnTrigger" "cube_dropper_propSetDefaultAnimationitem_dropper_idle0.2-1"
+	}
+	"origin" "0 64 -592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "734"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"targetname" "cube_dropper_loop"
+	connections
+	{
+		"OnTrigger" "cube_dropper_retriggerTrigger0-1"
+		"OnTrigger" "cube_dropper_loopTrigger0.5-1"
+	}
+	"origin" "0 32 -592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "378"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "cube_dropper_box_spawnerForceSpawn0-1"
+	}
+	"origin" "32 0 -112"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "725"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "@cube_dropper_autorespawn"
+	connections
+	{
+		"OnTrigger" "cube_dropper_gateTrigger0-1"
+	}
+	"origin" "16 -1.90735e-006 -592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "976"
+	"classname" "prop_monster_box"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"physdamagescale" "0.1"
+	"spawnflags" "256"
+	"StartAsBox" "1"
+	"targetname" "cube_dropper_box"
+	connections
+	{
+		"OnFizzled" "@cube_dropper_autorespawnTrigger0-1"
+	}
+	"origin" "0 0 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "cube_dropper_box_template"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_box_spawner"
+	"origin" "0 0 -88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "cube_dropper_box_template"
+	"Template01" "cube_dropper_box"
+	"origin" "0 0 -112"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "742"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "0 -1.90735e-006 -528"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "714"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "@cube_dropper"
+	connections
+	{
+		"OnTrigger" "cube_dropper_gateTrigger0-1"
+	}
+	"origin" "0 -1.90735e-006 -592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-80.6421 131.262 -591.318]"
+		"look" "[132.92 -206.983 -610.882]"
+	}
+	camera
+	{
+		"position" "[357.071 -125.651 -657.22]"
+		"look" "[44.9733 -17.0214 -430.956]"
+	}
+}
+cordons
+{
+	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-1024 -1024 -1024)"
+			"maxs" "(1024 1024 1024)"
+		}
+	}
+}

@@ -1,0 +1,284 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4697"
+	"mapversion" "9"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "9"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"musicpostfix" "Waterfront"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "trigger_hurt"
+	"damage" "2"
+	"damagecap" "20"
+	"damagemodel" "0"
+	"damagetype" "8"
+	"nodmgforce" "0"
+	"origin" "8 0 64"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "hurt"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "1"
+			"plane" "(160 -24 128) (-144 -24 128) (-144 24 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -30.3154] 0.5"
+			"vaxis" "[0 -1 0 31.8828] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-144 24 0) (160 24 0) (160 24 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -15.8826] 0.5"
+			"vaxis" "[0 0 -1 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(160 -24 0) (-144 -24 0) (-144 -24 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -15.8826] 0.5"
+			"vaxis" "[0 0 -1 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(160 24 0) (-144 24 0) (-144 -24 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -30.3154] 0.5"
+			"vaxis" "[0 -1 0 31.8828] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(160 -24 0) (160 -24 128) (160 24 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -46.3154] 0.5"
+			"vaxis" "[0 0 -1 16] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-144 24 0) (-144 24 128) (-144 -24 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "info_particle_target"
+	"angles" "0 270 0"
+	"targetname" "point5"
+	"origin" "105 -4 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "70"
+	"classname" "info_particle_system"
+	"angles" "0 270 0"
+	"cpoint1" "point1"
+	"cpoint1_parent" "0"
+	"cpoint2" "point2"
+	"cpoint2_parent" "0"
+	"cpoint3" "point3"
+	"cpoint3_parent" "0"
+	"cpoint4" "point4"
+	"cpoint4_parent" "0"
+	"cpoint5" "point5"
+	"cpoint5_parent" "0"
+	"cpoint6" "point6"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "inferno_grow"
+	"start_active" "0"
+	"targetname" "particles"
+	"origin" "-127.473 8 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "135"
+	"classname" "info_particle_target"
+	"angles" "0 270 0"
+	"targetname" "point2"
+	"origin" "-30 12 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "200"
+	"classname" "info_particle_target"
+	"angles" "0 270 0"
+	"targetname" "point1"
+	"origin" "-72 -1 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "268"
+	"classname" "info_particle_target"
+	"angles" "0 270 0"
+	"targetname" "point3"
+	"origin" "5 -8 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "333"
+	"classname" "info_particle_target"
+	"angles" "0 270 0"
+	"targetname" "point4"
+	"origin" "59 10 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "398"
+	"classname" "info_particle_target"
+	"angles" "0 270 0"
+	"targetname" "point6"
+	"origin" "142 10 0.0291748"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "8268"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template"
+	"Template01" "particles"
+	"Template02" "point1"
+	"Template03" "point2"
+	"Template04" "point3"
+	"Template05" "point4"
+	"Template06" "point5"
+	"Template07" "point6"
+	"Template08" "hurt"
+	"Template09" "sound"
+	connections
+	{
+		"OnEntitySpawned" "particlesStart0-1"
+		"OnEntitySpawned" "hurtEnable1.5-1"
+	}
+	"origin" "-112 -8 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

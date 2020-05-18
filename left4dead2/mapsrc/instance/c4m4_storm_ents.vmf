@@ -1,0 +1,918 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4778"
+	"mapversion" "19"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "_trigger_based_lightning"
+		"visgroupid" "4"
+		"color" "252 157 178"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "19"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"musicpostfix" "Waterfront"
+	"skyname" "sky_day01_01"
+	group
+	{
+		"id" "1"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5728"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5729"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5728"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5860"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5728"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5991"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5728"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6122"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5728"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "17593"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "18702"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "2"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "-544 5024 472"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "5"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "-4640 7632 480"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "8"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "-1380 6288 480"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "14"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "-8072 7504 480"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "17"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "-2240 8080 472"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "20"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "3408 -1584 472"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "23"
+		"classname" "func_instance"
+		"angles" "-0 0 0"
+		"file" "instance/fx_lightning_strike.vmf"
+		"fixup_style" "1"
+		"origin" "3576 2192 480"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "1"
+			"visgroupid" "4"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+entity
+{
+	"id" "5730"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_04"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_04"
+	"origin" "-970 -160 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5729"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5795"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_04"
+	"origin" "-970 -160 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5729"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5861"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_05"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_05"
+	"origin" "-874 -64 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5860"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5926"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_05"
+	"origin" "-874 -64 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5860"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5992"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_03"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_03"
+	"origin" "-1130 -32 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5991"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6057"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_03"
+	"origin" "-1130 -32 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5991"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6123"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_02"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_02"
+	"origin" "-926 148 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "6122"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6188"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_02"
+	"origin" "-926 148 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "6122"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17594"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_4"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_4"
+	"origin" "-1250 216 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "17593"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17659"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_4"
+	"origin" "-1250 216 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "17593"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17724"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_8"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_8"
+	"origin" "-1412 216 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "17593"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17789"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_8"
+	"origin" "-1412 216 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "17593"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18703"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_5"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_5"
+	"origin" "-1152 516 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "18702"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18768"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_5"
+	"origin" "-1152 516 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "18702"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18833"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_9"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_9"
+	"origin" "-1396 488 -7484"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "18702"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18898"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_9"
+	"origin" "-1396 488 -7676"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "18702"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_lightning_strike"
+	connections
+	{
+		"OnTrigger" "fx_screen_flashStart0-1"
+		"OnTrigger" "fx_screen_flashStop1-1"
+		"OnTrigger" "case_lightning_strikePickRandomShuffle0-1"
+	}
+	"origin" "-960 0 -7488"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_01"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_01"
+	"origin" "-1002 0 -7484"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "166"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_01"
+	"origin" "-1002 0 -7676"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4340"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_screenglow"
+	"start_active" "0"
+	"targetname" "fx_screen_flash"
+	"origin" "-982 0 -7676"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5447"
+	"classname" "logic_case"
+	"targetname" "case_lightning_strike"
+	connections
+	{
+		"OnCase01" "fx_storm_lightning_strike_skybox_01Start0-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01Stop1-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02Stop1-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02Start0-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03Stop1-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03Start0-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04Stop1-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04Start0-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05Stop1-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05Start0-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06Stop1-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06Start0.1-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07Stop1-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07Start0.1-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08Stop1-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08Start0.1-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09Stop1-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09Start0.1-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06Stop1-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06Start0.1-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4Start0.1-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4Stop1-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8Start0.1-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8Stop1-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5Start0.1-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5Stop1-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5Start0.1-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5Stop1-1"
+	}
+	"origin" "-944 0 -7488"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12776"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_06"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_06"
+	"origin" "-704 -36 -7484"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12841"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"start_active" "0"
+	"targetname" "fx_lightning_strike_impact_06"
+	"origin" "-704 -36 -7676"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "13696"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_07"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_07"
+	"origin" "-1236 40 -7484"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "13761"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_07"
+	"origin" "-1236 40 -7676"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14411"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_08"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_08"
+	"origin" "-1012 248 -7484"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14476"
+	"classname" "info_particle_target"
+	"angles" "0 0 0"
+	"targetname" "fx_lightning_strike_impact_08"
+	"origin" "-1012 248 -7676"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15514"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1" "fx_lightning_strike_impact_09"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "storm_lightning_02"
+	"start_active" "0"
+	"targetname" "fx_storm_lightning_strike_skybox_09"
+	"origin" "-860 -256 -7484"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "15579"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"start_active" "0"
+	"targetname" "fx_lightning_strike_impact_09"
+	"origin" "-860 -256 -7676"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

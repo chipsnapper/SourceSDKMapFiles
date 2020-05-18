@@ -1,0 +1,536 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4613"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"musicpostfix" "Waterfront"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "1"
+			"plane" "(-16.4444 -24.9349 69) (-16.4398 24.0744 69) (-7.43536 24.0638 69)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 -13.7459] 0.25"
+			"vaxis" "[0 1 0 39.3149] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-16.4398 24.0744 62) (-16.4444 -24.9349 62) (-7.43735 -24.9351 62)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 -13.7459] 0.25"
+			"vaxis" "[0 1 0 39.3149] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-7.43601 24.0638 62) (-7.44018 -24.9452 62) (-7.44018 -24.9452 69)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 -1 0 -39.313] 0.25"
+			"vaxis" "[0 0 -1 -4.0018] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-16.4441 -24.9343 62) (-16.4395 24.0746 62) (-16.4395 24.0746 69)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 -1 0 -39.313] 0.25"
+			"vaxis" "[0 0 -1 -4.0018] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-7.44101 -24.945 62) (-16.4446 -24.9344 62) (-16.4446 -24.9344 69)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 -13.7459] 0.25"
+			"vaxis" "[0 0 -1 -4.0018] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-16.44 24.075 62) (-7.43624 24.0643 62) (-7.43624 24.0643 69)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[-1 0 0 -13.7459] 0.25"
+			"vaxis" "[0 0 -1 -4.0018] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "195 120 0"
+			"groupid" "2"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "195 120 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "30"
+	"_constant_attn" "25000"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "15"
+	"_light" "251 236 179 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 20"
+	"_zero_percent_distance" "0"
+	"angles" "0 11 0"
+	"pitch" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "115.707 27.6852 27.6608"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 4500]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "30"
+	"_constant_attn" "35000"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "15"
+	"_light" "251 236 179 550"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 20"
+	"_zero_percent_distance" "0"
+	"angles" "0 355 0"
+	"pitch" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "116.329 -27.5268 27.6608"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 4500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "beam_spotlight"
+	"angles" "0 165 0"
+	"disablereceiveshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" "1"
+	"maxspeed" "420"
+	"renderamt" "64"
+	"rendercolor" "0 15 147"
+	"renderfx" "9"
+	"rendermode" "3"
+	"spawnflags" "7"
+	"spotlightlength" "40"
+	"spotlightwidth" "24"
+	"origin" "-12.3806 18.6697 65.9995"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "beam_spotlight"
+	"angles" "0 255 0"
+	"disablereceiveshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" "1"
+	"maxspeed" "420"
+	"renderamt" "64"
+	"rendercolor" "145 0 3"
+	"renderfx" "9"
+	"rendermode" "3"
+	"spawnflags" "7"
+	"spotlightlength" "40"
+	"spotlightwidth" "24"
+	"origin" "-12.0414 -18.7015 65.9995"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "beam_spotlight"
+	"angles" "0 75 0"
+	"disablereceiveshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" "1"
+	"maxspeed" "420"
+	"renderamt" "64"
+	"rendercolor" "149 0 4"
+	"renderfx" "9"
+	"rendermode" "3"
+	"spawnflags" "7"
+	"spotlightlength" "40"
+	"spotlightwidth" "24"
+	"origin" "-12.0414 -18.7015 65.9995"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "beam_spotlight"
+	"angles" "0 345 0"
+	"disablereceiveshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" "1"
+	"maxspeed" "420"
+	"renderamt" "64"
+	"rendercolor" "0 13 132"
+	"renderfx" "9"
+	"rendermode" "3"
+	"spawnflags" "7"
+	"spotlightlength" "40"
+	"spotlightwidth" "24"
+	"origin" "-12.3806 18.6697 65.9995"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "26"
+	"classname" "beam_spotlight"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" ".5"
+	"maxspeed" "100"
+	"renderamt" "80"
+	"rendercolor" "252 243 226"
+	"rendermode" "5"
+	"spawnflags" "3"
+	"spotlightlength" "128"
+	"spotlightwidth" "40"
+	"targetname" "Headlight"
+	"origin" "111.946 -26.4975 28.076"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "beam_spotlight"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" ".5"
+	"maxspeed" "100"
+	"renderamt" "80"
+	"rendercolor" "252 243 226"
+	"rendermode" "5"
+	"spawnflags" "3"
+	"spotlightlength" "128"
+	"spotlightwidth" "40"
+	"targetname" "Headlight"
+	"origin" "111.972 25.2182 28.076"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "30"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "2250"
+	"fademindist" "2000"
+	"fadescale" "1"
+	"model" "models/props_vehicles/police_car_city.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-0.260422 -0.428009 -0.15546"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -2268]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "2250"
+	"fademindist" "2000"
+	"fadescale" "1"
+	"model" "models/props_vehicles/police_car_city_glass.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-0.260422 -0.428009 -0.15546"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -1768]"
+	}
+}
+entity
+{
+	"id" "38"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "42"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "1"
+	"_light" "248 64 31 50"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"_zero_percent_distance" "0"
+	"angles" "-45 195 0"
+	"pitch" "-45"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-115.152 -34.3787 53.2365"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 4500]"
+	}
+}
+entity
+{
+	"id" "43"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"framerate" "10.0"
+	"GlowProxySize" "6"
+	"HDRColorScale" "1"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "200"
+	"rendercolor" "248 64 31"
+	"renderfx" "14"
+	"rendermode" "9"
+	"scale" ".66"
+	"spawnflags" "1"
+	"origin" "-102.799 -33.558 36"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "42"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_inner_cone" "1"
+	"_light" "248 64 31 50"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"_zero_percent_distance" "0"
+	"angles" "-45 165 0"
+	"pitch" "-45"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-114.051 34.6794 53.2365"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 4500]"
+	}
+}
+entity
+{
+	"id" "51"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"framerate" "10.0"
+	"GlowProxySize" "6"
+	"HDRColorScale" "1"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "200"
+	"rendercolor" "248 64 31"
+	"renderfx" "14"
+	"rendermode" "9"
+	"scale" ".66"
+	"spawnflags" "1"
+	"origin" "-103.076 32.7532 36"
+	editor
+	{
+		"color" "195 120 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-1024 -1024 -1024)"
+			"maxs" "(1024 1024 1024)"
+		}
+	}
+}

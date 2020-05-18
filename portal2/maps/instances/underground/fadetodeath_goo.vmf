@@ -1,0 +1,93 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5118"
+	"mapversion" "18"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "18"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "1724"
+	"classname" "player_loadsaved"
+	"duration" ".5"
+	"holdtime" "100"
+	"loadtime" "2.5"
+	"renderamt" "255"
+	"rendercolor" "71 48 14"
+	"targetname" "fade_to_death"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "1732"
+	"classname" "logic_relay"
+	"targetname" "reload_relay"
+	connections
+	{
+		"OnTrigger" "fade_to_deathReload0-1"
+	}
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1730"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "reload_relayTrigger0-1"
+	}
+	"origin" "32 -16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

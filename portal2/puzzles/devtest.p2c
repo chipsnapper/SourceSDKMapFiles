@@ -1,0 +1,3184 @@
+"portal2_puzzle"
+{
+	"AppID"		"644"
+	"Version"		"9"
+	"ChamberSize"		"8 6 5"
+	"Voxels"
+	{
+		"Voxel"
+		{
+			"Position"		"0 0 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 0 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 0 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 0 3"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 0 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 1 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 1 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 1 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 1 3"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 1 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 2 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 2 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 2 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 2 3"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 2 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 3 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 3 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 3 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 3 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 3 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 4 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 4 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 4 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 4 3"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 4 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 5 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 5 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 5 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 5 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 5 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"0 6 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 6 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"0 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 0 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 0 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 0 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 1 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 1 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 2 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 2 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 3 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 3 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 4 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 4 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 5 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 5 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"1 6 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 6 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"1 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 0 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 0 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 0 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 1 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 1 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 2 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 2 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 3 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 3 1"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 3 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 4 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 4 1"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 4 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 5 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 5 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"2 6 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 6 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"2 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 0 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 0 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 0 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 1 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 1 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 2 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 2 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 3 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 3 1"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 3 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 4 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 4 1"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 4 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 5 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 5 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"3 6 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 6 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"3 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 0 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 0 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 0 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 1 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 1 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 2 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 2 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 3 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 3 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 4 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 4 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 5 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 5 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"4 6 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 6 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"4 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 0 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 0 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 0 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 1 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 1 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 2 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 2 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 3 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 4 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 5 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 5 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 6 0"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 6 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"5 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"5 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 0 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 0 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 0 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 1 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 1 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 2 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 2 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 3 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 3 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 4 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 4 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 5 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 5 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 6 0"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 6 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"6 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"6 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 0 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 0 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 0 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 0 4"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 1 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 1 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 2 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 2 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 3 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 3 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 4 0"
+			"Solid"		"1"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 4 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 5 0"
+			"Solid"		"1"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 5 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 6 0"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 6 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"7 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"0"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"7 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 0 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 0 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 0 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 0 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 0 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 0 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 1 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 1 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 1 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 1 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 1 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 1 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 2 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 2 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 2 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 2 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 2 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 2 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 3 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 3 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 3 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 3 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 3 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 3 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 4 0"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 4 1"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 4 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 4 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 4 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 4 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 5 0"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"8 5 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"8 5 2"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 5 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 5 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 5 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 6 0"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"8 6 1"
+			"Solid"		"0"
+			"Portal0"		"0"
+			"Portal1"		"0"
+			"Portal2"		"0"
+		}
+		"Voxel"
+		{
+			"Position"		"8 6 2"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 6 3"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 6 4"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+		"Voxel"
+		{
+			"Position"		"8 6 5"
+			"Solid"		"0"
+			"Portal0"		"1"
+			"Portal1"		"1"
+			"Portal2"		"1"
+		}
+	}
+	"Items"
+	{
+		"Item"
+		{
+			"Index"		"0"
+			"Type"		"ITEM_ENTRY_DOOR"
+			"Deletable"		"0"
+			"VoxelPos"		"0 1 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 180 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"1"
+			"Type"		"ITEM_EXIT_DOOR"
+			"Deletable"		"0"
+			"VoxelPos"		"6 5 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_START_OPEN"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"2"
+			"Type"		"ITEM_OBSERVATION_ROOM"
+			"Deletable"		"0"
+			"VoxelPos"		"2 5 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"3"
+			"Type"		"ITEM_TURRET"
+			"Deletable"		"1"
+			"VoxelPos"		"4 5 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"4"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 3 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"1"
+			"ITEM_PROPERTY_START_DEPLOYED"		"0"
+			"ITEM_PROPERTY_PORTALABLE"		"1"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_60_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"5"
+			"Type"		"ITEM_LASER_RELAY_OFFSET"
+			"Deletable"		"1"
+			"VoxelPos"		"2 0 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 -90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"6"
+			"Type"		"ITEM_TBEAM"
+			"Deletable"		"1"
+			"VoxelPos"		"0 1 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_CONNECTION_COUNT_POLARITY"		"0"
+			"ITEM_PROPERTY_START_ENABLED"		"0"
+			"ITEM_PROPERTY_START_REVERSED"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"7"
+			"Type"		"ITEM_LIGHT_BRIDGE"
+			"Deletable"		"1"
+			"VoxelPos"		"0 1 4"
+			"LocalPos"		"0 0.4 0"
+			"Angles"		"0 -90 -90"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"8"
+			"Type"		"ITEM_CUBE_COMPANION"
+			"Deletable"		"1"
+			"VoxelPos"		"5 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"1"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"9"
+			"Type"		"ITEM_DROPPER_CUBE"
+			"Deletable"		"0"
+			"VoxelPos"		"5 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"1"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"10"
+			"Type"		"ITEM_LASER_CATCHER_OFFSET"
+			"Deletable"		"1"
+			"VoxelPos"		"3 0 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 -90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"11"
+			"Type"		"ITEM_PANEL_STAIRS"
+			"Deletable"		"1"
+			"VoxelPos"		"2 1 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_START_DEPLOYED"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"12"
+			"Type"		"ITEM_GOO"
+			"Deletable"		"1"
+			"VoxelPos"		"4 4 0"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"13"
+			"Type"		"ITEM_BUTTON_PEDESTAL"
+			"Deletable"		"1"
+			"VoxelPos"		"3 5 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 -90 0"
+			"ITEM_PROPERTY_TIMER_DELAY"		"3"
+			"ITEM_PROPERTY_TIMER_SOUND"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"14"
+			"Type"		"ITEM_BUTTON_WEIGHTED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 5 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_BUTTON_TYPE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"15"
+			"Type"		"ITEM_BUTTON_CUBE"
+			"Deletable"		"1"
+			"VoxelPos"		"1 5 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_BUTTON_TYPE"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"16"
+			"Type"		"ITEM_BUTTON_SPHERE"
+			"Deletable"		"1"
+			"VoxelPos"		"2 5 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_BUTTON_TYPE"		"2"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"17"
+			"Type"		"ITEM_CUBE_SPHERE"
+			"Deletable"		"1"
+			"VoxelPos"		"6 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"3"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"18"
+			"Type"		"ITEM_DROPPER_CUBE"
+			"Deletable"		"0"
+			"VoxelPos"		"6 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"3"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"19"
+			"Type"		"ITEM_BARRIER_HAZARD"
+			"Deletable"		"1"
+			"VoxelPos"		"7 3 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"0"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"20"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"7 2 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 -90 -90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"21"
+			"Type"		"ITEM_BARRIER_HAZARD_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"7 4 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 90 90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"22"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 4 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"3"
+			"ITEM_PROPERTY_START_DEPLOYED"		"1"
+			"ITEM_PROPERTY_PORTALABLE"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_30_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"23"
+			"Type"		"ITEM_CATAPULT"
+			"Deletable"		"1"
+			"VoxelPos"		"1 1 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 0"
+			"ITEM_PROPERTY_CATAPULT_SPEED"		"289.916992"
+			"ITEM_PROPERTY_TARGET_NAME"		"0"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"0"
+			"Facing"		"0 0 0"
+			"CatapultHeight"		"1.827440"
+		}
+		"Item"
+		{
+			"Index"		"24"
+			"Type"		"ITEM_CATAPULT_TARGET"
+			"Deletable"		"1"
+			"VoxelPos"		"5 1 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"25"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 3 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"2"
+			"ITEM_PROPERTY_START_DEPLOYED"		"1"
+			"ITEM_PROPERTY_PORTALABLE"		"1"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_45_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"26"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 3 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"3"
+			"ITEM_PROPERTY_START_DEPLOYED"		"0"
+			"ITEM_PROPERTY_PORTALABLE"		"1"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_30_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"27"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 3 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"0"
+			"ITEM_PROPERTY_START_DEPLOYED"		"1"
+			"ITEM_PROPERTY_PORTALABLE"		"1"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_90_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"28"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 4 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"0"
+			"ITEM_PROPERTY_START_DEPLOYED"		"0"
+			"ITEM_PROPERTY_PORTALABLE"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_90_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"29"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 4 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"1"
+			"ITEM_PROPERTY_START_DEPLOYED"		"1"
+			"ITEM_PROPERTY_PORTALABLE"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_60_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"30"
+			"Type"		"ITEM_PANEL_ANGLED"
+			"Deletable"		"1"
+			"VoxelPos"		"0 4 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_TYPE"		"2"
+			"ITEM_PROPERTY_START_DEPLOYED"		"0"
+			"ITEM_PROPERTY_PORTALABLE"		"0"
+			"ITEM_PROPERTY_ANGLED_PANEL_ANIMATION"		"ramp_45_deg_open"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"31"
+			"Type"		"ITEM_LASER_EMITTER_OFFSET"
+			"Deletable"		"1"
+			"VoxelPos"		"4 0 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 -90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"32"
+			"Type"		"ITEM_CUBE_REFLECTOR"
+			"Deletable"		"1"
+			"VoxelPos"		"7 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"2"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"33"
+			"Type"		"ITEM_DROPPER_CUBE"
+			"Deletable"		"0"
+			"VoxelPos"		"7 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"2"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"34"
+			"Type"		"ITEM_CUBE_WEIGHTED"
+			"Deletable"		"1"
+			"VoxelPos"		"4 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"0"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"35"
+			"Type"		"ITEM_DROPPER_CUBE"
+			"Deletable"		"0"
+			"VoxelPos"		"4 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_CUBE_TYPE"		"0"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_AUTO_DROP_CUBE"		"0"
+			"ITEM_PROPERTY_AUTO_RESPAWN_CUBE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"36"
+			"Type"		"ITEM_LASER_CATCHER_CENTER"
+			"Deletable"		"1"
+			"VoxelPos"		"3 0 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 -90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"37"
+			"Type"		"ITEM_LASER_EMITTER_CENTER"
+			"Deletable"		"1"
+			"VoxelPos"		"4 0 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 -90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"38"
+			"Type"		"ITEM_LASER_RELAY_CENTER"
+			"Deletable"		"1"
+			"VoxelPos"		"2 0 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 -90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"39"
+			"Type"		"ITEM_RAIL_PLATFORM"
+			"Deletable"		"1"
+			"VoxelPos"		"6 5 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 -90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_RAIL_OSCILLATE"		"1"
+			"ITEM_PROPERTY_RAIL_STARTING_POSITION"		"0"
+			"ITEM_PROPERTY_RAIL_TRAVEL_DISTANCE"		"0"
+			"ITEM_PROPERTY_RAIL_SPEED"		"100"
+			"ITEM_PROPERTY_RAIL_TRAVEL_DIRECTION"		"0"
+			"ITEM_PROPERTY_RAIL_START_ACTIVE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"40"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"6 5 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 -90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"41"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"4 5 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 -90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"42"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"6 5 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"43"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"7 5 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"44"
+			"Type"		"ITEM_RAIL_PLATFORM"
+			"Deletable"		"1"
+			"VoxelPos"		"4 5 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 -90 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_RAIL_OSCILLATE"		"0"
+			"ITEM_PROPERTY_RAIL_STARTING_POSITION"		"0"
+			"ITEM_PROPERTY_RAIL_TRAVEL_DISTANCE"		"0"
+			"ITEM_PROPERTY_RAIL_SPEED"		"100"
+			"ITEM_PROPERTY_RAIL_TRAVEL_DIRECTION"		"0"
+			"ITEM_PROPERTY_RAIL_START_ACTIVE"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"45"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"4 5 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"90 -90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"46"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"4 5 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 -90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"47"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"4 5 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 90 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"48"
+			"Type"		"ITEM_RAIL_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"7 5 3"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"49"
+			"Type"		"ITEM_GLASS"
+			"Deletable"		"1"
+			"VoxelPos"		"3 2 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 180 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"50"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"1"
+			"VoxelPos"		"3 3 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 90 -90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"51"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"1"
+			"VoxelPos"		"3 2 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"-90 0 0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"52"
+			"Type"		"ITEM_BARRIER_EXTENT"
+			"Deletable"		"1"
+			"VoxelPos"		"3 2 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 -90 90"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"53"
+			"Type"		"ITEM_PISTON_PLATFORM"
+			"Deletable"		"1"
+			"VoxelPos"		"6 2 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_PISTON_LIFT_BOTTOM_LEVEL"		"0"
+			"ITEM_PROPERTY_PISTON_LIFT_TOP_LEVEL"		"1"
+			"ITEM_PROPERTY_PISTON_LIFT_START_UP"		"0"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"54"
+			"Type"		"ITEM_PISTON_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"6 2 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"Facing"		"0 0 0"
+			"EndHandle"		"0"
+		}
+		"Item"
+		{
+			"Index"		"55"
+			"Type"		"ITEM_PISTON_PLATFORM_EXTENT"
+			"Deletable"		"0"
+			"VoxelPos"		"6 2 2"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"Facing"		"0 0 0"
+			"EndHandle"		"1"
+		}
+		"Item"
+		{
+			"Index"		"56"
+			"Type"		"ITEM_PAINT_BOUNCE"
+			"Deletable"		"1"
+			"VoxelPos"		"0 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"0"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"57"
+			"Type"		"ITEM_DROPPER_PAINT"
+			"Deletable"		"1"
+			"VoxelPos"		"0 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"0"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"58"
+			"Type"		"ITEM_PAINT_SPEED"
+			"Deletable"		"1"
+			"VoxelPos"		"1 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"1"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"59"
+			"Type"		"ITEM_DROPPER_PAINT"
+			"Deletable"		"1"
+			"VoxelPos"		"1 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"1"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"60"
+			"Type"		"ITEM_PAINT_PORTAL"
+			"Deletable"		"1"
+			"VoxelPos"		"2 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"2"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"61"
+			"Type"		"ITEM_DROPPER_PAINT"
+			"Deletable"		"1"
+			"VoxelPos"		"2 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"2"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"62"
+			"Type"		"ITEM_PAINT_WATER"
+			"Deletable"		"1"
+			"VoxelPos"		"3 0 1"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"3"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+		"Item"
+		{
+			"Index"		"63"
+			"Type"		"ITEM_DROPPER_PAINT"
+			"Deletable"		"1"
+			"VoxelPos"		"3 0 4"
+			"LocalPos"		"0 0 0"
+			"Angles"		"0 0 180"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"0"
+			"ITEM_PROPERTY_PAINT_TYPE"		"3"
+			"ITEM_PROPERTY_DROPPER_ENABLED"		"1"
+			"ITEM_PROPERTY_PAINT_FLOW_TYPE"		"1"
+			"ITEM_PROPERTY_START_ENABLED"		"1"
+			"ITEM_PROPERTY_VERTICAL_ALIGNMENT"		"1"
+			"Facing"		"0 0 0"
+		}
+	}
+	"Connections"
+	{
+		"Connection"
+		{
+			"Sender"		"8"
+			"Receiver"		"9"
+			"Type"		"CONNECTION_BOX_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"17"
+			"Receiver"		"18"
+			"Type"		"CONNECTION_BOX_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"19"
+			"Receiver"		"20"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"19"
+			"Receiver"		"21"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"23"
+			"Receiver"		"24"
+			"Type"		"CONNECTION_CATAPULT_TARGET"
+		}
+		"Connection"
+		{
+			"Sender"		"32"
+			"Receiver"		"33"
+			"Type"		"CONNECTION_BOX_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"34"
+			"Receiver"		"35"
+			"Type"		"CONNECTION_BOX_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"13"
+			"Receiver"		"35"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"15"
+			"Receiver"		"19"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"14"
+			"Receiver"		"6"
+			"Type"		"CONNECTION_STANDARD"
+		}
+		"Connection"
+		{
+			"Sender"		"39"
+			"Receiver"		"40"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"39"
+			"Receiver"		"41"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"39"
+			"Receiver"		"42"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"39"
+			"Receiver"		"43"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"44"
+			"Receiver"		"45"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"44"
+			"Receiver"		"46"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"44"
+			"Receiver"		"47"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"44"
+			"Receiver"		"48"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"49"
+			"Receiver"		"50"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"49"
+			"Receiver"		"51"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"49"
+			"Receiver"		"52"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"53"
+			"Receiver"		"54"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"53"
+			"Receiver"		"55"
+			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
+		}
+		"Connection"
+		{
+			"Sender"		"56"
+			"Receiver"		"57"
+			"Type"		"CONNECTION_PAINT_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"58"
+			"Receiver"		"59"
+			"Type"		"CONNECTION_PAINT_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"60"
+			"Receiver"		"61"
+			"Type"		"CONNECTION_PAINT_DROPPER"
+		}
+		"Connection"
+		{
+			"Sender"		"62"
+			"Receiver"		"63"
+			"Type"		"CONNECTION_PAINT_DROPPER"
+		}
+	}
+}
