@@ -1,0 +1,899 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5675"
+	"mapversion" "13"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "13"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "1951"
+	"classname" "env_soundscape"
+	"radius" "140"
+	"soundscape" "train.brickroom"
+	"StartDisabled" "0"
+	"origin" "-964.364 617.975 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11500]"
+	}
+}
+entity
+{
+	"id" "1508"
+	"classname" "env_soundscape"
+	"position0" "twalkway_dumpster"
+	"position1" "twalkway_stairs"
+	"position2" "twalkway_transformer"
+	"position3" "twalkway_pipes"
+	"position4" "twalkway_trash"
+	"position5" "twalkway_tank"
+	"position6" "twalkway_pipesb"
+	"radius" "200"
+	"soundscape" "train.twalkway_02"
+	"StartDisabled" "0"
+	"origin" "-967.188 940.827 -124.414"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 6500]"
+	}
+}
+entity
+{
+	"id" "1042"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"position5" "bombsitea_bombtarget"
+	"radius" "200"
+	"soundscape" "train.courtyarda_02"
+	"StartDisabled" "0"
+	"origin" "796.641 632.277 -208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -10268]"
+	}
+}
+entity
+{
+	"id" "1086"
+	"classname" "env_soundscape"
+	"radius" "200"
+	"soundscape" "train.brickroom_entrance"
+	"StartDisabled" "0"
+	"origin" "-559.314 -345.404 -210"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11500]"
+	}
+}
+entity
+{
+	"id" "475"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "480"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "380 -1280 -172"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 2000]"
+	}
+}
+entity
+{
+	"id" "486"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "172"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "-480 -1728 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -4768]"
+	}
+}
+entity
+{
+	"id" "497"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "152"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "1332 -892 -236"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -5768]"
+	}
+}
+entity
+{
+	"id" "508"
+	"classname" "env_soundscape"
+	"radius" "280"
+	"soundscape" "train.brickroom"
+	"StartDisabled" "0"
+	"origin" "-960 -548 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11500]"
+	}
+}
+entity
+{
+	"id" "519"
+	"classname" "env_soundscape"
+	"position0" "backhall_tanka"
+	"position1" "backhall_tankb"
+	"radius" "400"
+	"soundscape" "train.backhall"
+	"StartDisabled" "0"
+	"origin" "-980 -1724 -100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 4000]"
+	}
+}
+entity
+{
+	"id" "530"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "228"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "1292 -1716 -172"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 1500]"
+	}
+}
+entity
+{
+	"id" "541"
+	"classname" "env_soundscape"
+	"position0" "catwalk_windowa"
+	"position1" "catwalk_windowb"
+	"position2" "catwalk_windowc"
+	"position3" "catwalk_windowd"
+	"position4" "catwalk_windowe"
+	"radius" "272"
+	"soundscape" "train.bombsitebcatwalk"
+	"StartDisabled" "0"
+	"origin" "120 -1788 68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 500]"
+	}
+}
+entity
+{
+	"id" "552"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "480"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "-320 -1276 -172"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 1500]"
+	}
+}
+entity
+{
+	"id" "563"
+	"classname" "env_soundscape"
+	"position2" "middle_pipes"
+	"position3" "middle_birds"
+	"radius" "200"
+	"soundscape" "train.middle"
+	"StartDisabled" "0"
+	"origin" "1024 -628 -120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 15000]"
+	}
+}
+entity
+{
+	"id" "574"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "172"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "-460 -876 -276"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 3500]"
+	}
+}
+entity
+{
+	"id" "585"
+	"classname" "env_soundscape"
+	"position0" "catwalk_windowa"
+	"position1" "catwalk_windowb"
+	"position2" "catwalk_windowc"
+	"position3" "catwalk_windowd"
+	"position4" "catwalk_windowe"
+	"radius" "272"
+	"soundscape" "train.bombsitebcatwalk"
+	"StartDisabled" "0"
+	"origin" "-324 -1784 68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 0]"
+	}
+}
+entity
+{
+	"id" "596"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "152"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "1024 -876 -180"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -5268]"
+	}
+}
+entity
+{
+	"id" "607"
+	"classname" "env_soundscape"
+	"position0" "catwalk_windowa"
+	"position1" "catwalk_windowb"
+	"position2" "catwalk_windowc"
+	"position3" "catwalk_windowd"
+	"position4" "catwalk_windowe"
+	"radius" "272"
+	"soundscape" "train.bombsitebcatwalk"
+	"StartDisabled" "0"
+	"origin" "628 -1792 68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 1000]"
+	}
+}
+entity
+{
+	"id" "618"
+	"classname" "env_soundscape"
+	"position0" "backhall_tanka"
+	"position1" "backhall_tankb"
+	"radius" "392"
+	"soundscape" "train.backhall"
+	"StartDisabled" "0"
+	"origin" "-984 -872 -100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 4500]"
+	}
+}
+entity
+{
+	"id" "629"
+	"classname" "env_soundscape"
+	"radius" "100"
+	"soundscape" "train.restroom"
+	"StartDisabled" "0"
+	"origin" "-828 388 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 6500]"
+	}
+}
+entity
+{
+	"id" "640"
+	"classname" "env_soundscape"
+	"position0" "bombsiteb_bombtarget"
+	"position1" "bombsiteb_dumpster"
+	"position2" "bombsiteb_door"
+	"radius" "480"
+	"soundscape" "train.bombsiteb"
+	"StartDisabled" "0"
+	"origin" "988 -1276 -172"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 2500]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"position5" "bombsitea_bombtarget"
+	"position6" "courtyarda_pipes"
+	"radius" "352"
+	"soundscape" "train.courtyarda"
+	"StartDisabled" "0"
+	"origin" "812 -160 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -1268]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "env_soundscape"
+	"position0" "sidealley_tank"
+	"radius" "216"
+	"soundscape" "train.sidealley"
+	"StartDisabled" "0"
+	"origin" "1308 1196 -192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -3268]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "env_soundscape"
+	"position0" "bombsitea_bombtarget"
+	"position1" "bombsitea_dumpster"
+	"position2" "bombsitea_transformer"
+	"position3" "bombsitea_pipes"
+	"position4" "bombsitea_tanks"
+	"radius" "236"
+	"soundscape" "train.bombsitea"
+	"StartDisabled" "0"
+	"origin" "1924 -428 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -7268]"
+	}
+}
+entity
+{
+	"id" "35"
+	"classname" "env_soundscape"
+	"position0" "bombsitea_bombtarget"
+	"position1" "bombsitea_dumpster"
+	"position2" "bombsitea_transformer"
+	"position3" "bombsitea_pipes"
+	"position4" "bombsitea_tanks"
+	"radius" "160"
+	"soundscape" "train.bombsitea"
+	"StartDisabled" "0"
+	"origin" "1172 220 -132"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -8268]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "env_soundscape"
+	"position0" "bombsitea_bombtarget"
+	"position1" "bombsitea_dumpster"
+	"position2" "bombsitea_transformer"
+	"position3" "bombsitea_pipes"
+	"position4" "bombsitea_tanks"
+	"position5" "sidealley_tank"
+	"radius" "232"
+	"soundscape" "train.bombsitea"
+	"StartDisabled" "0"
+	"origin" "1240 480 -132"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -9268]"
+	}
+}
+entity
+{
+	"id" "57"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"radius" "508"
+	"soundscape" "train.courtyarda"
+	"StartDisabled" "0"
+	"origin" "4 144 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -11268]"
+	}
+}
+entity
+{
+	"id" "68"
+	"classname" "env_soundscape"
+	"position0" "ctspawn_pipesa"
+	"position1" "ctspawn_pipeslowa"
+	"position2" "ctspawn_pipeslowb"
+	"position3" "ctspawn_pipesb"
+	"position5" "ctspawn_tank"
+	"radius" "248"
+	"soundscape" "train.ctspawn"
+	"StartDisabled" "0"
+	"origin" "1956 -944 -252"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -5768]"
+	}
+}
+entity
+{
+	"id" "79"
+	"classname" "env_soundscape"
+	"position0" "sidealley_tank"
+	"radius" "216"
+	"soundscape" "train.sidealley"
+	"StartDisabled" "0"
+	"origin" "1312 792 -192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -11268]"
+	}
+}
+entity
+{
+	"id" "90"
+	"classname" "env_soundscape"
+	"position0" "backalley_door"
+	"position1" "backalley_tank"
+	"position2" "backalley_tanka"
+	"position3" "backalley_tankb"
+	"position4" "backalley_dumpster"
+	"position5" "backalley_doora"
+	"position6" "backalley_doorb"
+	"radius" "240"
+	"soundscape" "train.backalley"
+	"StartDisabled" "0"
+	"origin" "-216 1528 -96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 10500]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "env_soundscape"
+	"position0" "tspawn_factory"
+	"position1" "tspawn_pipes"
+	"position2" "tspawn_tree"
+	"position3" "tspawn_dumpster"
+	"radius" "488"
+	"soundscape" "train.tspawn"
+	"StartDisabled" "0"
+	"origin" "-1864 1456 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 7000]"
+	}
+}
+entity
+{
+	"id" "112"
+	"classname" "env_soundscape"
+	"position0" "backcorner_pipe"
+	"position1" "backcorner_factory"
+	"position2" "backalley_tank"
+	"position3" "backalley_doorb"
+	"radius" "292"
+	"soundscape" "train.backcorner"
+	"StartDisabled" "0"
+	"origin" "1320 1596 -172"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 6000]"
+	}
+}
+entity
+{
+	"id" "123"
+	"classname" "env_soundscape"
+	"position0" "twalkway_dumpster"
+	"position1" "twalkway_stairs"
+	"position2" "twalkway_transformer"
+	"position3" "twalkway_pipes"
+	"position4" "twalkway_trash"
+	"position5" "twalkway_tank"
+	"position6" "twalkway_pipesb"
+	"radius" "216"
+	"soundscape" "train.twalkway"
+	"StartDisabled" "0"
+	"origin" "-1012 1416 -176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 6500]"
+	}
+}
+entity
+{
+	"id" "134"
+	"classname" "env_soundscape"
+	"position0" "twalkway_dumpster"
+	"position1" "twalkway_stairs"
+	"position2" "twalkway_transformer"
+	"position3" "twalkway_pipes"
+	"position4" "twalkway_trash"
+	"position5" "twalkway_tank"
+	"radius" "216"
+	"soundscape" "train.twalkway"
+	"StartDisabled" "0"
+	"origin" "-480 1512 -176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 10000]"
+	}
+}
+entity
+{
+	"id" "145"
+	"classname" "env_soundscape"
+	"position0" "backalley_door"
+	"position1" "backalley_tank"
+	"position2" "backalley_tanka"
+	"position3" "backalley_tankb"
+	"position4" "backalley_dumpster"
+	"position5" "backalley_doora"
+	"position6" "backalley_doorb"
+	"radius" "310"
+	"soundscape" "train.backalley"
+	"StartDisabled" "0"
+	"origin" "956 1594 -152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 14500]"
+	}
+}
+entity
+{
+	"id" "156"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"position5" "bombsitea_bombtarget"
+	"radius" "328"
+	"soundscape" "train.courtyarda"
+	"StartDisabled" "0"
+	"origin" "776 480 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -10268]"
+	}
+}
+entity
+{
+	"id" "167"
+	"classname" "env_soundscape"
+	"position0" "snipernest_aca"
+	"position1" "snipernest_acb"
+	"radius" "168"
+	"soundscape" "train.snipernest"
+	"StartDisabled" "0"
+	"origin" "356 704 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12000]"
+	}
+}
+entity
+{
+	"id" "178"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"radius" "140"
+	"soundscape" "train.courtyarda"
+	"StartDisabled" "0"
+	"origin" "-116 676 -152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -9768]"
+	}
+}
+entity
+{
+	"id" "189"
+	"classname" "env_soundscape"
+	"position0" "bombsitea_bombtarget"
+	"position1" "bombsitea_dumpster"
+	"position2" "bombsitea_transformer"
+	"position3" "bombsitea_pipes"
+	"position4" "bombsitea_tanks"
+	"position5" "sidealley_tank"
+	"radius" "188"
+	"soundscape" "train.bombsitea"
+	"StartDisabled" "0"
+	"origin" "1452 480 -132"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -8768]"
+	}
+}
+entity
+{
+	"id" "200"
+	"classname" "env_soundscape"
+	"position0" "bombsitea_bombtarget"
+	"position1" "bombsitea_dumpster"
+	"position2" "bombsitea_transformer"
+	"position3" "bombsitea_pipes"
+	"position4" "bombsitea_tanks"
+	"radius" "160"
+	"soundscape" "train.bombsitea"
+	"StartDisabled" "0"
+	"origin" "1168 -156 -132"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -7768]"
+	}
+}
+entity
+{
+	"id" "211"
+	"classname" "env_soundscape"
+	"position0" "ctspawn_pipesa"
+	"position1" "ctspawn_pipeslowa"
+	"position2" "ctspawn_pipeslowb"
+	"position3" "ctspawn_pipesb"
+	"position5" "ctspawn_tank"
+	"radius" "188"
+	"soundscape" "train.ctspawn"
+	"StartDisabled" "0"
+	"origin" "1620 -1004 -252"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -6768]"
+	}
+}
+entity
+{
+	"id" "222"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"position5" "bombsitea_bombtarget"
+	"radius" "328"
+	"soundscape" "train.courtyarda"
+	"StartDisabled" "0"
+	"origin" "776 224 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -1768]"
+	}
+}
+entity
+{
+	"id" "233"
+	"classname" "env_soundscape"
+	"position0" "courtyarda_pipe"
+	"position1" "courtyarda_transformer"
+	"position2" "courtyarda_enginefront"
+	"position3" "courtyarda_birds"
+	"position4" "courtyarda_dumpster"
+	"position5" "bombsitea_bombtarget"
+	"radius" "224"
+	"soundscape" "train.courtyarda"
+	"StartDisabled" "0"
+	"origin" "524 -196 -108"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -768]"
+	}
+}
+entity
+{
+	"id" "244"
+	"classname" "env_soundscape"
+	"position0" "ctspawn_pipesa"
+	"position1" "ctspawn_pipeslowa"
+	"position2" "ctspawn_pipeslowb"
+	"position3" "ctspawn_pipesb"
+	"position5" "ctspawn_tank"
+	"radius" "277"
+	"soundscape" "train.ctspawn"
+	"StartDisabled" "0"
+	"origin" "1736 -1509 -252"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 4500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

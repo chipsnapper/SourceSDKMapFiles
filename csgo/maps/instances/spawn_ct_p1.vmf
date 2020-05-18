@@ -1,0 +1,112 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5675"
+	"mapversion" "9"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "9"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "35"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 181 0"
+	"priority" "1"
+	"origin" "80 -16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "37"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 209 0"
+	"priority" "1"
+	"origin" "96 55 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "39"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 117.5 0"
+	"priority" "1"
+	"origin" "8 -64 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 8000]"
+	}
+}
+entity
+{
+	"id" "41"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 55 0"
+	"priority" "1"
+	"origin" "-72 -24 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "43"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 27.5 0"
+	"priority" "1"
+	"origin" "-96 55 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

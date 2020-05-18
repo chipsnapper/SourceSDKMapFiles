@@ -1,0 +1,531 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5340"
+	"mapversion" "1095"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "252354"
+	"mapversion" "1095"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "252556"
+	"classname" "weapon_bizon"
+	"angles" "0 98 0"
+	"origin" "32 -352 -160"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252577"
+	"classname" "weapon_bizon"
+	"angles" "0 98 0"
+	"origin" "-32 -352 -160"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252593"
+	"classname" "weapon_bizon"
+	"angles" "0 98 0"
+	"origin" "32 352 -160"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252595"
+	"classname" "weapon_bizon"
+	"angles" "0 98 0"
+	"origin" "-32 352 -160"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252451"
+	"classname" "weapon_taser"
+	"angles" "0 98 0"
+	"origin" "0 0 160"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252475"
+	"classname" "weapon_taser"
+	"angles" "0 98 0"
+	"origin" "1024 0 48"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252524"
+	"classname" "weapon_taser"
+	"angles" "0 98 0"
+	"origin" "-992 0 48"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252357"
+	"classname" "weapon_aug"
+	"angles" "0 98 0"
+	"spawnflags" "0"
+	"origin" "-176 -832 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252359"
+	"classname" "weapon_p90"
+	"angles" "0 98 0"
+	"origin" "-368 -828 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252361"
+	"classname" "weapon_m4a1"
+	"angles" "0 98 0"
+	"origin" "184 -832 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252363"
+	"classname" "weapon_m4a1"
+	"angles" "0 98 0"
+	"origin" "232 -832 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252365"
+	"classname" "weapon_awp"
+	"angles" "0 98 0"
+	"origin" "100 -700 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252367"
+	"classname" "weapon_awp"
+	"angles" "0 98 0"
+	"origin" "-108 -692 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252369"
+	"classname" "weapon_p90"
+	"angles" "0 98 0"
+	"origin" "-424 -824 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252371"
+	"classname" "weapon_deagle"
+	"angles" "0 98 0"
+	"origin" "500 -908 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252373"
+	"classname" "weapon_deagle"
+	"angles" "0 98 0"
+	"origin" "508 -996 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252375"
+	"classname" "weapon_deagle"
+	"angles" "0 98 0"
+	"origin" "440 -952 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252377"
+	"classname" "weapon_deagle"
+	"angles" "0 98 0"
+	"origin" "-536 -960 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252379"
+	"classname" "weapon_deagle"
+	"angles" "0 98 0"
+	"origin" "-468 -1004 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252381"
+	"classname" "weapon_deagle"
+	"angles" "0 98 0"
+	"origin" "-476 -916 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252383"
+	"classname" "weapon_aug"
+	"angles" "0 98 0"
+	"spawnflags" "0"
+	"origin" "-228 -840 67.8775"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252385"
+	"classname" "weapon_ak47"
+	"angles" "0 278 0"
+	"spawnflags" "0"
+	"origin" "-228 868 74.0009"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252387"
+	"classname" "weapon_ak47"
+	"angles" "0 278 0"
+	"spawnflags" "0"
+	"origin" "-184 832 74.0009"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252389"
+	"classname" "weapon_awp"
+	"angles" "0 278 0"
+	"origin" "108 692 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252391"
+	"classname" "weapon_awp"
+	"angles" "0 278 0"
+	"origin" "-100 700 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252393"
+	"classname" "weapon_deagle"
+	"angles" "0 278 0"
+	"origin" "500 920 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252395"
+	"classname" "weapon_deagle"
+	"angles" "0 278 0"
+	"origin" "452 948 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252397"
+	"classname" "weapon_deagle"
+	"angles" "0 278 0"
+	"origin" "468 1004 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252399"
+	"classname" "weapon_deagle"
+	"angles" "0 278 0"
+	"origin" "-440 952 74.0009"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252401"
+	"classname" "weapon_deagle"
+	"angles" "0 278 0"
+	"origin" "-508 996 74.0009"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252403"
+	"classname" "weapon_deagle"
+	"angles" "0 278 0"
+	"origin" "-500 908 74.0009"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252405"
+	"classname" "weapon_p90"
+	"angles" "0 278 0"
+	"origin" "424 836 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252407"
+	"classname" "weapon_p90"
+	"angles" "0 278 0"
+	"origin" "368 828 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252409"
+	"classname" "weapon_sg556"
+	"angles" "0 278 0"
+	"origin" "228 840 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "252411"
+	"classname" "weapon_sg556"
+	"angles" "0 278 0"
+	"origin" "176 832 74.0008"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

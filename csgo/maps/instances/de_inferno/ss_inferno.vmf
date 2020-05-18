@@ -1,0 +1,2173 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5661"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ApartmentHalls_closet"
+	"origin" "1267 -140 308"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -4268]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ApartmentHalls_door1"
+	"origin" "1872 -386 308"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -9268]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ApartmentHalls_fan"
+	"origin" "1064 -68 364"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -10268]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ApartmentHalls_fridge"
+	"origin" "1132 -194 294"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -10768]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ApartmentHalls_light1"
+	"origin" "1214 -634 238"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -11268]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackAlley_apartment1"
+	"origin" "-384 156 230"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 1000]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackAlley_window1"
+	"origin" "378 30 154"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 1500]"
+	}
+}
+entity
+{
+	"id" "23"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackAlley_woodpile"
+	"origin" "-462 15 27"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -4768]"
+	}
+}
+entity
+{
+	"id" "26"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackBalcony_tree1"
+	"origin" "2538 -468 440"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -4768]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackBalcony_trees1"
+	"origin" "2142 -1384 722"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -4268]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackBalcony_window1"
+	"origin" "2050 -322 318"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -5268]"
+	}
+}
+entity
+{
+	"id" "35"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackHall_light1"
+	"origin" "324 -444 206"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -15768]"
+	}
+}
+entity
+{
+	"id" "38"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BackHall_light2"
+	"origin" "550 -654 206"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -15268]"
+	}
+}
+entity
+{
+	"id" "41"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BalconyAlley_cricket1"
+	"origin" "860 -898 106"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -13268]"
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BalconyAlley_cricket2"
+	"origin" "778 -456 100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -12768]"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BalconyAlley_tree1"
+	"origin" "880 -720 436"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -13768]"
+	}
+}
+entity
+{
+	"id" "50"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BalconyAlley_trees1"
+	"origin" "1186 -1426 654"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -14268]"
+	}
+}
+entity
+{
+	"id" "53"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BellTowerArea_crickets"
+	"origin" "-874 328 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 5500]"
+	}
+}
+entity
+{
+	"id" "56"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BellTowerArea_door1"
+	"origin" "-724 846 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 5000]"
+	}
+}
+entity
+{
+	"id" "59"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BellTowerArea_tower"
+	"origin" "-724 796 698"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 4500]"
+	}
+}
+entity
+{
+	"id" "62"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteA_crickets"
+	"origin" "72 3228 166"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -11768]"
+	}
+}
+entity
+{
+	"id" "65"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteA_dog1"
+	"origin" "288 3556 210"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -13268]"
+	}
+}
+entity
+{
+	"id" "68"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteA_fountain"
+	"origin" "344 2772 226"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -12268]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteA_music"
+	"origin" "40 1960 350"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -10768]"
+	}
+}
+entity
+{
+	"id" "74"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteA_trees1"
+	"origin" "700 4188 404"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -12768]"
+	}
+}
+entity
+{
+	"id" "77"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteA_window1"
+	"origin" "-12 2540 230"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -11268]"
+	}
+}
+entity
+{
+	"id" "80"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteB_cricket"
+	"origin" "2016 708 164"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 6000]"
+	}
+}
+entity
+{
+	"id" "83"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteB_fence1"
+	"origin" "2668 940 242"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 5000]"
+	}
+}
+entity
+{
+	"id" "86"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteB_fence2"
+	"origin" "2704 668 276"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 5500]"
+	}
+}
+entity
+{
+	"id" "89"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteB_tree1"
+	"origin" "2420 -308 544"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 4500]"
+	}
+}
+entity
+{
+	"id" "92"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteB_tree2"
+	"origin" "2608 684 410"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 6500]"
+	}
+}
+entity
+{
+	"id" "95"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BombsiteB_window1"
+	"origin" "1748 -126 434"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 4000]"
+	}
+}
+entity
+{
+	"id" "98"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BridgeApartment_couch"
+	"origin" "-398 -630 238"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 15000]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "BridgeApartment_fridge"
+	"origin" "-448 -396 230"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 14500]"
+	}
+}
+entity
+{
+	"id" "104"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ColumnAlley_bird"
+	"origin" "732 1836 278"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -8768]"
+	}
+}
+entity
+{
+	"id" "107"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ColumnAlley_crickets"
+	"origin" "872 1908 138"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -9268]"
+	}
+}
+entity
+{
+	"id" "110"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ColumnAlley_tree1"
+	"origin" "68 1376 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -8268]"
+	}
+}
+entity
+{
+	"id" "113"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ColumnAlley_tree2"
+	"origin" "1127 1778 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -3268]"
+	}
+}
+entity
+{
+	"id" "116"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "ColumnAlley_woodpile"
+	"origin" "25 1434 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -2768]"
+	}
+}
+entity
+{
+	"id" "119"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CrawlAlley_beams"
+	"origin" "260 127 166"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 1500]"
+	}
+}
+entity
+{
+	"id" "122"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CrawlAlley_window"
+	"origin" "308 83 154"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 1000]"
+	}
+}
+entity
+{
+	"id" "125"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTApartment_fridge"
+	"origin" "2292 1452 198"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 8000]"
+	}
+}
+entity
+{
+	"id" "128"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTApartment_light"
+	"origin" "2640 1188 266"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 7500]"
+	}
+}
+entity
+{
+	"id" "131"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTApartment_water"
+	"origin" "2288 1368 202"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 8500]"
+	}
+}
+entity
+{
+	"id" "134"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTSpawn_APC"
+	"origin" "2528 2492 182"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 14000]"
+	}
+}
+entity
+{
+	"id" "137"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTSpawn_cricket"
+	"origin" "2164 2876 138"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 16000]"
+	}
+}
+entity
+{
+	"id" "140"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTSpawn_tree1"
+	"origin" "2552 1784 322"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 13500]"
+	}
+}
+entity
+{
+	"id" "143"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTSpawn_tree2"
+	"origin" "1272 2764 326"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 15500]"
+	}
+}
+entity
+{
+	"id" "146"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTSpawn_trees1"
+	"origin" "1616 3912 602"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 15000]"
+	}
+}
+entity
+{
+	"id" "149"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTSpawn_well"
+	"origin" "1968 2624 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 14500]"
+	}
+}
+entity
+{
+	"id" "152"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "CTTunnel_window1"
+	"origin" "1588 2336 214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11000]"
+	}
+}
+entity
+{
+	"id" "155"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "FarBackCorner_factory"
+	"origin" "-2050 -2142 466"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -2268]"
+	}
+}
+entity
+{
+	"id" "158"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "FarBackCorner_tree1"
+	"origin" "-1278 -682 364"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -3768]"
+	}
+}
+entity
+{
+	"id" "161"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "FarBackCorner_tree2"
+	"origin" "-810 -728 222"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -3268]"
+	}
+}
+entity
+{
+	"id" "164"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "FarBackCorner_wall"
+	"origin" "-1312 -1962 472"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -2768]"
+	}
+}
+entity
+{
+	"id" "167"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "FarBackCorner_window1"
+	"origin" "-1678 -640 54"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -4268]"
+	}
+}
+entity
+{
+	"id" "170"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "MiddleAlley_belltower"
+	"origin" "175 843 267"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -3768]"
+	}
+}
+entity
+{
+	"id" "173"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "MiddleAlley_turret"
+	"origin" "924 716 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -2768]"
+	}
+}
+entity
+{
+	"id" "176"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "SniperBalcony_hum"
+	"origin" "936 32 402"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -6768]"
+	}
+}
+entity
+{
+	"id" "179"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "TheRuins_plywood"
+	"origin" "1288 3216 324"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -15268]"
+	}
+}
+entity
+{
+	"id" "182"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "tspawn_crickets"
+	"origin" "-1402 842 -50"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -4768]"
+	}
+}
+entity
+{
+	"id" "185"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "tspawn_door1"
+	"origin" "-1871 312 -15"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -5268]"
+	}
+}
+entity
+{
+	"id" "188"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "tspawn_tree1"
+	"origin" "-1566 160 186"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -6768]"
+	}
+}
+entity
+{
+	"id" "191"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "tspawn_tree2"
+	"origin" "-1764 1442 265"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -6268]"
+	}
+}
+entity
+{
+	"id" "194"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "TSpawnHall_crickets"
+	"origin" "-1082 444 -52"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 3500]"
+	}
+}
+entity
+{
+	"id" "197"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "TSpawnHall_lightbulb"
+	"origin" "-1264 522 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 3000]"
+	}
+}
+entity
+{
+	"id" "200"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "UpperApartment_bulb1"
+	"origin" "-386 136 296"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 10500]"
+	}
+}
+entity
+{
+	"id" "203"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "UpperApartment_bulb2"
+	"origin" "-50 320 296"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 12000]"
+	}
+}
+entity
+{
+	"id" "206"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "UpperApartment_fan1"
+	"origin" "-170 320 288"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 11000]"
+	}
+}
+entity
+{
+	"id" "209"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"targetname" "UpperApartment_fridge"
+	"origin" "-258 72 224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 11500]"
+	}
+}
+entity
+{
+	"id" "212"
+	"classname" "env_soundscape"
+	"position0" "ApartmentHalls_light1"
+	"position1" "ApartmentHalls_fridge"
+	"position2" "ApartmentHalls_fan"
+	"position3" "ApartmentHalls_water"
+	"position4" "ApartmentHalls_closet"
+	"position5" "ApartmentHalls_door1"
+	"radius" "108"
+	"soundscape" "inferno.ApartmentHalls"
+	"StartDisabled" "0"
+	"origin" "1062 -120 304"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -8768]"
+	}
+}
+entity
+{
+	"id" "223"
+	"classname" "env_soundscape"
+	"position0" "BackHall_light1"
+	"position1" "BackHall_light2"
+	"radius" "92"
+	"soundscape" "inferno.BackHall"
+	"StartDisabled" "0"
+	"origin" "-96 -448 238"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 15500]"
+	}
+}
+entity
+{
+	"id" "234"
+	"classname" "env_soundscape"
+	"position0" "CTSpawn_tree1"
+	"position1" "CTSpawn_APC"
+	"position2" "CTSpawn_well"
+	"position3" "CTSpawn_trees1"
+	"position4" "CTSpawn_tree2"
+	"position5" "CTTunnel_window1"
+	"position6" "CTSpawn_cricket"
+	"radius" "216"
+	"soundscape" "inferno.CTSpawn"
+	"StartDisabled" "0"
+	"origin" "1212 2820 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12500]"
+	}
+}
+entity
+{
+	"id" "245"
+	"classname" "env_soundscape"
+	"position0" "ColumnAlley_crickets"
+	"position1" "BombsiteA_music"
+	"position2" "ColumnAlley_bird"
+	"position3" "ColumnAlley_tree1"
+	"position4" "ColumnAlley_tree2"
+	"position5" "ColumnAlley_woodpile"
+	"radius" "276"
+	"soundscape" "inferno.ColumnAlley"
+	"StartDisabled" "0"
+	"origin" "148 1104 156"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -9768]"
+	}
+}
+entity
+{
+	"id" "256"
+	"classname" "env_soundscape"
+	"position0" "MiddleAlley_belltower"
+	"position1" "MiddleAlley_transformer"
+	"position2" "MiddleAlley_turret"
+	"position3" "BalconyAlley_tree1"
+	"radius" "202"
+	"soundscape" "inferno.MiddleAlley"
+	"StartDisabled" "0"
+	"origin" "164 604 118"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -3768]"
+	}
+}
+entity
+{
+	"id" "267"
+	"classname" "env_soundscape"
+	"position0" "BalconyAlley_trees1"
+	"position1" "BalconyAlley_tree1"
+	"position2" "BalconyAlley_cricket1"
+	"position3" "BalconyAlley_cricket2"
+	"radius" "124"
+	"soundscape" "inferno.BalconyAlley"
+	"StartDisabled" "0"
+	"origin" "890 -326 160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -12268]"
+	}
+}
+entity
+{
+	"id" "278"
+	"classname" "env_soundscape"
+	"position0" "CTSpawn_tree1"
+	"position1" "CTSpawn_APC"
+	"position2" "CTSpawn_well"
+	"position3" "CTSpawn_trees1"
+	"position4" "CTSpawn_tree2"
+	"position5" "CTTunnel_window1"
+	"position6" "CTSpawn_cricket"
+	"radius" "540"
+	"soundscape" "inferno.CTSpawn"
+	"StartDisabled" "0"
+	"origin" "2288 2024 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 11500]"
+	}
+}
+entity
+{
+	"id" "289"
+	"classname" "env_soundscape"
+	"position0" "FarBackCorner_factory"
+	"position1" "BackAlley_apartment1"
+	"position2" "BackAlley_window1"
+	"position3" "BackAlley_woodpile"
+	"radius" "272"
+	"soundscape" "inferno.BackAlley"
+	"StartDisabled" "0"
+	"origin" "-796 -126 114"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -1268]"
+	}
+}
+entity
+{
+	"id" "300"
+	"classname" "env_soundscape"
+	"position0" "BalconyAlley_trees1"
+	"position1" "BalconyAlley_tree1"
+	"position2" "BalconyAlley_cricket1"
+	"position3" "BalconyAlley_cricket2"
+	"radius" "124"
+	"soundscape" "inferno.BalconyAlley"
+	"StartDisabled" "0"
+	"origin" "864 -648 160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -14768]"
+	}
+}
+entity
+{
+	"id" "311"
+	"classname" "env_soundscape"
+	"position0" "TheRuins_plywood"
+	"radius" "168"
+	"soundscape" "inferno.TheRuins"
+	"StartDisabled" "0"
+	"origin" "988 3396 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -15768]"
+	}
+}
+entity
+{
+	"id" "322"
+	"classname" "env_soundscape"
+	"position0" "FarBackCorner_window1"
+	"position1" "FarBackCorner_tree1"
+	"position2" "FarBackCorner_tree2"
+	"position3" "FarBackCorner_wall"
+	"position4" "FarBackCorner_factory"
+	"radius" "422"
+	"soundscape" "inferno.FarBackCorner"
+	"StartDisabled" "0"
+	"origin" "-1552 -576 20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -7268]"
+	}
+}
+entity
+{
+	"id" "333"
+	"classname" "env_soundscape"
+	"position0" "BackBalcony_window1"
+	"position1" "BackBalcony_tree1"
+	"position2" "BackBalcony_trees1"
+	"radius" "100"
+	"soundscape" "inferno.BackBalcony"
+	"StartDisabled" "0"
+	"origin" "2074 -292 318"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -5768]"
+	}
+}
+entity
+{
+	"id" "344"
+	"classname" "env_soundscape"
+	"position1" "BridgeApartment_fan2"
+	"position2" "BridgeApartment_fridge"
+	"position3" "BridgeApartment_couch"
+	"radius" "192"
+	"soundscape" "inferno.BridgeApartment"
+	"StartDisabled" "0"
+	"origin" "-372 -456 234"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 13500]"
+	}
+}
+entity
+{
+	"id" "355"
+	"classname" "env_soundscape"
+	"position0" "UpperApartment_bulb1"
+	"position1" "UpperApartment_fan1"
+	"position2" "UpperApartment_fridge"
+	"position3" "UpperApartment_bulb2"
+	"radius" "90"
+	"soundscape" "inferno.UpperApartment"
+	"StartDisabled" "0"
+	"origin" "-568 328 98"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 10000]"
+	}
+}
+entity
+{
+	"id" "366"
+	"classname" "env_soundscape"
+	"position0" "BackHall_light1"
+	"position1" "BackHall_light2"
+	"radius" "92"
+	"soundscape" "inferno.BackHall"
+	"StartDisabled" "0"
+	"origin" "668 -658 134"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -16268]"
+	}
+}
+entity
+{
+	"id" "377"
+	"classname" "env_soundscape"
+	"position0" "UpperApartment_bulb1"
+	"position1" "UpperApartment_fan1"
+	"position2" "UpperApartment_fridge"
+	"position3" "UpperApartment_bulb2"
+	"radius" "112"
+	"soundscape" "inferno.UpperApartment"
+	"StartDisabled" "0"
+	"origin" "-384 136 234"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 12500]"
+	}
+}
+entity
+{
+	"id" "388"
+	"classname" "env_soundscape"
+	"position0" "BellTowerArea_tower"
+	"position1" "BellTowerArea_door1"
+	"position2" "BellTowerArea_crickets"
+	"radius" "288"
+	"soundscape" "inferno.BellTowerArea"
+	"StartDisabled" "0"
+	"origin" "-658 636 44"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 6000]"
+	}
+}
+entity
+{
+	"id" "399"
+	"classname" "env_soundscape"
+	"position0" "CTApartment_fridge"
+	"position1" "CTApartment_water"
+	"position2" "CTApartment_light"
+	"radius" "172"
+	"soundscape" "inferno.CTApartment"
+	"StartDisabled" "0"
+	"origin" "2600 1124 212"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 7000]"
+	}
+}
+entity
+{
+	"id" "410"
+	"classname" "env_soundscape"
+	"position0" "CTTunnel_window1"
+	"radius" "224"
+	"soundscape" "inferno.CTTunnel"
+	"StartDisabled" "0"
+	"origin" "1604 2400 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 10500]"
+	}
+}
+entity
+{
+	"id" "421"
+	"classname" "env_soundscape"
+	"radius" "212"
+	"soundscape" "inferno.BombsiteBTunnel"
+	"StartDisabled" "0"
+	"origin" "1824 1428 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 9500]"
+	}
+}
+entity
+{
+	"id" "432"
+	"classname" "env_soundscape"
+	"position0" "CrawlAlley_beams"
+	"position1" "CrawlAlley_window"
+	"radius" "124"
+	"soundscape" "inferno.CrawlAlley"
+	"StartDisabled" "0"
+	"origin" "284 63 54"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 500]"
+	}
+}
+entity
+{
+	"id" "443"
+	"classname" "env_soundscape"
+	"position0" "MiddleAlley_belltower"
+	"position1" "MiddleAlley_transformer"
+	"position2" "MiddleAlley_turret"
+	"position3" "BalconyAlley_tree1"
+	"radius" "192"
+	"soundscape" "inferno.MiddleAlley"
+	"StartDisabled" "0"
+	"origin" "1164 512 176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -1768]"
+	}
+}
+entity
+{
+	"id" "454"
+	"classname" "env_soundscape"
+	"position0" "TSpawnHall_lightbulb"
+	"position1" "TSpawnHall_crickets"
+	"radius" "152"
+	"soundscape" "inferno.TSpawnHall"
+	"StartDisabled" "0"
+	"origin" "-1022 516 -2"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 2500]"
+	}
+}
+entity
+{
+	"id" "465"
+	"classname" "env_soundscape"
+	"position0" "BalconyAlley_tree1"
+	"position1" "SniperBalcony_hum"
+	"position2" "ApartmentHalls_fridge"
+	"position3" "ApartmentHalls_fan"
+	"radius" "72"
+	"soundscape" "inferno.SniperBalcony"
+	"StartDisabled" "0"
+	"origin" "924 -120 300"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -7268]"
+	}
+}
+entity
+{
+	"id" "476"
+	"classname" "env_soundscape"
+	"position0" "FarBackCorner_factory"
+	"position1" "BackAlley_apartment1"
+	"position2" "BackAlley_window1"
+	"position3" "BackAlley_woodpile"
+	"radius" "292"
+	"soundscape" "inferno.BackAlley"
+	"StartDisabled" "0"
+	"origin" "686 -130 236"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 500]"
+	}
+}
+entity
+{
+	"id" "487"
+	"classname" "env_soundscape"
+	"position0" "ApartmentHalls_light1"
+	"position1" "ApartmentHalls_fridge"
+	"position2" "ApartmentHalls_fan"
+	"position3" "ApartmentHalls_water"
+	"position4" "ApartmentHalls_closet"
+	"position5" "ApartmentHalls_door1"
+	"radius" "88"
+	"soundscape" "inferno.ApartmentHalls"
+	"StartDisabled" "0"
+	"origin" "1210 312 160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -8268]"
+	}
+}
+entity
+{
+	"id" "498"
+	"classname" "env_soundscape"
+	"position0" "ApartmentHalls_light1"
+	"position1" "ApartmentHalls_fridge"
+	"position2" "ApartmentHalls_fan"
+	"position3" "ApartmentHalls_water"
+	"position4" "ApartmentHalls_closet"
+	"position5" "ApartmentHalls_door1"
+	"radius" "88"
+	"soundscape" "inferno.ApartmentHalls"
+	"StartDisabled" "0"
+	"origin" "1854 -206 308"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -7768]"
+	}
+}
+entity
+{
+	"id" "509"
+	"classname" "env_soundscape"
+	"position0" "tspawn_tree1"
+	"position1" "tspawn_tree2"
+	"position3" "tspawn_door1"
+	"position4" "tspawn_crickets"
+	"radius" "336"
+	"soundscape" "inferno.TSpawn"
+	"StartDisabled" "0"
+	"origin" "-1616 138 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -7768]"
+	}
+}
+entity
+{
+	"id" "520"
+	"classname" "env_soundscape"
+	"position0" "MiddleAlley_belltower"
+	"position1" "MiddleAlley_transformer"
+	"position2" "MiddleAlley_turret"
+	"position3" "BalconyAlley_tree1"
+	"radius" "224"
+	"soundscape" "inferno.MiddleAlley"
+	"StartDisabled" "0"
+	"origin" "832 544 118"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -2268]"
+	}
+}
+entity
+{
+	"id" "531"
+	"classname" "env_soundscape"
+	"position0" "CrawlAlley_beams"
+	"position1" "CrawlAlley_window"
+	"radius" "124"
+	"soundscape" "inferno.CrawlAlley"
+	"StartDisabled" "0"
+	"origin" "288 123 46"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 0]"
+	}
+}
+entity
+{
+	"id" "542"
+	"classname" "env_soundscape"
+	"position0" "TSpawnHall_lightbulb"
+	"position1" "TSpawnHall_crickets"
+	"radius" "176"
+	"soundscape" "inferno.TSpawnHall"
+	"StartDisabled" "0"
+	"origin" "-1216 322 -14"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 2000]"
+	}
+}
+entity
+{
+	"id" "553"
+	"classname" "env_soundscape"
+	"position0" "tspawn_tree1"
+	"position1" "tspawn_tree2"
+	"position2" "tspawn_fountain"
+	"position3" "tspawn_door1"
+	"position4" "tspawn_crickets"
+	"radius" "336"
+	"soundscape" "inferno.TSpawn"
+	"StartDisabled" "0"
+	"origin" "-1606 782 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -8268]"
+	}
+}
+entity
+{
+	"id" "564"
+	"classname" "env_soundscape"
+	"position0" "BombsiteB_window1"
+	"position1" "BombsiteB_tree1"
+	"position2" "BackBalcony_trees1"
+	"position3" "BombsiteB_fence1"
+	"position4" "BombsiteB_fence2"
+	"position5" "BombsiteB_cricket"
+	"position6" "BombsiteB_tree2"
+	"radius" "192"
+	"soundscape" "inferno.BombsiteB"
+	"StartDisabled" "0"
+	"origin" "2304 1112 244"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 3000]"
+	}
+}
+entity
+{
+	"id" "575"
+	"classname" "env_soundscape"
+	"position0" "CTSpawn_tree1"
+	"position1" "CTSpawn_APC"
+	"position2" "CTSpawn_well"
+	"position3" "CTSpawn_trees1"
+	"position4" "CTSpawn_tree2"
+	"position5" "CTTunnel_window1"
+	"position6" "CTSpawn_cricket"
+	"radius" "524"
+	"soundscape" "inferno.CTSpawn"
+	"StartDisabled" "0"
+	"origin" "2076 2704 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 12000]"
+	}
+}
+entity
+{
+	"id" "586"
+	"classname" "env_soundscape"
+	"position0" "CTSpawn_tree1"
+	"position1" "CTSpawn_APC"
+	"position2" "CTSpawn_well"
+	"position3" "CTSpawn_trees1"
+	"position4" "CTSpawn_tree2"
+	"position5" "CTTunnel_window1"
+	"position6" "CTSpawn_cricket"
+	"radius" "148"
+	"soundscape" "inferno.CTSpawn"
+	"StartDisabled" "0"
+	"origin" "932 2724 196"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 13000]"
+	}
+}
+entity
+{
+	"id" "597"
+	"classname" "env_soundscape"
+	"position0" "BackHall_light1"
+	"position1" "BackHall_light2"
+	"radius" "92"
+	"soundscape" "inferno.BackHall"
+	"StartDisabled" "0"
+	"origin" "322 -392 134"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 16000]"
+	}
+}
+entity
+{
+	"id" "608"
+	"classname" "env_soundscape"
+	"position0" "BellTowerArea_tower"
+	"position1" "BellTowerArea_door1"
+	"position2" "BellTowerArea_crickets"
+	"radius" "204"
+	"soundscape" "inferno.BellTowerArea"
+	"StartDisabled" "0"
+	"origin" "-834 230 44"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 6500]"
+	}
+}
+entity
+{
+	"id" "619"
+	"classname" "env_soundscape"
+	"position0" "UpperApartment_bulb1"
+	"position1" "UpperApartment_fan1"
+	"position2" "UpperApartment_fridge"
+	"position3" "UpperApartment_bulb2"
+	"radius" "90"
+	"soundscape" "inferno.UpperApartment"
+	"StartDisabled" "0"
+	"origin" "-40 304 242"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 13000]"
+	}
+}
+entity
+{
+	"id" "630"
+	"classname" "env_soundscape"
+	"position0" "FarBackCorner_window1"
+	"position1" "FarBackCorner_tree1"
+	"position2" "FarBackCorner_tree2"
+	"position3" "FarBackCorner_wall"
+	"position4" "FarBackCorner_factory"
+	"radius" "422"
+	"soundscape" "inferno.FarBackCorner"
+	"StartDisabled" "0"
+	"origin" "-902 -648 114"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -1768]"
+	}
+}
+entity
+{
+	"id" "641"
+	"classname" "env_soundscape"
+	"position0" "FarBackCorner_factory"
+	"position1" "BackAlley_apartment1"
+	"position2" "BackAlley_window1"
+	"radius" "324"
+	"soundscape" "inferno.BackAlley"
+	"StartDisabled" "0"
+	"origin" "148 -72 236"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 0]"
+	}
+}
+entity
+{
+	"id" "652"
+	"classname" "env_soundscape"
+	"position0" "BombsiteA_dog1"
+	"position1" "BombsiteA_trees1"
+	"position2" "BombsiteA_fountain"
+	"position3" "BombsiteA_crickets"
+	"position4" "BombsiteA_music"
+	"position5" "BombsiteA_window1"
+	"radius" "504"
+	"soundscape" "inferno.BombsiteA"
+	"StartDisabled" "0"
+	"origin" "384 2704 196"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -14768]"
+	}
+}
+entity
+{
+	"id" "663"
+	"classname" "env_soundscape"
+	"position0" "BombsiteA_dog1"
+	"position1" "BombsiteA_trees1"
+	"position2" "BombsiteA_fountain"
+	"position3" "BombsiteA_crickets"
+	"position4" "BombsiteA_music"
+	"position5" "BombsiteA_window1"
+	"radius" "168"
+	"soundscape" "inferno.BombsiteA"
+	"StartDisabled" "0"
+	"origin" "700 3448 196"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -14268]"
+	}
+}
+entity
+{
+	"id" "674"
+	"classname" "env_soundscape"
+	"position0" "BackBalcony_window1"
+	"position1" "BackBalcony_tree1"
+	"position2" "BackBalcony_trees1"
+	"radius" "100"
+	"soundscape" "inferno.BackBalcony"
+	"StartDisabled" "0"
+	"origin" "2016 -194 318"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -6268]"
+	}
+}
+entity
+{
+	"id" "685"
+	"classname" "env_soundscape"
+	"position0" "ColumnAlley_crickets"
+	"position1" "BombsiteA_music"
+	"position2" "ColumnAlley_bird"
+	"position3" "ColumnAlley_tree1"
+	"position4" "ColumnAlley_tree2"
+	"position5" "ColumnAlley_woodpile"
+	"radius" "276"
+	"soundscape" "inferno.ColumnAlley"
+	"StartDisabled" "0"
+	"origin" "623 1959 196"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -10268]"
+	}
+}
+entity
+{
+	"id" "696"
+	"classname" "env_soundscape"
+	"position0" "FarBackCorner_factory"
+	"position1" "BackAlley_apartment1"
+	"position2" "BackAlley_window1"
+	"position3" "BackAlley_woodpile"
+	"radius" "216"
+	"soundscape" "inferno.BackAlley"
+	"StartDisabled" "0"
+	"origin" "-378 -134 236"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -768]"
+	}
+}
+entity
+{
+	"id" "707"
+	"classname" "env_soundscape"
+	"position0" "BombsiteB_window1"
+	"position1" "BombsiteB_tree1"
+	"position2" "BackBalcony_trees1"
+	"position3" "BombsiteB_fence1"
+	"position4" "BombsiteB_fence2"
+	"position5" "BombsiteB_cricket"
+	"position6" "BombsiteB_tree2"
+	"radius" "324"
+	"soundscape" "inferno.BombsiteB"
+	"StartDisabled" "0"
+	"origin" "1512 464 176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 2000]"
+	}
+}
+entity
+{
+	"id" "718"
+	"classname" "env_soundscape"
+	"position0" "BellTowerArea_tower"
+	"position1" "BellTowerArea_door1"
+	"position2" "BellTowerArea_crickets"
+	"radius" "160"
+	"soundscape" "inferno.BellTowerArea"
+	"StartDisabled" "0"
+	"origin" "-158 838 84"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 4000]"
+	}
+}
+entity
+{
+	"id" "729"
+	"classname" "env_soundscape"
+	"position0" "BombsiteB_window1"
+	"position1" "BombsiteB_tree1"
+	"position2" "BackBalcony_trees1"
+	"position3" "BombsiteB_fence1"
+	"position4" "BombsiteB_fence2"
+	"position5" "BombsiteB_cricket"
+	"position6" "BombsiteB_tree2"
+	"radius" "400"
+	"soundscape" "inferno.BombsiteB"
+	"StartDisabled" "0"
+	"origin" "2160 -156 244"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 2500]"
+	}
+}
+entity
+{
+	"id" "740"
+	"classname" "env_soundscape"
+	"position0" "BombsiteA_dog1"
+	"position1" "BombsiteA_trees1"
+	"position2" "BombsiteA_fountain"
+	"position3" "BombsiteA_crickets"
+	"position4" "BombsiteA_music"
+	"position5" "BombsiteA_window1"
+	"radius" "276"
+	"soundscape" "inferno.BombsiteA"
+	"StartDisabled" "0"
+	"origin" "772 2268 196"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -13768]"
+	}
+}
+entity
+{
+	"id" "751"
+	"classname" "env_soundscape"
+	"position0" "CTTunnel_window1"
+	"radius" "168"
+	"soundscape" "inferno.CTTunnel"
+	"StartDisabled" "0"
+	"origin" "1640 2072 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 10000]"
+	}
+}
+entity
+{
+	"id" "762"
+	"classname" "env_soundscape"
+	"position0" "TheRuins_plywood"
+	"radius" "172"
+	"soundscape" "inferno.TheRuins"
+	"StartDisabled" "0"
+	"origin" "1192 3164 216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 -16268]"
+	}
+}
+entity
+{
+	"id" "773"
+	"classname" "env_soundscape"
+	"position0" "ApartmentHalls_light1"
+	"position1" "ApartmentHalls_fridge"
+	"position2" "ApartmentHalls_fan"
+	"position3" "ApartmentHalls_water"
+	"position4" "ApartmentHalls_closet"
+	"position5" "ApartmentHalls_door1"
+	"radius" "186"
+	"soundscape" "inferno.ApartmentHalls"
+	"StartDisabled" "0"
+	"origin" "1145 -624 184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 -11768]"
+	}
+}
+entity
+{
+	"id" "784"
+	"classname" "env_soundscape"
+	"position0" "CTApartment_fridge"
+	"position1" "CTApartment_water"
+	"position2" "CTApartment_light"
+	"radius" "172"
+	"soundscape" "inferno.CTApartment"
+	"StartDisabled" "0"
+	"origin" "2340 1428 212"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 9000]"
+	}
+}
+entity
+{
+	"id" "795"
+	"classname" "env_soundscape"
+	"position0" "BombsiteB_window1"
+	"position1" "BombsiteB_tree1"
+	"position2" "BackBalcony_trees1"
+	"position3" "BombsiteB_fence1"
+	"position4" "BombsiteB_fence2"
+	"position5" "BombsiteB_cricket"
+	"position6" "BombsiteB_tree2"
+	"radius" "276"
+	"soundscape" "inferno.BombsiteB"
+	"StartDisabled" "0"
+	"origin" "1836 1040 244"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14500 3500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

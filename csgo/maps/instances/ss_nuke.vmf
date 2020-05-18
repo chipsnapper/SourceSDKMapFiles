@@ -1,0 +1,1342 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5277"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "env_soundscape"
+	"position0" "tunnel_light01"
+	"position1" "tunnel_vent01"
+	"position2" "tunnel_pipe01"
+	"position3" "tunnel_fan01"
+	"radius" "193"
+	"soundscape" "nuke.tunnel"
+	"StartDisabled" "0"
+	"origin" "96 -978 -718"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 12000]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "env_soundscape"
+	"position0" "tunnel_light01"
+	"position1" "tunnel_vent01"
+	"position2" "tunnel_pipe01"
+	"position3" "tunnel_fan01"
+	"radius" "193"
+	"soundscape" "nuke.tunnel"
+	"StartDisabled" "0"
+	"origin" "1190 -979 -727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 11000]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "env_soundscape"
+	"position0" "generatorroom_light01"
+	"position2" "generatorroom_transformer01"
+	"position3" "generatorroom_pipes01"
+	"radius" "169"
+	"soundscape" "nuke.generatorroom"
+	"StartDisabled" "0"
+	"origin" "1320 -2002 -589"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 8500]"
+	}
+}
+entity
+{
+	"id" "35"
+	"classname" "env_soundscape"
+	"position0" "tunnelentrance_pipe01"
+	"position1" "tunnelentrance_light01"
+	"radius" "169"
+	"soundscape" "nuke.tunnelentrance"
+	"StartDisabled" "0"
+	"origin" "1971 -2272 -589"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 6500]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "118"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "836 -1296 -567"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 5000]"
+	}
+}
+entity
+{
+	"id" "57"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "180"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "371 -977 -718"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 4000]"
+	}
+}
+entity
+{
+	"id" "68"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "180"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "913 -508 -581"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 3000]"
+	}
+}
+entity
+{
+	"id" "79"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "nuke.vents"
+	"StartDisabled" "0"
+	"origin" "633 -1437 -566"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 1500]"
+	}
+}
+entity
+{
+	"id" "90"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "nuke.vents"
+	"StartDisabled" "0"
+	"origin" "447 -1438 -566"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 500]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "nuke.vents"
+	"StartDisabled" "0"
+	"origin" "830 -1434 -476"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -768]"
+	}
+}
+entity
+{
+	"id" "112"
+	"classname" "env_soundscape"
+	"position0" "Abomb_light01"
+	"position1" "Abomb_wind01"
+	"radius" "149"
+	"soundscape" "nuke.abomb"
+	"StartDisabled" "0"
+	"origin" "1064 -415 -43"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -2268]"
+	}
+}
+entity
+{
+	"id" "123"
+	"classname" "env_soundscape"
+	"position0" "ctcourtyard_ac01"
+	"position1" "ctcourtyard_vent01"
+	"position2" "ctcourtyard_cricket01"
+	"position3" "ctcourtyard_vent02"
+	"radius" "146"
+	"soundscape" "nuke.ctcourtyard"
+	"StartDisabled" "0"
+	"origin" "866 -1645 -355"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -3268]"
+	}
+}
+entity
+{
+	"id" "134"
+	"classname" "env_soundscape"
+	"position0" "Abomb_light01"
+	"position1" "Abomb_wind01"
+	"radius" "135"
+	"soundscape" "nuke.abomb"
+	"StartDisabled" "0"
+	"origin" "363 -1279 -353"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -5268]"
+	}
+}
+entity
+{
+	"id" "145"
+	"classname" "env_soundscape"
+	"position0" "tinside_light01"
+	"position1" "tinside_pipe01"
+	"radius" "135"
+	"soundscape" "nuke.tinside"
+	"StartDisabled" "0"
+	"origin" "201 -1279 -353"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -6268]"
+	}
+}
+entity
+{
+	"id" "156"
+	"classname" "env_soundscape"
+	"position0" "tinside_light01"
+	"position1" "tinside_pipe01"
+	"radius" "112"
+	"soundscape" "nuke.tinside"
+	"StartDisabled" "0"
+	"origin" "-393 -856 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -7268]"
+	}
+}
+entity
+{
+	"id" "167"
+	"classname" "env_soundscape"
+	"position0" "computerroom_ac01"
+	"position1" "computerroom_computers01"
+	"position2" "computerroom_light01"
+	"radius" "112"
+	"soundscape" "nuke.computerroom"
+	"StartDisabled" "0"
+	"origin" "-145 -604 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -9268]"
+	}
+}
+entity
+{
+	"id" "178"
+	"classname" "env_soundscape"
+	"position0" "computerroom_ac01"
+	"position1" "computerroom_computers01"
+	"position2" "computerroom_light01"
+	"radius" "192"
+	"soundscape" "nuke.computerroom"
+	"StartDisabled" "0"
+	"origin" "164 -187 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -11768]"
+	}
+}
+entity
+{
+	"id" "189"
+	"classname" "env_soundscape"
+	"position0" "troof_ac01"
+	"position1" "troof_ac02"
+	"position2" "troof_transformer01"
+	"position3" "troof_pipes01"
+	"position4" "troof_pipes02"
+	"radius" "415"
+	"soundscape" "nuke.troof"
+	"StartDisabled" "0"
+	"origin" "7 -509 -112"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -12768]"
+	}
+}
+entity
+{
+	"id" "200"
+	"classname" "env_soundscape"
+	"position0" "troof_ac01"
+	"position1" "troof_ac02"
+	"position2" "troof_transformer01"
+	"position3" "troof_pipes01"
+	"position4" "troof_pipes02"
+	"radius" "266"
+	"soundscape" "nuke.troof"
+	"StartDisabled" "0"
+	"origin" "-149 -1271 -143"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -13768]"
+	}
+}
+entity
+{
+	"id" "211"
+	"classname" "env_soundscape"
+	"position0" "catwalk_ac01"
+	"position1" "catwalk_ac02"
+	"radius" "194"
+	"soundscape" "nuke.catwalk"
+	"StartDisabled" "0"
+	"origin" "1072 -1011 -89"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 15500]"
+	}
+}
+entity
+{
+	"id" "222"
+	"classname" "env_soundscape"
+	"position0" "catwalk_ac01"
+	"position1" "catwalk_ac02"
+	"position2" "catwalk_wind01"
+	"radius" "299"
+	"soundscape" "nuke.catwalk"
+	"StartDisabled" "0"
+	"origin" "1216 -661 -89"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 14500]"
+	}
+}
+entity
+{
+	"id" "233"
+	"classname" "env_soundscape"
+	"position0" "ramproom_crane01"
+	"position1" "ramproom_light01"
+	"position2" "ramproom_pipe01"
+	"radius" "238"
+	"soundscape" "nuke.ramproom"
+	"StartDisabled" "0"
+	"origin" "640 63 -566"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 12500]"
+	}
+}
+entity
+{
+	"id" "244"
+	"classname" "env_soundscape"
+	"position0" "ramproom_crane01"
+	"position1" "ramproom_light01"
+	"position2" "ramproom_pipe01"
+	"radius" "191"
+	"soundscape" "nuke.ramproom"
+	"StartDisabled" "0"
+	"origin" "1087 82 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 10000]"
+	}
+}
+entity
+{
+	"id" "255"
+	"classname" "env_soundscape"
+	"position0" "ctinside_light01"
+	"position2" "ctinside_vent01"
+	"radius" "84"
+	"soundscape" "nuke.ctinside"
+	"StartDisabled" "0"
+	"origin" "1063 -416 -167"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 8000]"
+	}
+}
+entity
+{
+	"id" "266"
+	"classname" "env_soundscape"
+	"position0" "ctinside_light01"
+	"position2" "ctinside_vent01"
+	"radius" "222"
+	"soundscape" "nuke.ctinside"
+	"StartDisabled" "0"
+	"origin" "1196 -455 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 7000]"
+	}
+}
+entity
+{
+	"id" "277"
+	"classname" "env_soundscape"
+	"position0" "warehouse_pipe01"
+	"position1" "warehouse_pigeon01"
+	"radius" "228"
+	"soundscape" "nuke.warehouse"
+	"StartDisabled" "0"
+	"origin" "1575 -1936 -359"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 5000]"
+	}
+}
+entity
+{
+	"id" "288"
+	"classname" "env_soundscape"
+	"position0" "tspawn_flies01"
+	"position1" "tspawn_ac01"
+	"position2" "tspawn_transformer01"
+	"radius" "193"
+	"soundscape" "nuke.tspawn"
+	"StartDisabled" "0"
+	"origin" "-2148 -1039 -360"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 2500]"
+	}
+}
+entity
+{
+	"id" "299"
+	"classname" "env_soundscape"
+	"position0" "talley_cricket01"
+	"position1" "talley_transformer01"
+	"position2" "talley_flies01"
+	"radius" "368"
+	"soundscape" "nuke.talley"
+	"StartDisabled" "0"
+	"origin" "-1189 -1059 -360"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 0]"
+	}
+}
+entity
+{
+	"id" "310"
+	"classname" "env_soundscape"
+	"position0" "tentrance_tank01"
+	"position1" "tentrance_ac01"
+	"position2" "tentrance_flies01"
+	"position3" "tentrance_transformer01"
+	"radius" "411"
+	"soundscape" "nuke.tentrance"
+	"StartDisabled" "0"
+	"origin" "-685 -1077 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -3268]"
+	}
+}
+entity
+{
+	"id" "321"
+	"classname" "env_soundscape"
+	"position0" "middle_cricket01"
+	"position1" "middle_drips01"
+	"position2" "middle_cricket02"
+	"position3" "middle_drips02"
+	"position4" "middle_machine01"
+	"position5" "middle_bird01"
+	"radius" "237"
+	"soundscape" "nuke.middle"
+	"StartDisabled" "0"
+	"origin" "400 -1702 -355"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -7268]"
+	}
+}
+entity
+{
+	"id" "332"
+	"classname" "env_soundscape"
+	"position0" "middle_cricket01"
+	"position1" "middle_drips01"
+	"position2" "middle_cricket02"
+	"position3" "middle_drips02"
+	"position4" "middle_machine01"
+	"position5" "middle_bird01"
+	"radius" "561"
+	"soundscape" "nuke.middle"
+	"StartDisabled" "0"
+	"origin" "961 -2169 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -8268]"
+	}
+}
+entity
+{
+	"id" "343"
+	"classname" "env_soundscape"
+	"position0" "ctcourtyard_ac01"
+	"position1" "ctcourtyard_vent01"
+	"position2" "ctcourtyard_cricket01"
+	"position3" "ctcourtyard_vent02"
+	"radius" "259"
+	"soundscape" "nuke.ctcourtyard"
+	"StartDisabled" "0"
+	"origin" "1160 -1537 -355"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -12268]"
+	}
+}
+entity
+{
+	"id" "354"
+	"classname" "env_soundscape"
+	"position0" "ctspawn_Birds01"
+	"position1" "ctspawn_Apc01"
+	"position2" "ctspawn_cooler01"
+	"position3" "ctspawn_Ac"
+	"position4" "ctspawn_transformer01"
+	"radius" "425"
+	"soundscape" "nuke.ctspawn"
+	"StartDisabled" "0"
+	"origin" "2997 -484 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -15768]"
+	}
+}
+entity
+{
+	"id" "365"
+	"classname" "env_soundscape"
+	"position0" "ctspawn_Birds01"
+	"position1" "ctspawn_Apc01"
+	"position2" "ctspawn_cooler01"
+	"position3" "ctspawn_Ac"
+	"position4" "ctspawn_transformer01"
+	"radius" "425"
+	"soundscape" "nuke.ctspawn"
+	"StartDisabled" "0"
+	"origin" "3352 -802 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 16000]"
+	}
+}
+entity
+{
+	"id" "376"
+	"classname" "env_soundscape"
+	"position0" "ctspawn_Birds01"
+	"position1" "ctspawn_Apc01"
+	"position2" "ctspawn_cooler01"
+	"position3" "ctspawn_Ac"
+	"position4" "ctspawn_transformer01"
+	"radius" "685"
+	"soundscape" "nuke.ctspawn"
+	"StartDisabled" "0"
+	"origin" "2046 -423 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -16268]"
+	}
+}
+entity
+{
+	"id" "387"
+	"classname" "env_soundscape"
+	"position0" "ctcourtyard_ac01"
+	"position1" "ctcourtyard_vent01"
+	"position2" "ctcourtyard_cricket01"
+	"position3" "ctcourtyard_vent02"
+	"radius" "561"
+	"soundscape" "nuke.ctcourtyard"
+	"StartDisabled" "0"
+	"origin" "1416 -1205 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -13268]"
+	}
+}
+entity
+{
+	"id" "398"
+	"classname" "env_soundscape"
+	"position0" "ctalley_transformer01"
+	"position1" "ctalley_cricket01"
+	"position2" "ctalley_flies01"
+	"radius" "507"
+	"soundscape" "nuke.ctalley"
+	"StartDisabled" "0"
+	"origin" "2290 -1419 -331"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -10268]"
+	}
+}
+entity
+{
+	"id" "409"
+	"classname" "env_soundscape"
+	"position0" "middle_cricket01"
+	"position1" "middle_drips01"
+	"position2" "middle_cricket02"
+	"position3" "middle_drips02"
+	"position4" "middle_machine01"
+	"position5" "middle_bird01"
+	"radius" "561"
+	"soundscape" "nuke.middle"
+	"StartDisabled" "0"
+	"origin" "-109 -2121 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -7768]"
+	}
+}
+entity
+{
+	"id" "420"
+	"classname" "env_soundscape"
+	"position0" "tentrance_tank01"
+	"position1" "tentrance_ac01"
+	"position2" "tentrance_flies01"
+	"position3" "tentrance_transformer01"
+	"radius" "411"
+	"soundscape" "nuke.tentrance"
+	"StartDisabled" "0"
+	"origin" "-337 -1530 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -3768]"
+	}
+}
+entity
+{
+	"id" "431"
+	"classname" "env_soundscape"
+	"position0" "tentrance_tank01"
+	"position1" "tentrance_ac01"
+	"position2" "tentrance_flies01"
+	"position3" "tentrance_transformer01"
+	"radius" "411"
+	"soundscape" "nuke.tentrance"
+	"StartDisabled" "0"
+	"origin" "-375 -557 -301"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 -2768]"
+	}
+}
+entity
+{
+	"id" "442"
+	"classname" "env_soundscape"
+	"position0" "talley_cricket01"
+	"position1" "talley_transformer01"
+	"position2" "talley_flies01"
+	"radius" "368"
+	"soundscape" "nuke.talley"
+	"StartDisabled" "0"
+	"origin" "-1790 -1058 -360"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 500]"
+	}
+}
+entity
+{
+	"id" "453"
+	"classname" "env_soundscape"
+	"position0" "tspawn_flies01"
+	"position1" "tspawn_ac01"
+	"position2" "tspawn_transformer01"
+	"radius" "628"
+	"soundscape" "nuke.tspawn"
+	"StartDisabled" "0"
+	"origin" "-2786 -1067 -360"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 3000]"
+	}
+}
+entity
+{
+	"id" "464"
+	"classname" "env_soundscape"
+	"position0" "warehouse_pipe01"
+	"position1" "warehouse_pigeon01"
+	"radius" "228"
+	"soundscape" "nuke.warehouse"
+	"StartDisabled" "0"
+	"origin" "1828 -1800 -359"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 5500]"
+	}
+}
+entity
+{
+	"id" "475"
+	"classname" "env_soundscape"
+	"position0" "ctinside_light01"
+	"position2" "ctinside_vent01"
+	"radius" "166"
+	"soundscape" "nuke.ctinside"
+	"StartDisabled" "0"
+	"origin" "1125 -643 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 7500]"
+	}
+}
+entity
+{
+	"id" "486"
+	"classname" "env_soundscape"
+	"position0" "ctinside_light01"
+	"position2" "ctinside_vent01"
+	"radius" "151"
+	"soundscape" "nuke.ctinside"
+	"StartDisabled" "0"
+	"origin" "1126 -133 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 9500]"
+	}
+}
+entity
+{
+	"id" "497"
+	"classname" "env_soundscape"
+	"position0" "ramproom_crane01"
+	"position1" "ramproom_light01"
+	"position2" "ramproom_pipe01"
+	"radius" "192"
+	"soundscape" "nuke.ramproom"
+	"StartDisabled" "0"
+	"origin" "171 92 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 12000]"
+	}
+}
+entity
+{
+	"id" "508"
+	"classname" "env_soundscape"
+	"position0" "catwalk_ac01"
+	"position1" "catwalk_ac02"
+	"position2" "catwalk_wind01"
+	"radius" "199"
+	"soundscape" "nuke.catwalk"
+	"StartDisabled" "0"
+	"origin" "1371 -400 -62"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 13000]"
+	}
+}
+entity
+{
+	"id" "519"
+	"classname" "env_soundscape"
+	"position0" "catwalk_ac01"
+	"position1" "catwalk_ac02"
+	"radius" "194"
+	"soundscape" "nuke.catwalk"
+	"StartDisabled" "0"
+	"origin" "1073 -1356 -89"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 15000]"
+	}
+}
+entity
+{
+	"id" "530"
+	"classname" "env_soundscape"
+	"position0" "troof_ac01"
+	"position1" "troof_ac02"
+	"position2" "troof_transformer01"
+	"position3" "troof_pipes01"
+	"position4" "troof_pipes02"
+	"radius" "383"
+	"soundscape" "nuke.troof"
+	"StartDisabled" "0"
+	"origin" "96 -1652 -19"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 16000]"
+	}
+}
+entity
+{
+	"id" "541"
+	"classname" "env_soundscape"
+	"position0" "troof_ac01"
+	"position1" "troof_ac02"
+	"position2" "troof_transformer01"
+	"position3" "troof_pipes01"
+	"position4" "troof_pipes02"
+	"radius" "266"
+	"soundscape" "nuke.troof"
+	"StartDisabled" "0"
+	"origin" "-376 -972 -143"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -13268]"
+	}
+}
+entity
+{
+	"id" "552"
+	"classname" "env_soundscape"
+	"position0" "troof_ac01"
+	"position1" "troof_ac02"
+	"position2" "troof_transformer01"
+	"position3" "troof_pipes01"
+	"position4" "troof_pipes02"
+	"radius" "97"
+	"soundscape" "nuke.troof"
+	"StartDisabled" "0"
+	"origin" "204 -801 -70"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -12268]"
+	}
+}
+entity
+{
+	"id" "563"
+	"classname" "env_soundscape"
+	"position0" "computerroom_ac01"
+	"position1" "computerroom_computers01"
+	"position2" "computerroom_light01"
+	"radius" "264"
+	"soundscape" "nuke.computerroom"
+	"StartDisabled" "0"
+	"origin" "112 -472 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -9768]"
+	}
+}
+entity
+{
+	"id" "574"
+	"classname" "env_soundscape"
+	"position0" "tinside_light01"
+	"position1" "tinside_pipe01"
+	"radius" "112"
+	"soundscape" "nuke.tinside"
+	"StartDisabled" "0"
+	"origin" "-145 -719 -375"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -8768]"
+	}
+}
+entity
+{
+	"id" "585"
+	"classname" "env_soundscape"
+	"position0" "tinside_light01"
+	"position1" "tinside_pipe01"
+	"radius" "135"
+	"soundscape" "nuke.tinside"
+	"StartDisabled" "0"
+	"origin" "209 -1043 -353"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -6768]"
+	}
+}
+entity
+{
+	"id" "596"
+	"classname" "env_soundscape"
+	"position0" "tinside_light01"
+	"position1" "tinside_pipe01"
+	"radius" "79"
+	"soundscape" "nuke.tinside"
+	"StartDisabled" "0"
+	"origin" "203 -801 -154"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -5768]"
+	}
+}
+entity
+{
+	"id" "607"
+	"classname" "env_soundscape"
+	"position0" "Abomb_light01"
+	"position1" "Abomb_wind01"
+	"radius" "194"
+	"soundscape" "nuke.abomb"
+	"StartDisabled" "0"
+	"origin" "640 -1502 -353"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -3768]"
+	}
+}
+entity
+{
+	"id" "618"
+	"classname" "env_soundscape"
+	"position0" "Abomb_light01"
+	"position1" "Abomb_wind01"
+	"radius" "135"
+	"soundscape" "nuke.abomb"
+	"StartDisabled" "0"
+	"origin" "357 -1041 -353"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -2768]"
+	}
+}
+entity
+{
+	"id" "629"
+	"classname" "env_soundscape"
+	"position0" "Abomb_light01"
+	"position1" "Abomb_wind01"
+	"radius" "354"
+	"soundscape" "nuke.abomb"
+	"StartDisabled" "0"
+	"origin" "638 -1243 -353"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15500 -1268]"
+	}
+}
+entity
+{
+	"id" "640"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "nuke.vents"
+	"StartDisabled" "0"
+	"origin" "831 -1434 -566"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 0]"
+	}
+}
+entity
+{
+	"id" "651"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "nuke.vents"
+	"StartDisabled" "0"
+	"origin" "446 -1438 -476"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 1000]"
+	}
+}
+entity
+{
+	"id" "662"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "111"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "851 -41 -581"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 2000]"
+	}
+}
+entity
+{
+	"id" "673"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "180"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "913 -978 -718"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 3500]"
+	}
+}
+entity
+{
+	"id" "684"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "118"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "445 -1293 -567"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 4500]"
+	}
+}
+entity
+{
+	"id" "695"
+	"classname" "env_soundscape"
+	"position0" "tunnelentrance_pipe01"
+	"position1" "tunnelentrance_light01"
+	"radius" "242"
+	"soundscape" "nuke.tunnelentrance"
+	"StartDisabled" "0"
+	"origin" "2237 -1961 -382"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 5500]"
+	}
+}
+entity
+{
+	"id" "706"
+	"classname" "env_soundscape"
+	"position0" "generatorroom_light01"
+	"position2" "generatorroom_transformer01"
+	"position3" "generatorroom_pipes01"
+	"radius" "169"
+	"soundscape" "nuke.generatorroom"
+	"StartDisabled" "0"
+	"origin" "1664 -2271 -589"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 7000]"
+	}
+}
+entity
+{
+	"id" "717"
+	"classname" "env_soundscape"
+	"position0" "tunnel_light01"
+	"position1" "tunnel_vent01"
+	"position2" "tunnel_pipe01"
+	"position3" "tunnel_fan01"
+	"radius" "193"
+	"soundscape" "nuke.tunnel"
+	"StartDisabled" "0"
+	"origin" "1127 -1921 -589"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 9000]"
+	}
+}
+entity
+{
+	"id" "728"
+	"classname" "env_soundscape"
+	"position0" "tunnel_light01"
+	"position1" "tunnel_vent01"
+	"position2" "tunnel_pipe01"
+	"position3" "tunnel_fan01"
+	"radius" "193"
+	"soundscape" "nuke.tunnel"
+	"StartDisabled" "0"
+	"origin" "1161 -511 -597"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 11500]"
+	}
+}
+entity
+{
+	"id" "739"
+	"classname" "env_soundscape"
+	"position0" "tunnel_light01"
+	"position1" "tunnel_vent01"
+	"position2" "tunnel_pipe01"
+	"position3" "tunnel_fan01"
+	"radius" "151"
+	"soundscape" "nuke.tunnel"
+	"StartDisabled" "0"
+	"origin" "638 -1616 -566"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 13000]"
+	}
+}
+entity
+{
+	"id" "750"
+	"classname" "env_soundscape"
+	"position0" "Bbomb_pipes01"
+	"position1" "Bbomb_water01"
+	"radius" "111"
+	"soundscape" "nuke.bbomb"
+	"StartDisabled" "0"
+	"origin" "434 -42 -581"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 14000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
